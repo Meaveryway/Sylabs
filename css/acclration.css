@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 
-@font-face { font-family: "Goodlights"; src: url('fonts/Goodlight-Light.otf'); }
+@font-face { font-family: "Goodlights"; src: url('fonts/Goodlights.ttf'); }
 
 .acclration {
   width               : 100%;
@@ -654,7 +654,7 @@ div {
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-family         : "Goodlights";
   font-weight         : 400;
   font-style          : normal;
   font-size           : 25.0px;
