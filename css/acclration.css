@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 
+@font-face { font-family: "Goodlight"; src: url('fonts/Goodlight-Light.otf'); }
 
 .acclration {
   width               : 100%;
