@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="mobile-web-app-capable" />
+    <meta content="default" name="apple-mobile-web-app-status-bar-style" />
+    <!-- Facebook -->
+    <meta content="" property="og:url" />
+    <meta content="website" property="og:type" />
+    <!-- Twitter -->
+    <meta content="photo" name="twitter:card" />
+    <link href="./css/activits.css" rel="stylesheet" type="text/css" />
+    <script defer="" src="hotspots.js">
+    </script>
+    <meta content="AnimaApp.com - Design to code, Automated." name="author" />
+
+    <script src="jquery-3.5.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+    <style>
+        .select2-container--material {
+            width: 110% !important;
+            
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__rendered {
+            color: #444;
+            line-height: 28px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 14px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__placeholder {
+            color: #999;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            font-size: 16px;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow {
+            height: 26px;
+            margin: 0.6rem 0 0.4rem 0;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 20px;
+            
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow b {
+            border-color: #888 transparent transparent transparent;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            height: 0;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: 0px;
+            position: absolute;
+            top: 50%;
+            width: 0;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
+            float: left;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+            left: 1px;
+            right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single {
+            background-color: rgba(248, 248, 248, 1.0);
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
+            border-color: transparent transparent #888 transparent;
+            border-width: 0 4px 5px 4px;
+        }
+
+        .select2-container--material .select2-selection--multiple {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            box-shadow: none;
+            box-sizing: content-box;
+            cursor: text;
+            height: auto;
+            margin: 0;
+            outline: none;
+            padding: 5px 0 0 0;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered {
+            box-sizing: border-box;
+            list-style: none;
+            margin: 0;
+            padding: 0 5px;
+            width: 100%;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
+            list-style: none;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
+            color: #999;
+            margin-top: 5px;
+            float: left;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice {
+            background-color: rgba(248, 248, 248, 1.0);
+            border-radius: 16px;
+            color: rgba(0, 0, 0, 0.6);
+            cursor: default;
+            float: left;
+            margin-right: 5px;
+            margin-top: 6px;
+            padding: 0 12px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
+            cursor: pointer;
+            display: block;
+
+            float: right;
+            margin-left: 5px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #333;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+            float: right;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+            margin-left: 5px;
+            margin-right: auto;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+            margin-left: 2px;
+            margin-right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--multiple {
+            background-color: rgba(248, 248, 248, 1.0);
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--single {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--multiple {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field {
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            outline: none;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
+            box-shadow: 0 1px 0 0 #ced4da;
+            border-bottom: 1px solid #ced4da;
+        }
+
+        .select2-container--material .select2-search--inline .select2-search__field {
+            background: transparent;
+            border: none !important;
+            outline: 0;
+            box-shadow: none !important;
+            -webkit-appearance: textfield;
+        }
+
+        .select2-container--material .select2-results>.select2-results__options {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .select2-container--material .select2-results__option[role=group] {
+            padding: 0;
+        }
+
+        .select2-container--material .select2-results__option[aria-disabled=true] {
+            color: #999;
+        }
+
+        .select2-container--material .select2-results__option[aria-selected=true] {
+            background-color: rgba(248, 248, 248, 1.0);
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option {
+            padding-left: 1em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
+            padding-left: 0;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -1em;
+            padding-left: 2em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -2em;
+            padding-left: 3em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -3em;
+            padding-left: 4em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -4em;
+            padding-left: 5em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -5em;
+            padding-left: 6em;
+        }
+
+        .select2-container--material .select2-results__option--highlighted[aria-selected] {
+            background-color: #214366;
+            color: white;
+        }
+
+        .select2-container--material .select2-results__group {
+            cursor: default;
+            display: block;
+            padding: 6px;
+        }
+
+        .select2-dropdown {
+            background-color: white;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            box-sizing: border-box;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            display: block;
+            position: absolute;
+            left: -100000px;
+            width: 100%;
+            z-index: 1051;
+            margin-top: 30px;
+            -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+
+     
+        .select2-results {
+            display: block;
+        }
+
+        .select2-results__options {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .select2-results__option {
+            padding: 6px;
+            font-size: 16px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .select2-results__option[aria-selected] {
+            cursor: pointer;
+        }
+
+        .select2-container--open .select2-dropdown {
+            left: 0;
+            
+        }
+
+        .select2-container--open .select2-dropdown--above {
+            border-bottom: none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--open .select2-dropdown--below {
+            border-top: none;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-search--dropdown {
+            display: block;
+            padding: 4px;
+        }
+
+        .select2-search--dropdown .select2-search__field {
+            padding: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+        }
+
+        .select2-search--dropdown.select2-search--hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+    <input id="anPageName" name="page" type="hidden" value="activits" />
+    <div class="activits anima-word-break ">
+        <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+            <div class="groupe29060">
+                <div class="footer01">
+                    <div class="rectangle24403">
+                    </div>
+                    <div class="groupe4413">
+                        <div class="liensutiles03">
+                            LIENS UTILES
+                        </div>
+                        <div class="blog14">
+                            Blog
+                        </div>
+                        <div class="acclration23">
+                            Accélération
+                        </div>
+                        <div class="coworking33">
+                            Co-working
+                        </div>
+                        <div class="activits43">
+                            Activités
+                        </div>
+                    </div>
+                    <div class="groupe4523">
+                        <div class="proposdenous04">
+                            À propos de nous
+                        </div>
+                        <div class="contacteznous13">
+                            Contactez-nous
+                        </div>
+                        <div class="services23">
+                            Services
+                        </div>
+                        <div class="confidentialit33">
+                            CONFIDENTIALITÉ
+                        </div>
+                    </div>
+                    <div class="groupe4333">
+                        <div class="sylabs03">
+                            SYLABS
+                        </div>
+                        <div
+                            class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation14">
+                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
+                            entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
+                            mutation.<br />
+                        </div>
+                        <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook23"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter33"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus43"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe4643">
+                        <div class="contact05">
+                            CONTACT
+                        </div>
+                        <div class="hellosylabsdzcom13">
+                            hello@sylabs-dz.com
+                        </div>
+                        <div class="a21377026490623">
+                            (+213) 7 70 26 49 06
+                        </div>
+                        <div class="a08ruehassaniyessad16004algercentre33">
+                            08 Rue Hassani Yessad,<br />16004, Alger Centre.
+                        </div>
+                        <img alt="Image" anima-src="./img/mail-2@1x.png" class="mail43"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/phone-3@1x.png" class="phone53"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin63"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="copyright2020allrightsreserved53">
+                        Copyright ©2020 All rights reserved.
+                    </div>
+                    <div class="wwwsylabsdzcom63">
+                        WWW.SYLABS-DZ.COM
+                    </div>
+                </div>
+                <div class="groupe22221">
+                    <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection501"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1512"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="groupe22692">
+                    <div class="nosactivits0">
+                        Nos activités
+                    </div>
+                    <div class="dcouvreznosactivits1">
+                        Découvrez nos activités !
+                    </div>
+                </div>
+                <div class="groupe22483">
+                    <div class="groupe224001">
+                        <div class="nousorganisonsdiversvnementsetformations01">
+                            Nous organisons divers<br />évènements et formations.
+                        </div>
+                        <div class="nosactivits11">
+                            NOS ACTIVITÉS
+                        </div>
+                    </div>
+                    <div class="groupe223911">
+                        <div class="rectangle227018">
+                        </div>
+                        <div class="rectangle228118">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3217"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle23136"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="formation44">
+                            FORMATION
+                        </div>
+                        <div class="lesbasesdugraphicdesign53">
+                            Les bases du Graphic Design
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures66">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--20@1x.png" class="arrowright176"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe224321">
+                        <div class="rectangle227019">
+                        </div>
+                        <div class="rectangle228119">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3218"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle23137"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="formation45">
+                            FORMATION
+                        </div>
+                        <div class="makepowerfulvideos51">
+                            Make powerful videos.
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures67">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--21@1x.png" class="arrowright177"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe224431">
+                        <div class="rectangle227020">
+                        </div>
+                        <div class="rectangle228120">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3219"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle23138"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="confrence41">
+                            CONFÉRENCE
+                        </div>
+                        <div class="toutsurlemarketingdinfluence51">
+                            Tout sur le Marketing<br />d’influence.
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures68">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--22@1x.png" class="arrowright178"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe224541">
+                        <div class="rectangle227021">
+                        </div>
+                        <div class="rectangle228121">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3220"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle23139"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="meetup41">
+                            MEETUP
+                        </div>
+                        <div class="digitalbusinessmeeting51">
+                            Digital Business Meeting
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures69">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--23@1x.png" class="arrowright179"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe224651">
+                        <div class="rectangle227022">
+                        </div>
+                        <div class="rectangle228122">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3221"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle231310"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="confrence42">
+                            CONFÉRENCE
+                        </div>
+                        <div class="selfdeveloppement5">
+                            SELF DEVELOPPEMENT
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures610">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--24@1x.png" class="arrowright1710"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe224761">
+                        <div class="rectangle227023">
+                        </div>
+                        <div class="rectangle228123">
+                        </div>
+                        <img alt="Image" anima-src="./img/intersection-3-18@1x.png" class="intersection3222"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-231-10@1x.png" class="rectangle231311"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="formation46">
+                            FORMATION
+                        </div>
+                        <div class="lesbasesdugraphicdesign54">
+                            Les bases du Graphic Design
+                        </div>
+                        <div
+                            class="sarramaach070520201030vousallezapprendreavecsarralesbasesdugraphicdesignenunesancede4heures611">
+                            <span class="span0">Sarra MAACH<br />07–05-2020 à 10:30<br /></span><span class="span1">Vous
+                                allez apprendre avec Sarra les bases du graphic design en une séance de 4
+                                heures.<br /></span>
+                        </div>
+                        <img alt="Image" anima-src="./img/arrow-right--1--25@1x.png" class="arrowright1711"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe3871">
+                        <img alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1104"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1214"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-11-1@1x.png" class="ellipse1324"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1434"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <img alt="Image" anima-src="./img/rectangle-214-1@1x.png" class="rectangle21481"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-216-2@1x.png" class="rectangle21691"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/arrow-right--1--18@1x.png" class="arrowright1103"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/arrow-right--1--19@1x.png" class="arrowright1111"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="groupe227212">
+                        <div class="lesbasesdugraphicdesign0">
+                            Les bases du Graphic<br />Design !
+                        </div>
+                        <div class="notreprochaineactivit1">
+                            NOTRE PROCHAINE ACTIVITÉ
+                        </div>
+                    </div>
+                </div>
+                <div class="groupe22774">
+                    <div class="groupe22700">
+                        <div class="uneformationquevousvoulezfaireditesennousplus0">
+                            Une formation que vous voulez faire ?<br />Dites-en nous plus !
+                        </div>
+                        <div class="spaceformateur1">
+                            ÉSPACE FORMATEUR
+                        </div>
+                    </div>
+                    <div class="rectangle8281">
+                    </div>
+                    <div class="rectangle8292 anima-smart-layers-pointers ">
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $("select").select2({ theme: "material", placeholder: "Choisir un thème" });
+                            });
+                        </script>
+
+                        <select form="formateur" name="theme" id="theme_field" required class="select" style="width: 380px; height: 45px;">
+                            <option></option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Design">Design</option>
+                            <option value="Développement Personnel">Développement Personnel</option>
+                            <option value="Business">Business</option>
+                            <option value="Autre">Autre</option>
+
+                        </select>
+                    </div>
+                    
+                    <div class="rectangle8303">
+                    </div>
+                    <div class="rectangle8314">
+                    </div>
+                    <a>
+                        <button type="submit" form="formateur" style="cursor: pointer;">
+                            <img alt="Image" anima-src="./img/trac--318@1x.png"
+                                class="trac3185 anima-smart-layers-pointers "
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </button>
+                    </a>
+                    <textarea form="formateur" class="descriptiondonneznousplusdedtails6"
+                        name="descriptionDonnezNousPlusDeDtails6" id="description_field"
+                        placeholder="Description. Donnez-nous plus de détails !" required type="text"
+                        style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 253px; width: 680px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
+                    
+                    
+                    <form method="GET" action="http://localhost:3000/formateur" target="votar" id="formateur">
+                        <input class="nometprnoms8" name="name" id="name_field" placeholder="Nom et Prénom(s)" required
+                            type="text"
+                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 310px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                        <input class="emailexemplesylabsdzcom9" name="email" id="email_field"
+                            placeholder="exemple@gmail.com" required type="email"
+                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 310px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                    </form>
+
+
+
+                    <div class="groupe6710" style="pointer-events: none;">
+                        <div class="envoyer0">
+                            Envoyer
+                        </div>
+                        <img alt="Image" anima-src="./img/send-3@1x.png" class="send11"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down@1x.png" class="iconawesomecaretdown11" style="pointer-events: none;"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div
+                        class="voustesformateuretvousavezuneformationproposerparleznousdecetteformationetdonneznousplusdedtailsnousvouscontacteronssurvotreadresseemaildsquevotredemandeestvalide12">
+                        Vous êtes formateur et vous avez une formation à proposer ? Parlez-nous de cette formation et
+                        donnez-nous plus de détails. Nous vous contacterons sur votre adresse email dès que votre
+                        demande est validée !
+                    </div>
+                </div>
+
+                <div class="groupe22525" id="newsletter_subscription">
+                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81003"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="gardezlecontactavecnous12">
+                        GARDEZ LE CONTACT AVEC NOUS
+                    </div>
+                    <div class="rectangle18922">
+                    </div>
+
+                    <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
+                        <input class="exemplegmailcom32" name="email" id="email_field" placeholder="exemple@gmail.com"
+                            required type="email"
+                            style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                    </form>
+
+                    <div class="votreadressemail42">
+                        Votre Adresse Mail
+                    </div>
+                    <a>
+                        <button type="submit" form="newsletter" style="cursor: pointer;"
+                            onclick="javascript:submit_form('newsletter')">
+                            <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31552"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/send-2@1x.png" class="send62"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </button>
+                    </a>
+                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter72">
+                        Restez informés de toutes nos activités, inscrivez-vous à notre newsletter
+                    </div>
+                </div>
+
+                <div class="groupe22525" id="success_subscription_message" style="display: none;">
+                    <img alt="Image" src="./img/810-1@1x.png" class="a81003" />
+                    <div>
+                        <div class="gardezlecontactavecnous12">
+                            GARDEZ LE CONTACT AVEC NOUS
+                        </div>
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter72"
+                            style="width: 688px;">
+                            Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
+                        </div>
+                    </div>
+                </div>
+
+                <div class="groupe22766">
+                    <div class="groupe22550">
+                        <div class="rectangle77501">
+                        </div>
+                        <a href="activitsform.html">
+                            <div class="rectangle77611 anima-smart-layers-pointers ">
+                            </div>
+                        </a>
+                        <img alt="Image" anima-src="./img/christopher-jolly-gqbu78bdjfm-unsplash-1@1x.png"
+                            class="christopherjollygqbu78bdjfmunsplash21"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/arrow-right--1--27@1x.png" class="arrowright131"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe22731">
+                        <img alt="Image" anima-src="./img/ellipse-11-10@1x.png" class="ellipse1105"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-12-5@1x.png" class="ellipse1215"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-11-10@1x.png" class="ellipse1325"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/ellipse-11-10@1x.png" class="ellipse1435"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe22752">
+                        <img alt="Image" anima-src="./img/walid-aktouf@1x.png" class="walidaktouf0"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/graphic-designer-senior-chez-alligori-group---1@1x.png"
+                            class="graphicdesignerseniorchezalligorigroup1"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image"
+                            anima-src="./img/vous-allez-apprendre-avec-walid-les-bases-du-graphic-design-en-une-s-ance-de-4-heures--avec-son-expertise-en-la-mati-re--il-vous-d-voilera-tous-les-secrets-du-domaine---@1x.png"
+                            class="vousallezapprendreavecwalidlesbasesdugraphicdesignenunesancede4heuresavecsonexpertiseenlamatireilvousdvoileratouslessecretsdudomaine2"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/23-05-2020---10-30-1@1x.png" class="a2305202010303"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <img alt="Image" anima-src="./img/arrow-right--1--26@1x.png" class="arrowright13"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="groupe22747">
+                    <img alt="Image" anima-src="./img/trac--319@1x.png" class="trac3190"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="inscrivezvous1">
+                        Inscrivez- -vous
+                    </div>
+                </div>
+                <div class="groupe22218">
+                    <div class="notification04">
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon08"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge18"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="notification14">
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon09"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge19"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe222122">
+                        <div class="notification05">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon010"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge110"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="notification15">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon011"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge111"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="groupe219722">
+                            <div class="headerdesktop02">
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base02"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin12"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="navbarlight32">
+                            <a href="contact.html">
+                                <div class="contact06">
+                                    CONTACT
+                                </div>
+                            </a>
+                            <a href="coworking.html">
+                                <div class="coworking12">
+                                    CO-WORKING
+                                </div>
+                            </a>
+                            <div class="activits22">
+                                ACTIVITÉS
+                            </div>
+                            <a href="apropos.html">
+                                <div class="propos32">
+                                    À PROPOS
+                                </div>
+                            </a>
+                            <a href="accueil.html">
+                                <div class="accueil42">
+                                    ACCUEIL
+                                </div>
+                            </a>
+                            <a href="acclration.html">
+                                <div class="acclration52">
+                                    ACCÉLÉRATION
+                                </div>
+                            </a>
+                            <a href="map.html">
+                                <div class="ecosystememap62">
+                                    ECOSYSTEME MAP
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <iframe name="votar" style="display:none;"></iframe>
+    </div>
+    <!-- Scripts -->
+    <script>
+        anima_isHidden = function (e) {
+            if (!(e instanceof HTMLElement)) return !1;
+            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            return !1;
+        };
+        anima_loadAsyncSrcForTag = function (tag) {
+            var elements = document.getElementsByTagName(tag);
+            var toLoad = [];
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var src = e.getAttribute("src");
+                var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                if (loaded) continue;
+                var asyncSrc = e.getAttribute("anima-src");
+                if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                if (anima_isHidden(e)) continue;
+                toLoad.push(e);
+            }
+            toLoad.sort(function (a, b) {
+                return anima_getTop(a) - anima_getTop(b);
+            });
+            for (var i = 0; i < toLoad.length; i++) {
+                var e = toLoad[i];
+                var asyncSrc = e.getAttribute("anima-src");
+                e.setAttribute("src", asyncSrc);
+            }
+        };
+        anima_pauseHiddenVideos = function (tag) {
+            var elements = document.getElementsByTagName("video");
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                var isHidden = anima_isHidden(e);
+                if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                    e.play();
+                } else if (isPlaying && isHidden) {
+                    e.pause();
+                }
+            }
+        };
+        anima_loadAsyncSrc = function (tag) {
+            anima_loadAsyncSrcForTag("img");
+            anima_loadAsyncSrcForTag("iframe");
+            anima_loadAsyncSrcForTag("video");
+            anima_pauseHiddenVideos();
+        };
+        var anima_getTop = function (e) {
+            var top = 0;
+            do {
+                top += e.offsetTop || 0;
+                e = e.offsetParent;
+            } while (e);
+            return top;
+        };
+        anima_loadAsyncSrc();
+        anima_old_onResize = window.onresize;
+        anima_new_onResize = undefined;
+        anima_updateOnResize = function () {
+            if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                anima_new_onResize = function (x) {
+                    if (anima_old_onResize != undefined) anima_old_onResize(x);
+                    anima_loadAsyncSrc();
+                };
+                window.onresize = anima_new_onResize;
+                setTimeout(function () {
+                    anima_updateOnResize();
+                }, 3000);
+            }
+        };
+        anima_updateOnResize();
+        setTimeout(function () {
+            anima_loadAsyncSrc();
+        }, 200);
+    </script>
+    <script>
+        //-----------------------------------------------------------------------------------------------Form
+        function submit_form(form_id) {
+            var form = document.getElementById(form_id)[0];
+            form.submit;
+            if (window.submitted) window.submitted();
+            if (form.reportValidity()) {
+                sleep(500);
+                //form.submit;
+                var sectionDiv = document.getElementById("newsletter_subscription");
+                var success_subscription_message = document.getElementById("success_subscription_message");
+                success_subscription_message.style.display = "block";
+                sectionDiv.style.display = "none";
+
+            }
+        }
+        function sleep(milliseconds) {
+            const date = Date.now();
+            let currentDate = null;
+            do {
+                currentDate = Date.now();
+            } while (currentDate - date < milliseconds);
+        }
+            //-----------------------------------------------------------------------------------------------Form
+    </script>
+    <!-- End of Scripts -->
+</body>
+
+</html>

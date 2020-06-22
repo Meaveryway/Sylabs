@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="mobile-web-app-capable" />
+    <meta content="default" name="apple-mobile-web-app-status-bar-style" />
+    <!-- Facebook -->
+    <meta content="" property="og:url" />
+    <meta content="website" property="og:type" />
+    <!-- Twitter -->
+    <meta content="photo" name="twitter:card" />
+    <link href="./css/coworking.css" rel="stylesheet" type="text/css" />
+    <script defer="" src="hotspots.js">
+    </script>
+    <meta content="AnimaApp.com - Design to code, Automated." name="author" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" />
+
+
+    <style>
+        .select2-container--material {
+            width: 100% !important;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__rendered {
+            color: #444;
+            line-height: 28px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 14px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__placeholder {
+            color: #999;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            font-size: 16px;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow {
+            height: 26px;
+            margin: 0.6rem 0 0.4rem 0;
+            position: absolute;
+            top: 1px;
+            display: none;
+            right: 1px;
+            margin-right: -17px;
+
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow b {
+            border-color: #888 transparent transparent transparent;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            height: 0px;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: 0px;
+            width: 0px;
+            position: absolute;
+            top: 50%;
+            width: 0;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
+            float: left;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+            left: 1px;
+            right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single {
+            background-color: rgba(248, 248, 248, 1.0);
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
+            border-color: transparent transparent #888 transparent;
+            border-width: 0 4px 5px 4px;
+        }
+
+        .select2-container--material .select2-selection--multiple {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            box-shadow: none;
+            box-sizing: content-box;
+            cursor: text;
+            height: auto;
+            margin: 0;
+            outline: none;
+            padding: 5px 0 0 0;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered {
+            box-sizing: border-box;
+            list-style: none;
+            margin: 0;
+            padding: 0 5px;
+            width: 100%;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
+            list-style: none;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
+            color: #999;
+            margin-top: 5px;
+            float: left;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice {
+            background-color: rgba(248, 248, 248, 1.0);
+            border-radius: 16px;
+            color: rgba(0, 0, 0, 0.6);
+            cursor: default;
+            float: left;
+            margin-right: 5px;
+            margin-top: 6px;
+            padding: 0 12px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
+            cursor: pointer;
+            display: block;
+
+            float: right;
+            margin-left: 5px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #333;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+            float: right;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+            margin-left: 5px;
+            margin-right: auto;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+            margin-left: 2px;
+            margin-right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--multiple {
+            background-color: rgba(248, 248, 248, 1.0);
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--single {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--multiple {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field {
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            outline: none;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
+            box-shadow: 0 1px 0 0 #ced4da;
+            border-bottom: 1px solid #ced4da;
+        }
+
+        .select2-container--material .select2-search--inline .select2-search__field {
+            background: transparent;
+            border: none !important;
+            outline: 0;
+            box-shadow: none !important;
+            -webkit-appearance: textfield;
+        }
+
+        .select2-container--material .select2-results>.select2-results__options {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .select2-container--material .select2-results__option[role=group] {
+            padding: 0;
+        }
+
+        .select2-container--material .select2-results__option[aria-disabled=true] {
+            color: #999;
+        }
+
+        .select2-container--material .select2-results__option[aria-selected=true] {
+            background-color: rgba(248, 248, 248, 1.0);
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option {
+            padding-left: 1em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
+            padding-left: 0;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -1em;
+            padding-left: 2em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -2em;
+            padding-left: 3em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -3em;
+            padding-left: 4em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -4em;
+            padding-left: 5em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -5em;
+            padding-left: 6em;
+        }
+
+        .select2-container--material .select2-results__option--highlighted[aria-selected] {
+            background-color: #214366;
+            color: white;
+        }
+
+        .select2-container--material .select2-results__group {
+            cursor: default;
+            display: block;
+            padding: 6px;
+        }
+
+        .select2-dropdown {
+            background-color: white;
+            border: 1px solid #ced4da;
+            border-radius: 0px;
+            box-sizing: border-box;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            display: block;
+            position: absolute;
+            left: -100000px;
+            width: 100%;
+            z-index: 1051;
+            margin-top: 30px;
+            -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+
+
+        .select2-results {
+            display: block;
+        }
+
+        .select2-results__options {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .select2-results__option {
+            padding: 6px;
+            font-size: 16px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .select2-results__option[aria-selected] {
+            cursor: pointer;
+        }
+
+        .select2-container--open .select2-dropdown {
+            left: 0;
+
+        }
+
+        .select2-container--open .select2-dropdown--above {
+            border-bottom: none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--open .select2-dropdown--below {
+            border-top: none;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-search--dropdown {
+            display: block;
+            padding: 4px;
+        }
+
+        .select2-search--dropdown .select2-search__field {
+            padding: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+        }
+
+        .select2-search--dropdown.select2-search--hide {
+            display: none;
+        }
+
+        input[type="date"]::-webkit-inner-spin-button {
+            display: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            opacity: 0.1;
+
+        }
+
+        .datepicker {
+            width: 325px;
+            height: 235px;
+            margin-left: 75px;
+        }
+
+        .table-condensed {
+            width: 315px;
+            height: 215px;
+            font-size: small;
+            font-family: Poppins;
+            margin-bottom: 20px;
+        }
+
+        .datepicker table tr td.active,
+        .datepicker table tr td.active:hover {
+            background: red;
+        }
+        
+    </style>
+</head>
+
+<body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+    <input id="anPageName" name="page" type="hidden" value="coworking" />
+    <div class="coworking anima-word-break ">
+        <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+            <div class="groupe29080">
+                <div class="groupe22800">
+                    <div class="groupe222203">
+                        <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection503"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1514"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe226911">
+                        <div class="espacecoworking0">
+                            Espace Coworking
+                        </div>
+                        <div class="entrezencontactavecnous1">
+                            Entrez en contact avec nous !
+                        </div>
+                    </div>
+                    <div class="groupe222721">
+                        <div
+                            class="consulteznosdiffrentesoffresettrouvezcellequivousconvientbesoindedomiciliervotreentreprisedemandezunrendezvousavecnotrequipepourconnatrenotreoffreetconditionsdedomiciliation0">
+                            Consultez nos différentes offres et trouvez celle qui vous convient !<br />Besoin de
+                            domicilier votre entreprise? Demandez un rendez-vous avec notre équipe pour connaître notre
+                            offre et conditions de domiciliation.
+                        </div>
+                        <div
+                            class="entrepreneursfreelancersdveloppeursartistesstartupssylabsvousproposeunespacedecoworkingquipaucoeurdalgeruneconnexioninternetperformanteetunenvironnementproductiftoutcelasurabonnementmensueltrimestrielouannuel1">
+                            Entrepreneurs, Freelancers, développeurs, artistes, startups.. Sylabs vous propose un espace
+                            de coworking équipé au coeur d’Alger, une connexion internet performante, et un
+                            environnement productif, tout cela sur abonnement (mensuel, trimestriel ou annuel).
+                        </div>
+                        <div class="audeldunespacesylabsvousoffreunaccsprivilgiunecommunautpassionne2">
+                            Au delà d’un espace,<br />Sylabs vous offre un accès privilégié<br />à une communauté
+                            passionnée!
+                        </div>
+                        <div class="notrespacecoworking3">
+                            NOTRE ÉSPACE COWORKING
+                        </div>
+                    </div>
+                    <div class="noscommodits3">
+                        NOS COMMODITÉS
+                    </div>
+                    <img alt="Image" anima-src="./img/ellipse-26@1x.png" class="ellipse264"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse275"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse286"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="tableaublanc7">
+                        Tableau blanc
+                    </div>
+                    <div class="cranprojecteur8">
+                        Écran Projecteur
+                    </div>
+                    <div class="internet9">
+                        Internet
+                    </div>
+                    <div class="pourvosrunionsnoteztoutcequevousvoulez10">
+                        Pour vos réunions, notez<br />tout ce que vous voulez
+                    </div>
+                    <div class="projetezvosdocuments11">
+                        Projetez vos documents
+                    </div>
+                    <div class="unaccsillimit12">
+                        un accès illimité
+                    </div>
+                    <div class="unespacepourmangeretsedtendre13">
+                        Un espace pour manger<br />et se détendre
+                    </div>
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse3214"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="kitchenette15">
+                        Kitchenette
+                    </div>
+                    <img alt="Image" anima-src="./img/icon-awesome-wifi@1x.png" class="iconawesomewifi16"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-chalkboard-teacher@1x.png"
+                        class="iconawesomechalkboardteacher17"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-material-screen-share@1x.png"
+                        class="iconmaterialscreenshare18"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-map-food@1x.png" class="iconmapfood19"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="groupe227420">
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31902"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="cequenousproposonscommeservices1">
+                            Ce que nous proposons<br />comme services !
+                        </div>
+                    </div>
+                    <div class="nosoffres21">
+                        NOS OFFRES
+                    </div>
+                    <div class="nousproposonsdiversesoffres22">
+                        Nous proposons diverses offres !
+                    </div>
+                    <div class="groupe229023">
+                        <div class="groupe22560">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77801"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78011">
+                            </div>
+                            <div class="packstartuppossibilitdedomiciliation2">
+                                PACK STARTUP (possibilité<br />de domiciliation)
+                            </div>
+                            <div class="jusqu4personnesaccsinternetpossibilitdepaiementpar3mois3">
+                                - Jusqu’à 4 personnes.<br />- Accès Internet<br />- Possibilité de paiement par 3
+                                mois<br />
+                            </div>
+                            <div class="a25000daparmois4">
+                                25 000 DA par mois.
+                            </div>
+                        </div>
+                        <div class="groupe22801">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77802"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78012">
+                            </div>
+                            <div class="pack1personne2">
+                                PACK 1 PERSONNE
+                            </div>
+                            <div class="unespacedetravailaccsinternetuneespacerepasquipuntableaublanc3">
+                                - Un espace de travail<br />- Accès Internet<br />- Une espace repas équipé<br />- Un
+                                tableau blanc<br />
+                            </div>
+                            <div class="a6900daparmoisfulltime4">
+                                6900 DA par mois, full time.
+                            </div>
+                        </div>
+                        <div class="nospacks2">
+                            NOS PACKS
+                        </div>
+                        <div class="groupe22843">
+                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31903"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="demandezunrendezvous1">
+                                Demandez<br />un rendez -vous !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="groupe229124">
+                        <div class="groupe22810">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77803"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78013">
+                            </div>
+                            <div class="passjourne2">
+                                PASS JOURNÉE
+                            </div>
+                            <div class="unespacedetravailaccsinternet3">
+                                - Un espace de travail<br />- Accès Internet
+                            </div>
+                            <div class="a600daparpersonne4">
+                                600 DA  par personne.
+                            </div>
+                        </div>
+                        <div class="groupe22821">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77804"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78014">
+                            </div>
+                            <div class="pass9h13hou13h17h2">
+                                PASS 9H-13H ou 13H-17H
+                            </div>
+                            <div class="unespacedetravailaccsinternet31">
+                                - Un espace de travail<br />- Accès Internet
+                            </div>
+                            <div class="a400daparpersonne4">
+                                400 DA  par personne.
+                            </div>
+                        </div>
+                        <div class="nospass2">
+                            NOS PASS
+                        </div>
+                        <div class="groupe22833">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77805"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78015">
+                            </div>
+                            <div class="passjourne2pers2">
+                                PASS JOURNÉE - 2 PERS
+                            </div>
+                            <div class="unespacedetravailaccsinternet32">
+                                - Un espace de travail<br />- Accès Internet
+                            </div>
+                            <div class="a1000da2personnes4">
+                                1000 DA,  2 personnes.
+                            </div>
+                        </div>
+                        <div class="groupe22854">
+                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31904"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="reservezetpayezsurplace1">
+                                Reservez<br />et payez sur place !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="groupe227825">
+                        <div class="rectangle83001">
+                        </div>
+                        <div class="rectangle83111">
+                        </div>
+                        <a>
+                            <button type="submit" form="coworking" style="cursor: pointer;">
+                                <div class="rectangle83221 anima-smart-layers-pointers "></div>
+                            </button>
+                        </a>
+
+                        <form method="GET" action="http://localhost:3000/coworking" target="votar" id="coworking">
+                            <input class="nometprnoms31" name="name" id="name_field" placeholder="Nom et Prénom(s)"
+                                required type="text"
+                                style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input class="emailexemplesylabsdzcom41" name="email" id="email_field"
+                                placeholder="exemple@gmail.com" required type="email"
+                                style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input type="hidden" name="theme" value="Les bases du Graphic Design">
+                        </form>
+
+                        <div class="groupe6751" style="pointer-events: none;">
+                            <div class="envoyer02">
+                                Envoyer
+                            </div>
+                            <img alt="Image" anima-src="./img/send-7@1x.png" class="send13"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="rectangle83361">
+                            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    var placeholder = $(this).data('placeholder');
+                                    $("select").select2({ theme: "material", placeholder: placeholder });
+                                });
+                            </script>
+
+                            <select data-placeholder="Occupation" form="coworking" name="occupation"
+                                id="occupation_field" required class="select" style="width: 380px; height: 45px;">
+                                <option></option>
+                                <option value="Étudiant">Étudiant</option>
+                                <option value="Employé">Employé</option>
+                                <option value="Freelanceur">Freelanceur</option>
+                                <option value="Chercheur">Chercheur</option>
+                                <option value="12">Autre</option>
+
+                            </select>
+                        </div>
+
+                        <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png"
+                            class="iconawesomecaretdown81" style="pointer-events: none;"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="rectangle82891"></div>
+                        <textarea form="coworking" class="avezvousquelquechoseajouter101"
+                            name="avezVousQuelqueChoseAjouter101" name="avezvousquelquechoseajouter101" id="note_field"
+                            placeholder="Avez-vous quelque chose à ajouter?" type="text"
+                            style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 113px; width: 500px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
+
+
+
+                        <div class="nousvouscontacteronsbienttviaemailpouruneconfirmation111">
+                            Nous vous contacterons bientôt via email pour une confirmation !
+                        </div>
+                        <div class="groupe2274121">
+                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31905"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="remplissezleformulairepourreserver1">
+                                Remplissez le formulaire<br />pour. reserver !
+                            </div>
+                        </div>
+                        <div class="rectangle83713">
+
+
+                            <select data-placeholder="Choisissez votre offre!" form="coworking" name="offre"
+                                id="offre_field" required class="select" style="width: 380px; height: 45px;">
+                                <option></option>
+                                <option value="pack">Pack Startup</option>
+                                <option value="Employé">Pack 1 Personne</option>
+                                <option value="Freelanceur">Pass Journée</option>
+                                <option value="Freelanceur">Pass Journée 2 Personnes</option>
+                                <option value="Chercheur">Pass 9h-13h ou 13h-17h</option>
+                                <option value="Autre">Espace Évènement</option>
+                                <option value="Autre">Espace Formation</option>
+                                <option value="Autre">Salle de Réunion</option>
+
+                            </select>
+                        </div>
+                        <div class="rectangle83814">
+                        </div>
+                        <input type="text" class="rservezvotredate15" name="rservezVotreDate15"
+                            placeholder="Réservez votre date!" required onclick="javascript:prepareDatePicker()"
+                            style="cursor: pointer; font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -9px;; margin-left: 2px; margin-bottom: 25px;"
+                            type="text" id="datePickerId" />
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#datePickerId").datepicker({ startDate: "+1d", format: 'dd/mm/yyyy', language: 'fr' });
+                            });
+
+
+                            (function ($) {
+                                $.fn.datepicker.dates['fr'] = {
+                                    days: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+                                    daysShort: ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
+                                    daysMin: ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+                                    months: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+                                    monthsShort: ["janv.", "févr.", "mars", "avril", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."],
+                                    today: "Aujourd'hui",
+                                    monthsTitle: "Mois",
+                                    clear: "Effacer",
+                                    weekStart: 1,
+                                    format: "dd/mm/yyyy"
+                                };
+                            }(jQuery));
+
+                        </script>
+                    </div>
+                    <div class="groupe229226">
+                        <div class="groupe22860">
+                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77806"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78016">
+                            </div>
+                            <div class="espacevnementconfrence2">
+                                ESPACE ÉVÈNEMENT - CONFÉRENCE
+                            </div>
+                            <div
+                                class="internetgestiondelaccueilcateringecrandeprojectionsystmesonoremicrobaladeuretouserrettecouverturephotovidocouverturesocialmdiatweetlive3">
+                                - Internet<br />- Gestion de l’accueil<br />- Catering<br />- Ecran de projection<br />-
+                                Système sonore (micro baladeur et/ou serre-tête)<br />- Couverture photo/vidéo<br />-
+                                Couverture social média (tweet-live,…)
+                            </div>
+                            <div class="surdevis4">
+                                SUR DEVIS.
+                            </div>
+                        </div>
+                        <div class="groupe22871">
+                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77807"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78017">
+                            </div>
+                            <div class="espaceformation2">
+                                ESPACE FORMATION
+                            </div>
+                            <div
+                                class="jusqu20personnesinternetcateringoptionnelecrandeprojectionsystmesonoreoptionneluntableaublanc3">
+                                - Jusqu’à 20 personnes<br />- Internet<br />- Catering (optionnel)<br />- Ecran de
+                                projection<br />- Système sonore (optionnel)<br />- Un tableau blanc<br />
+                            </div>
+                            <div class="a10000dalajourne4">
+                                10 000 DA, la journée.
+                            </div>
+                        </div>
+                        <div class="nosespaces2">
+                            NOS ESPACES
+                        </div>
+                        <div class="groupe22883">
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77808"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="rectangle78018">
+                            </div>
+                            <div class="sallederunion2">
+                                SALLE DE RÉUNION
+                            </div>
+                            <div class="jusqu5personnesinternetuncran70poucesuntableaublanc3">
+                                - Jusqu’à 5 personnes<br />- Internet<br />- Un écran 70 pouces<br />- Un tableau
+                                blanc<br /><br />
+                            </div>
+                            <div class="a35000dalajourne4">
+                                35 000 DA,  la journée.
+                            </div>
+                        </div>
+                        <div class="groupe22894">
+                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31906"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="reservezetpayezsurplace11">
+                                Reservez<br />et payez sur place !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rservation27">
+                        RÉSERVATION
+                    </div>
+                    <div class="choisissezloffrequivousconvient28">
+                        Choisissez l’offre qui vous convient !
+                    </div>
+                    <div
+                        class="choisissezloffrequivousconvientleplusetrservezdsmaintenantvouspayerezsurplaceauniveaudenoslocaux29">
+                        Choisissez l’offre qui vous convient le plus et réservez dès maintenant ! Vous payerez sur place
+                        au niveau de nos locaux !
+                    </div>
+                    <img alt="Image" anima-src="./img/icon-awesome-calendar-alt@1x.png" class="iconawesomecalendaralt30"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        style="margin-left: -10px; pointer-events: none;" />
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown32"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="groupe22211">
+                    <div class="notification08">
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon016"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge116"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="notification18">
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon017"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge117"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe222124">
+                        <div class="notification09">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon018"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge118"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="notification19">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon019"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge119"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="groupe219724">
+                            <div class="headerdesktop04">
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base04"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin14"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="navbarlight34">
+                            <a href="contact.html">
+                                <div class="contact09">
+                                    CONTACT
+                                </div>
+                            </a>
+                            <div class="coworking14">
+                                CO-WORKING
+                            </div>
+                            <a href="activits.html">
+                                <div class="activits24">
+                                    ACTIVITÉS
+                                </div>
+                            </a>
+                            <a href="apropos.html">
+                                <div class="propos34">
+                                    À PROPOS
+                                </div>
+                            </a>
+                            <a href="accueil.html">
+                                <div class="accueil44">
+                                    ACCUEIL
+                                </div>
+                            </a>
+                            <a href="acclration.html">
+                                <div class="acclration54">
+                                    ACCÉLÉRATION
+                                </div>
+                            </a>
+                            <a href="map.html">
+                                <div class="ecosystememap64">
+                                    ECOSYSTEME MAP
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <div class="rectangle24405">
+                    </div>
+                    <div class="groupe4415">
+                        <div class="liensutiles05">
+                            LIENS UTILES
+                        </div>
+                        <div class="blog16">
+                            Blog
+                        </div>
+                        <div class="acclration25">
+                            Accélération
+                        </div>
+                        <div class="coworking35">
+                            Co-working
+                        </div>
+                        <div class="activits45">
+                            Activités
+                        </div>
+                    </div>
+                    <div class="groupe4525">
+                        <div class="proposdenous06">
+                            À propos de nous
+                        </div>
+                        <div class="contacteznous15">
+                            Contactez-nous
+                        </div>
+                        <div class="services25">
+                            Services
+                        </div>
+                        <div class="confidentialit35">
+                            CONFIDENTIALITÉ
+                        </div>
+                    </div>
+                    <div class="groupe4335">
+                        <div class="sylabs05">
+                            SYLABS
+                        </div>
+                        <div
+                            class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation16">
+                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
+                            entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
+                            mutation.<br />
+                        </div>
+                        <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook25"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter35"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus45"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="groupe4645">
+                        <div class="contact010">
+                            CONTACT
+                        </div>
+                        <div class="hellosylabsdzcom15">
+                            hello@sylabs-dz.com
+                        </div>
+                        <div class="a21377026490625">
+                            (+213) 7 70 26 49 06
+                        </div>
+                        <div class="a08ruehassaniyessad16004algercentre35">
+                            08 Rue Hassani Yessad,<br />16004, Alger Centre.
+                        </div>
+                        <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail45"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone55"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin65"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                    <div class="copyright2020allrightsreserved55">
+                        Copyright ©2020 All rights reserved.
+                    </div>
+                    <div class="wwwsylabsdzcom65">
+                        WWW.SYLABS-DZ.COM
+                    </div>
+                </div>
+
+                <div class="groupe22713" id="newsletter_subscription">
+                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81005"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="gardezlecontactavecnous14">
+                        GARDEZ LE CONTACT AVEC NOUS
+                    </div>
+                    <div class="rectangle18924">
+                    </div>
+                    <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
+                        <input class="exemplegmailcom34" name="email" id="email_field" placeholder="exemple@gmail.com"
+                            required type="email"
+                            style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                    </form>
+
+                    <div class="votreadressemail44">
+                        Votre Adresse Mail
+                    </div>
+                    <a>
+                        <button type="submit" form="newsletter" style="cursor: pointer;"
+                            onclick="javascript:submit_form('newsletter')">
+                            <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31554"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/send-10@1x.png" class="send64"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </button>
+                    </a>
+                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74">
+                        Restez informés de toutes nos activités, inscrivez-vous à notre newsletter
+                    </div>
+                </div>
+
+                id="newsletter_subscription"
+                <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
+                    <input class="exemplegmailcom35" name="email" id="email_field" placeholder="exemple@gmail.com"
+                        required type="email"
+                        style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                </form>
+
+
+                <div class="groupe22713" id="success_subscription_message" style="display: none;">
+                    <img alt="Image" src="./img/810-1@1x.png" class="a81005" />
+                    <div>
+                        <div class="gardezlecontactavecnous14">
+                            GARDEZ LE CONTACT AVEC NOUS
+                        </div>
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74"
+                            style="width: 688px;">
+                            Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <iframe name="votar" style="display:none;"></iframe>
+    </div>
+    <!-- Scripts -->
+    <script>
+        anima_isHidden = function (e) {
+            if (!(e instanceof HTMLElement)) return !1;
+            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            return !1;
+        };
+        anima_loadAsyncSrcForTag = function (tag) {
+            var elements = document.getElementsByTagName(tag);
+            var toLoad = [];
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var src = e.getAttribute("src");
+                var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                if (loaded) continue;
+                var asyncSrc = e.getAttribute("anima-src");
+                if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                if (anima_isHidden(e)) continue;
+                toLoad.push(e);
+            }
+            toLoad.sort(function (a, b) {
+                return anima_getTop(a) - anima_getTop(b);
+            });
+            for (var i = 0; i < toLoad.length; i++) {
+                var e = toLoad[i];
+                var asyncSrc = e.getAttribute("anima-src");
+                e.setAttribute("src", asyncSrc);
+            }
+        };
+        anima_pauseHiddenVideos = function (tag) {
+            var elements = document.getElementsByTagName("video");
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                var isHidden = anima_isHidden(e);
+                if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                    e.play();
+                } else if (isPlaying && isHidden) {
+                    e.pause();
+                }
+            }
+        };
+        anima_loadAsyncSrc = function (tag) {
+            anima_loadAsyncSrcForTag("img");
+            anima_loadAsyncSrcForTag("iframe");
+            anima_loadAsyncSrcForTag("video");
+            anima_pauseHiddenVideos();
+        };
+        var anima_getTop = function (e) {
+            var top = 0;
+            do {
+                top += e.offsetTop || 0;
+                e = e.offsetParent;
+            } while (e);
+            return top;
+        };
+        anima_loadAsyncSrc();
+        anima_old_onResize = window.onresize;
+        anima_new_onResize = undefined;
+        anima_updateOnResize = function () {
+            if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                anima_new_onResize = function (x) {
+                    if (anima_old_onResize != undefined) anima_old_onResize(x);
+                    anima_loadAsyncSrc();
+                };
+                window.onresize = anima_new_onResize;
+                setTimeout(function () {
+                    anima_updateOnResize();
+                }, 3000);
+            }
+        };
+        anima_updateOnResize();
+        setTimeout(function () {
+            anima_loadAsyncSrc();
+        }, 200);
+    </script>
+    <script>
+        //-----------------------------------------------------------------------------------------------Form
+        function submit_form(form_id) {
+            var form = document.getElementById(form_id)[0];
+            form.submit;
+            if (window.submitted) window.submitted();
+            if (form.reportValidity()) {
+                sleep(500);
+                //form.submit;
+                var sectionDiv = document.getElementById("newsletter_subscription");
+                var success_subscription_message = document.getElementById("success_subscription_message");
+                success_subscription_message.style.display = "block";
+                sectionDiv.style.display = "none";
+
+            }
+        }
+        function sleep(milliseconds) {
+            const date = Date.now();
+            let currentDate = null;
+            do {
+                currentDate = Date.now();
+            } while (currentDate - date < milliseconds);
+        }
+            //-----------------------------------------------------------------------------------------------Form
+    </script>
+    <!-- End of Scripts -->
+</body>
+
+</html>

@@ -1,0 +1,3178 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
+
+
+.coworking {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 4087px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.coworking .groupe29080 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -550px;
+  height              : 4636px;
+  width               : 1440px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3942px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe222203 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 810px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe222203 .intersection503 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 810px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe222203 .intersection503 .jaimelopes0rdboadnbwmunsplash04 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -150px;
+  height              : 960px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222203 .intersection503 .rectangle24713 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : 810px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222203 .rectangle1514 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 452px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe226911 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 658px;
+  height              : 69px;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe226911 .espacecoworking0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 41.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe226911 .entrezencontactavecnous1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222721 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 894px;
+  height              : 444px;
+  width               : 1137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe222721 .consulteznosdiffrentesoffresettrouvezcellequivousconvientbesoindedomiciliervotreentreprisedemandezunrendezvousavecnotrequipepourconnatrenotreoffreetconditionsdedomiciliation0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 335px;
+  height              : 111px;
+  width               : 1104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222721 .entrepreneursfreelancersdveloppeursartistesstartupssylabsvousproposeunespacedecoworkingquipaucoeurdalgeruneconnexioninternetperformanteetunenvironnementproductiftoutcelasurabonnementmensueltrimestrielouannuel1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 229px;
+  height              : 94px;
+  width               : 1104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222721 .audeldunespacesylabsvousoffreunaccsprivilgiunecommunautpassionne2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 206px;
+  width               : 1136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe222721 .notrespacecoworking3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .noscommodits3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1378px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .ellipse264 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1440px;
+  height              : 43px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 448px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .ellipse275 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1440px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 696px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .ellipse286 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1440px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .tableaublanc7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1497px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.coworking .groupe29080 .groupe22800 .cranprojecteur8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1497px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 659px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.coworking .groupe29080 .groupe22800 .internet9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1497px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 238px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.coworking .groupe29080 .groupe22800 .pourvosrunionsnoteztoutcequevousvoulez10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1517px;
+  height              : 35px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 353px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.coworking .groupe29080 .groupe22800 .projetezvosdocuments11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1517px;
+  height              : 33px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 569px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.coworking .groupe29080 .groupe22800 .unaccsillimit12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1517px;
+  height              : 35px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.coworking .groupe29080 .groupe22800 .unespacepourmangeretsedtendre13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1517px;
+  height              : 33px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 787px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.coworking .groupe29080 .groupe22800 .ellipse3214 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1440px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .kitchenette15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1497px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 882px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.coworking .groupe29080 .groupe22800 .iconawesomewifi16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1455px;
+  height              : 12px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .iconawesomechalkboardteacher17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1455px;
+  height              : 14px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 460px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .iconmaterialscreenshare18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1456px;
+  height              : 12px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 711px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .iconmapfood19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1453px;
+  height              : 17px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 913px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe227420 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1423px;
+  height              : 58px;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1058px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227420 .trac31902 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe227420 .cequenousproposonscommeservices1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.coworking .groupe29080 .groupe22800 .nosoffres21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1607px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .nousproposonsdiversesoffres22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1641px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 42.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1753px;
+  height              : 285px;
+  width               : 1039px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 .rectangle77801 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 .rectangle78011 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 15px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 .packstartuppossibilitdedomiciliation2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 .jusqu4personnesaccsinternetpossibilitdepaiementpar3mois3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 77px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22560 .a25000daparmois4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 .rectangle77802 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 .rectangle78012 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 15px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 .pack1personne2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 .unespacedetravailaccsinternetuneespacerepasquipuntableaublanc3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 99px;
+  width               : 235px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22801 .a6900daparmoisfulltime4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .nospacks2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22843 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 57px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 889px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22843 .trac31903 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229023 .groupe22843 .demandezunrendezvous1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2098px;
+  height              : 546px;
+  width               : 1063px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 .rectangle77803 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 .rectangle78013 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 15px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 .passjourne2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 .unespacedetravailaccsinternet3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 61px;
+  width               : 235px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22810 .a600daparpersonne4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 .rectangle77804 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 .rectangle78014 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 15px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 .pass9h13hou13h17h2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 .unespacedetravailaccsinternet31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 61px;
+  width               : 235px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22821 .a400daparpersonne4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .nospass2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 .rectangle77805 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 .rectangle78015 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 16px;
+  height              : 395px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 .passjourne2pers2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 .unespacedetravailaccsinternet32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 61px;
+  width               : 235px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22833 .a1000da2personnes4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 202px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22854 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 58px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 889px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22854 .trac31904 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229124 .groupe22854 .reservezetpayezsurplace1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3660px;
+  height              : 282px;
+  width               : 1110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83001 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83111 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 70px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83221 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 210px;
+  height              : 54px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83221 {
+  pointer-events      : auto;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83221:hover {
+  transform           : scale(1.1);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .nometprnoms31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 18px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .nometprnoms31::placeholder {
+  color               : rgba(163, 161, 161, 0.6);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .emailexemplesylabsdzcom41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 18px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .emailexemplesylabsdzcom41::placeholder {
+  color               : rgba(163, 161, 161, 0.6);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 230px;
+  height              : 17px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 .envoyer02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 .send13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 .send13 .ligne207 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 .send13 .trac217 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83361 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 141px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .occupation71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 162px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .iconawesomecaretdown81 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 164px;
+  height              : 7px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle82891 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 141px;
+  height              : 123px;
+  box-sizing          : border-box;
+  width               : 516px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .avezvousquelquechoseajouter101 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 18px;
+  width               : 205px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .avezvousquelquechoseajouter101::placeholder {
+  color               : rgba(163, 161, 161, 0.6);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .nousvouscontacteronsbienttviaemailpouruneconfirmation111 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 272px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 9.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe2274121 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 56px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 916px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe2274121 .trac31905 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .groupe2274121 .remplissezleformulairepourreserver1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83713 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+
+da {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+
+.coworking .groupe29080 .groupe22800 .groupe227825 .rectangle83814 {
+  background-color    : rgba(248, 248, 248, 1.0);
+  top                 : 69px;
+  height              : 56px;
+  box-sizing          : border-box;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(232, 232, 232, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rservezvotredate15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 18px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.coworking .groupe29080 .groupe22800 .groupe227825 .rservezvotredate15::placeholder {
+  color               : rgba(163, 161, 161, 0.6);
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2704px;
+  height              : 600px;
+  width               : 1063px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 294px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 .rectangle77806 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 312px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 .rectangle78016 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 66px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 .espacevnementconfrence2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 .internetgestiondelaccueilcateringecrandeprojectionsystmesonoremicrobaladeuretouserrettecouverturephotovidocouverturesocialmdiatweetlive3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 152px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22860 .surdevis4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 294px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 .rectangle77807 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 312px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 .rectangle78017 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 66px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 .espaceformation2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 .jusqu20personnesinternetcateringoptionnelecrandeprojectionsystmesonoreoptionneluntableaublanc3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 164px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22871 .a10000dalajourne4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .nosespaces2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 357px;
+  height              : 243px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 .rectangle77808 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 261px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 .rectangle78018 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 15px;
+  height              : 395px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 .sallederunion2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 .jusqu5personnesinternetuncran70poucesuntableaublanc3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 100px;
+  width               : 243px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22883 .a35000dalajourne4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22894 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 58px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 889px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22894 .trac31906 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .groupe229226 .groupe22894 .reservezetpayezsurplace11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Goodlights", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.coworking .groupe29080 .groupe22800 .rservation27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3458px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.coworking .groupe29080 .groupe22800 .choisissezloffrequivousconvient28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3498px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 42.0px;
+}
+.coworking .groupe29080 .groupe22800 .choisissezloffrequivousconvientleplusetrservezdsmaintenantvouspayerezsurplaceauniveaudenoslocaux29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3559px;
+  height              : 75px;
+  width               : 890px;
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.coworking .groupe29080 .groupe22800 .iconawesomecalendaralt30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3751px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 845px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22800 .choisissezloffrequivousconvient31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3682px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 563px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(163, 161, 161, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.coworking .groupe29080 .groupe22800 .iconawesomecaretdown32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3684px;
+  height              : 7px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 838px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 549px;
+  height              : 56px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .notification08 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1228px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .notification08 .notificationicon016 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .notification08 .notificationicon016 .trac2016 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 2px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.coworking .groupe29080 .groupe22211 .notification08 .notificationicon016 .trac3117 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+}
+.coworking .groupe29080 .groupe22211 .notification08 .notificationbadge116 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .notification18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1228px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .notification18 .notificationicon017 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .notification18 .notificationicon017 .trac2017 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 2px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.coworking .groupe29080 .groupe22211 .notification18 .notificationicon017 .trac3118 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+}
+.coworking .groupe29080 .groupe22211 .notification18 .notificationbadge117 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification09 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1228px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification09 .notificationicon018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification09 .notificationicon018 .trac2018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 2px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification09 .notificationicon018 .trac3119 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification09 .notificationbadge118 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1228px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification19 .notificationicon019 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification19 .notificationicon019 .trac2019 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 2px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification19 .notificationicon019 .trac3120 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .notification19 .notificationbadge119 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .groupe219724 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .groupe219724 .headerdesktop04 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .groupe219724 .headerdesktop04 .base04 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 62px;
+  width               : 1446px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .groupe219724 .sywhmin14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 27px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 15px;
+  width               : 667px;
+  position            : absolute;
+  margin              : 0;
+  left                : 632px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .contact09 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 617px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .coworking14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+  text-decoration     : underline;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .activits24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .propos34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .accueil44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .acclration54 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 370px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22211 .groupe222124 .navbarlight34 .ecosystememap64 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 485px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4128px;
+  height              : 508px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .rectangle24405 {
+  background-color    : rgba(33, 68, 101, 1.0);
+  top                 : 0px;
+  height              : 509px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4415 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : 116px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 724px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4415 .liensutiles05 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4415 .blog16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4415 .acclration25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4415 .coworking35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4415 .activits45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4525 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : 94px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4525 .proposdenous06 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4525 .contacteznous15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4525 .services25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4525 .confidentialit35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 138px;
+  height              : 232px;
+  width               : 457px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .sylabs05 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 29.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 127px;
+  width               : 457px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a001facebook25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 206px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a001facebook25 .ellipse1505 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a001facebook25 .trac1615 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 17px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a002twitter35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 206px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a002twitter35 .ellipse1605 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a002twitter35 .groupe3915 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 12px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a002twitter35 .groupe3915 .trac1705 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : 12px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 206px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4005 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4005 .xmlid3005 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 11px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 .trac2105 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 .trac2215 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 .groupe4125 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 .groupe4125 .trac2305 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4335 .a004googleplus45 .groupe4215 .groupe4125 .trac2415 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4645 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : 125px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1113px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .contact010 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .hellosylabsdzcom15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .a21377026490625 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .a08ruehassaniyessad16004algercentre35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mail45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 12px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mail45 .trac2505 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mail45 .trac2615 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -0px;
+  height              : 7px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .phone55 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mappin65 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mappin65 .trac2705 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.coworking .groupe29080 .footer2 .groupe4645 .mappin65 .ellipse1715 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.coworking .groupe29080 .footer2 .copyright2020allrightsreserved55 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 464px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.coworking .groupe29080 .footer2 .wwwsylabsdzcom65 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 466px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1159px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(177, 177, 177, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.coworking .groupe29080 .groupe22713 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4065px;
+  height              : 127px;
+  width               : 816px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22713 .a81005 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -30px;
+  height              : 217px;
+  width               : 906px;
+  position            : absolute;
+  margin              : 0;
+  left                : -45px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22713 .gardezlecontactavecnous14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(232, 197, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.coworking .groupe29080 .groupe22713 .rectangle18924 {
+  background-color    : rgba(238, 238, 238, 1.0);
+  top                 : 75px;
+  height              : 29px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.coworking .groupe29080 .groupe22713 .exemplegmailcom34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 14px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 510px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(206, 206, 206, 1.0);
+  text-align          : left;
+  line-height         : 9.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.coworking .groupe29080 .groupe22713 .exemplegmailcom34::placeholder {
+  color               : rgba(206, 206, 206, 0.6);
+}
+.coworking .groupe29080 .groupe22713 .votreadressemail44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(33, 68, 101, 1.0);
+  text-align          : left;
+  line-height         : 9.0px;
+}
+.coworking .groupe29080 .groupe22713 .trac31554 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 713px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22713 .send64 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 722px;
+  transform           : rotate(0deg);
+}
+.coworking .groupe29080 .groupe22713 .send64 .ligne208 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.coworking .groupe29080 .groupe22713 .send64 .trac218 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.coworking .groupe29080 .groupe22713 .restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 42px;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica Neue", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(112, 112, 112, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}

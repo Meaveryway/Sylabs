@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ecosystem Map</title>
+    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="mobile-web-app-capable" />
+    <meta content="default" name="apple-mobile-web-app-status-bar-style" />
+    <!-- Facebook -->
+    <meta content="" property="og:url" />
+    <meta content="website" property="og:type" />
+    <!-- Twitter -->
+    <meta content="photo" name="twitter:card" />
+    <link href="./css/map.css" rel="stylesheet" type="text/css" />
+    <script defer="" src="hotspots.js">
+    </script>
+    <meta content="AnimaApp.com - Design to code, Automated." name="author" />
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+
+    <style>
+        .select2-container--material {
+            width: 100% !important;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__rendered {
+            color: #444;
+            line-height: 28px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            ;
+            padding-left: 6px;
+            font-size: 14px;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+            font-weight: bold;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__placeholder {
+            color: #999;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            font-size: 14px;
+
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow {
+            height: 26px;
+            margin: 0.6rem 0 0.4rem 0;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 20px;
+        }
+
+        .select2-container--material .select2-selection--single .select2-selection__arrow b {
+            border-color: #888 transparent transparent transparent;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            height: 0;
+            left: 50%;
+            margin-left: -4px;
+            margin-top: -2px;
+            position: absolute;
+            top: 50%;
+            width: 0;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
+            float: left;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+            left: 1px;
+            right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single {
+            background-color: #eee;
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
+            border-color: transparent transparent #888 transparent;
+            border-width: 0 4px 5px 4px;
+        }
+
+        .select2-container--material .select2-selection--multiple {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            box-shadow: none;
+            box-sizing: content-box;
+            cursor: text;
+            height: auto;
+            margin: 0;
+            outline: none;
+            padding: 5px 0 0 0;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered {
+            box-sizing: border-box;
+            list-style: none;
+            margin: 0;
+            padding: 0 5px;
+            width: 100%;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
+            list-style: none;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
+            color: #999;
+            margin-top: 5px;
+            float: left;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__clear {
+            cursor: pointer;
+            float: right;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice {
+            background-color: #ffca28;
+            border-radius: 16px;
+            color: rgba(0, 0, 0, 0.6);
+            cursor: default;
+            float: left;
+            margin-right: 5px;
+            margin-top: 6px;
+            padding: 0 12px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
+            cursor: pointer;
+            display: inline-block;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #333;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+            float: right;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+            margin-left: 5px;
+            margin-right: auto;
+        }
+
+        .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+            margin-left: 2px;
+            margin-right: auto;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection--multiple {
+            background-color: #eee;
+            cursor: default;
+        }
+
+        .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
+            display: none;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
+        .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--single {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material.select2-container--focus .select2-selection--multiple {
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            outline: 0;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field {
+            border: none;
+            border-bottom: 1px solid #ced4da;
+            border-radius: 0;
+            outline: none;
+        }
+
+        .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
+            box-shadow: 0 1px 0 0 #ced4da;
+            border-bottom: 1px solid #ced4da;
+        }
+
+        .select2-container--material .select2-search--inline .select2-search__field {
+            background: transparent;
+            border: none !important;
+            outline: 0;
+            box-shadow: none !important;
+            -webkit-appearance: textfield;
+        }
+
+        .select2-container--material .select2-results>.select2-results__options {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .select2-container--material .select2-results__option[role=group] {
+            padding: 0;
+        }
+
+        .select2-container--material .select2-results__option[aria-disabled=true] {
+            color: #999;
+        }
+
+        .select2-container--material .select2-results__option[aria-selected=true] {
+            background-color: #ddd;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option {
+            padding-left: 1em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
+            padding-left: 0;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -1em;
+            padding-left: 2em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -2em;
+            padding-left: 3em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -3em;
+            padding-left: 4em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -4em;
+            padding-left: 5em;
+        }
+
+        .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+            margin-left: -5em;
+            padding-left: 6em;
+        }
+
+        .select2-container--material .select2-results__option--highlighted[aria-selected] {
+            background-color: #214366;
+            color: white;
+        }
+
+        .select2-container--material .select2-results__group {
+            cursor: default;
+            display: block;
+            padding: 6px;
+        }
+
+        .select2-dropdown {
+            background-color: white;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            display: block;
+            position: absolute;
+            left: -100000px;
+            width: 100%;
+            z-index: 1051;
+            -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+
+        .select2-results {
+            display: block;
+        }
+
+        .select2-results__options {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .select2-results__option {
+            padding: 6px;
+            font-size: 14px;
+            font-family: "Poppins", Helvetica, Arial, serif;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .select2-results__option[aria-selected] {
+            cursor: pointer;
+        }
+
+        .select2-container--open .select2-dropdown {
+            left: 0;
+        }
+
+        .select2-container--open .select2-dropdown--above {
+            border-bottom: none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .select2-container--open .select2-dropdown--below {
+            border-top: none;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .select2-search--dropdown {
+            display: block;
+            padding: 4px;
+        }
+
+        .select2-search--dropdown .select2-search__field {
+            padding: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+        }
+
+        .select2-search--dropdown.select2-search--hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1.0);">
+    <script
+        src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'
+        rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
+        rel='stylesheet' />
+
+    <input id="anPageName" name="page" type="hidden" value="map" />
+    <div class="map anima-word-break ">
+        <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+            <div class="groupe29100">
+
+                <div id="mapid">
+                    <!------------------------------------------------------------------------->
+                    <iframe allowtransparency="true" style="pointer-events: none; opacity: 0,3;" frameborder="0"
+                        height="760" marginheight="0" marginwidth="0" scrolling="yes" src="" width="90%">
+
+                    </iframe>
+                    <!------------------------------------------------------------------------->
+                </div>
+                <br />
+
+                <div class="groupe28601">
+                    <div class="groupe24810">
+                        <img alt="Image" anima-src="./img/rectangle-902@1x.png" class="rectangle9020"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </div>
+                </div>
+                <div class="groupe28612">
+                    <img alt="Image" anima-src="./img/trac--320@1x.png" class="trac3200"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="groupe28633">
+                    <img alt="Image" anima-src="./img/810-7@1x.png" class="a81007"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="groupe28644">
+                    <div class="cartedelcosystmealgrien0">
+                        Carte de l’écosystème algérien.<br />
+                    </div>
+                    <div class="espacescoworking1">
+                        ESPACES COWORKING
+                    </div>
+                </div>
+                <img alt="Image" anima-src="./img/groupe-2868@1x.png" class="groupe28687"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle8508">
+                </div>
+                <input class="rechercherlorganismequevousvoulez9" name="rechercherLorganismeQueVousVoulez9"
+                    placeholder="Rechercher l’organisme que vous voulez." />
+                <div class="rechercher10">
+                    Rechercher
+                </div>
+                <img alt="Image" anima-src="./img/trac--315-6@1x.png" class="trac32211 anima-smart-layers-pointers "
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/icon-awesome-search@1x.png" class="iconawesomesearch12"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+
+
+                <!---------------------------------------------------------------------------------------------------->
+                <!---------------------------------------------------------------------------------------------------->
+                <div class="rectangle85113">
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $("select").select2({ theme: "material", placeholder: "Filtrer par Catégorie" });
+                        });
+                    </script>
+                    <select onchange="updateMap(this)" class="select" style="width: 100%; height: 100%;">
+                        <option></option>
+                        <option value="idle">Toutes les Catégories</option>
+                        <option value="incubator">Incubateurs</option>
+                        <option value="coworking">Espaces de Coworking</option>
+                        <option value="research">Centres de Recherche</option>
+                        <option value="startup">Startups</option>
+                        <option value="adv-startup">Startups en Stade Avancé</option>
+                        <option value="support">Programmes de Support</option>
+                    </select>
+                </div>
+
+
+
+                <img style="pointer-events: none;" alt="Image" anima-src="./img/trac--315-6@1x.png"
+                    class="trac32315 anima-smart-layers-pointers "
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img style="pointer-events: none;" alt="Image" anima-src="./img/icon-awesome-angle-down@1x.png"
+                    class="iconawesomeangledown16"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <!---------------------------------------------------------------------------------------------------->
+                <!---------------------------------------------------------------------------------------------------->
+                <div class="filtrer17">
+                    Filtrer
+                </div>
+
+                <div class="groupe287823">
+                    <div class="rectangle227024">
+                    </div>
+                    <a href="https://www.theaddress-dz.com" target="_blank">
+                        <div class="rectangle228124">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3223"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="coworking3">
+                        COWORKING
+                    </div>
+                    <div class="theaddress41">
+                        The Address
+                    </div>
+                    <div class="alger5">
+                        Alger
+                    </div>
+                    <div class="unespacecoworkingfonden20186">
+                        Un espace coworking fondé en 2018,
+                    </div>
+                    <a href="https://www.theaddress-dz.com" target="_blank">
+                        <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7347"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    </a>
+                </div>
+                <img alt="Image" anima-src="./img/logo-the-address-1-2@1x.png" class="logotheaddress124"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe287925">
+                    <div class="rectangle227025">
+                    </div>
+                    <a href="https://www.theaddress-dz.com" target="_blank">
+                        <div class="rectangle228125">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3224"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="coworking31">
+                        COWORKING
+                    </div>
+                    <div class="theaddress42">
+                        The Address
+                    </div>
+                    <div class="alger51">
+                        Alger
+                    </div>
+                    <div class="unespacecoworkingfonden201861">
+                        Un espace coworking fondé en 2018,
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7357"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-the-address-1-1@1x.png" class="logotheaddress126"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288027">
+                    <div class="rectangle227026">
+                    </div>
+                    <a href="https://www.theaddress-dz.com" target="_blank">
+                        <div class="rectangle228126">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3225"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="coworking32">
+                        COWORKING
+                    </div>
+                    <div class="theaddress43">
+                        The Address
+                    </div>
+                    <div class="alger52">
+                        Alger
+                    </div>
+                    <div class="unespacecoworkingfonden201862">
+                        Un espace coworking fondé en 2018,
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7367"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-the-address-1-2@1x.png" class="logotheaddress128"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288129">
+                    <div class="rectangle227027">
+                    </div>
+                    <a href="accueil.html" target="_blank">
+                        <div class="rectangle228127">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3226"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="incubateuracclrateur3">
+                        INCUBATEUR/ACCÉLÉRATEUR
+                    </div>
+                    <div class="sylabs4">
+                        Sylabs
+                    </div>
+                    <div class="alger53">
+                        Alger
+                    </div>
+                    <div class="acclrateurdeprojetsetstartupsdepuis20156">
+                        Accélérateur de projets et startups depuis 2015.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7397"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="incubateursetacclrateurs30">
+                    INCUBATEURS ET ACCÉLÉRATEURS
+                </div>
+                <div class="groupe288231">
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1106"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-11@1x.png" class="ellipse1216"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1326"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1436"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-853@1x.png" class="rectangle85332"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-854@1x.png" class="rectangle85433"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright134"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--29@1x.png" class="arrowright135"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288336">
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1107"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-11@1x.png" class="ellipse1217"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1327"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1437"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-853@1x.png" class="rectangle85537"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-854@1x.png" class="rectangle85638"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright139"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--31@1x.png" class="arrowright140"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/logo@1x.png" class="logo41"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288442">
+                    <div class="rectangle227028">
+                    </div>
+                    <a href="accueil.html" target="_blank">
+                        <div class="rectangle228128">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3227"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="incubateuracclrateur31">
+                        INCUBATEUR/ACCÉLÉRATEUR
+                    </div>
+                    <div class="sylabs41">
+                        Sylabs
+                    </div>
+                    <div class="alger54">
+                        Alger
+                    </div>
+                    <div class="acclrateurdeprojetsetstartupsdepuis201561">
+                        Accélérateur de projets et startups depuis 2015.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7387"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-1@1x.png" class="logo43"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288544">
+                    <div class="rectangle227029">
+                    </div>
+                    <a href="accueil.html" target="_blank">
+                        <div class="rectangle228129">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3228"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="incubateuracclrateur32">
+                        INCUBATEUR/ACCÉLÉRATEUR
+                    </div>
+                    <div class="sylabs42">
+                        Sylabs
+                    </div>
+                    <div class="alger55">
+                        Alger
+                    </div>
+                    <div class="acclrateurdeprojetsetstartupsdepuis201562">
+                        Accélérateur de projets et startups depuis 2015.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7377"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-2@1x.png" class="logo45"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288646">
+                    <div class="rectangle227030">
+                    </div>
+                    <a href="https://yassir.io/" target="_blank">
+                        <div class="rectangle228130">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3229"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startupsenphaseavance31">
+                        STARTUPS EN PHASE AVANCÉE
+                    </div>
+                    <div class="yassir41">
+                        YASSIR
+                    </div>
+                    <div class="alger56">
+                        Alger
+                    </div>
+                    <div class="propritairedelapplicationvtcyassir6">
+                        Propriétaire de l’application VTC Yassir.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7407"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="startupsenphaseavance47">
+                    STARTUPS EN PHASE AVANCÉE
+                </div>
+                <div class="groupe288748">
+                    <img alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1108"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1218"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1328"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1438"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-857@1x.png" class="rectangle85749"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-858@1x.png" class="rectangle85850"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright151"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--33@1x.png" class="arrowright152"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/logo-3@1x.png" class="logo53"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288854">
+                    <div class="rectangle227031">
+                    </div>
+                    <a href="https://yassir.io/" target="_blank">
+                        <div class="rectangle228131">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3230"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startupsenphaseavance32">
+                        STARTUPS EN PHASE AVANCÉE
+                    </div>
+                    <div class="yassir42">
+                        YASSIR
+                    </div>
+                    <div class="alger57">
+                        Alger
+                    </div>
+                    <div class="propritairedelapplicationvtcyassir61">
+                        Propriétaire de l’application VTC Yassir.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7417"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-3@1x.png" class="logo55"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe288956">
+                    <div class="rectangle227032">
+                    </div>
+                    <a href="https://yassir.io/" target="_blank">
+                        <div class="rectangle228132">
+                        </div>
+                    </a>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3231"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startupsenphaseavance33">
+                        STARTUPS EN PHASE AVANCÉE
+                    </div>
+                    <div class="yassir43">
+                        YASSIR
+                    </div>
+                    <div class="alger58">
+                        Alger
+                    </div>
+                    <div class="propritairedelapplicationvtcyassir62">
+                        Propriétaire de l’application VTC Yassir.
+                    </div>
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac7427"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/logo-3@1x.png" class="logo57"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe289058">
+                    <div class="rectangle227033">
+                    </div>
+                    <div class="rectangle228133">
+                    </div>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection3232"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startups3">
+                        STARTUPS
+                    </div>
+                    <div class="freehali4">
+                        Freehali
+                    </div>
+                    <div class="alger59">
+                        Alger
+                    </div>
+                    <div class="unsitewebpourlesfreelancersalgriensdetouslesdomaines6">
+                        Un site web pour les freelancers algériens, de tous les domaines
+                    </div>
+                    <img alt="Image" anima-src="./img/logo--1-@1x.png" class="logo17"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="rectangle9268">
+                    </div>
+                    <div class="rectangle9279">
+                    </div>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection610"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startups11">
+                        STARTUPS
+                    </div>
+                    <div class="freehali12">
+                        Freehali
+                    </div>
+                    <div class="alger13">
+                        Alger
+                    </div>
+                    <div class="unsitewebpourlesfreelancersalgriensdetouslesdomaines14">
+                        Un site web pour les freelancers algériens, de tous les domaines
+                    </div>
+                    <img alt="Image" anima-src="./img/logo--1--1@1x.png" class="logo115"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="rectangle92816">
+                    </div>
+                    <div class="rectangle92917">
+                    </div>
+                    <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection718"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <div class="startups19">
+                        STARTUPS
+                    </div>
+                    <div class="freehali20">
+                        Freehali
+                    </div>
+                    <div class="alger21">
+                        Alger
+                    </div>
+                    <div class="unsitewebpourlesfreelancersalgriensdetouslesdomaines22">
+                        Un site web pour les freelancers algériens, de tous les domaines
+                    </div>
+                    <img alt="Image" anima-src="./img/logo--1--1@1x.png" class="logo123"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac74324"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac74425"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac74526"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <div class="startups59">
+                    STARTUPS
+                </div>
+                <div class="groupe289160">
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1109"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-11@1x.png" class="ellipse1219"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1329"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-11-6@1x.png" class="ellipse1439"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-853@1x.png" class="rectangle85961"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-854@1x.png" class="rectangle86062"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright163"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--35@1x.png" class="arrowright164"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle86165">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection666"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="centresderecherche67">
+                    CENTRES DE RECHERCHE
+                </div>
+                <div class="cdta68">
+                    CDTA
+                </div>
+                <div class="alger69">
+                    Alger
+                </div>
+                <div class="centrederecherchedesidiabdellah70">
+                    Centre de recherche de sidi-abdellah.
+                </div>
+                <div class="centresderecherche71">
+                    CENTRES DE RECHERCHE
+                </div>
+                <div class="groupe289272">
+                    <img alt="Image" anima-src="./img/ellipse-11-10@1x.png" class="ellipse11010"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-10@1x.png" class="ellipse12110"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-13-10@1x.png" class="ellipse13210"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-13-10@1x.png" class="ellipse14310"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-862@1x.png" class="rectangle86273"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-216-1@1x.png" class="rectangle86374"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright1751"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--37@1x.png" class="arrowright1761"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/cdta-logo-black@1x.png" class="cdtalogoblack77"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle86478">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection779"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="centresderecherche80">
+                    CENTRES DE RECHERCHE
+                </div>
+                <div class="cdta81">
+                    CDTA
+                </div>
+                <div class="alger82">
+                    Alger
+                </div>
+                <div class="centrederecherchedesidiabdellah83">
+                    Centre de recherche de sidi-abdellah.
+                </div>
+                <img alt="Image" anima-src="./img/cdta-logo-black-1@1x.png" class="cdtalogoblack84"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle86585">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection886"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="centresderecherche87">
+                    CENTRES DE RECHERCHE
+                </div>
+                <div class="cdta88">
+                    CDTA
+                </div>
+                <div class="alger89">
+                    Alger
+                </div>
+                <div class="centrederecherchedesidiabdellah90">
+                    Centre de recherche de sidi-abdellah.
+                </div>
+                <img alt="Image" anima-src="./img/cdta-logo-black-1@1x.png" class="cdtalogoblack91"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle86692">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection993"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="programmessupport94">
+                    PROGRAMMES SUPPORT
+                </div>
+                <div class="lansej95">
+                    L’ANSEJ
+                </div>
+                <div class="alger96">
+                    Alger
+                </div>
+                <div class="agencenationaldesoutienlemploidelajeunesse97">
+                    Agence national de soutien à l’emploi de la jeunesse.
+                </div>
+                <div class="programmessupport98">
+                    PROGRAMMES SUPPORT
+                </div>
+                <div class="groupe289399">
+                    <img alt="Image" anima-src="./img/ellipse-11-11@1x.png" class="ellipse11011"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-12-11@1x.png" class="ellipse12111"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-13-11@1x.png" class="ellipse13211"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-13-11@1x.png" class="ellipse14311"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                </div>
+                <img alt="Image" anima-src="./img/rectangle-867@1x.png" class="rectangle867100"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/rectangle-868@1x.png" class="rectangle868101"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright11021"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/arrow-right--1--39@1x.png" class="arrowright11031"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/site-66@1x.png" class="site66104"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle869105">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection10106"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="programmessupport107">
+                    PROGRAMMES SUPPORT
+                </div>
+                <div class="lansej108">
+                    L’ANSEJ
+                </div>
+                <div class="alger109">
+                    Alger
+                </div>
+                <div class="agencenationaldesoutienlemploidelajeunesse110">
+                    Agence national de soutien à l’emploi de la jeunesse.
+                </div>
+                <img alt="Image" anima-src="./img/site-66-1@1x.png" class="site66111"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle870112">
+                </div>
+                <img alt="Image" anima-src="./img/intersection-10@1x.png" class="intersection11113"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="programmessupport114">
+                    PROGRAMMES SUPPORT
+                </div>
+                <div class="lansej115">
+                    L’ANSEJ
+                </div>
+                <div class="alger116">
+                    Alger
+                </div>
+                <div class="agencenationaldesoutienlemploidelajeunesse117">
+                    Agence national de soutien à l’emploi de la jeunesse.
+                </div>
+                <img alt="Image" anima-src="./img/site-66-2@1x.png" class="site66118"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="groupe2299119">
+                    <div class="footer03">
+                        <div class="rectangle24407">
+                        </div>
+                        <div class="groupe4417">
+                            <div class="liensutiles07">
+                                LIENS UTILES
+                            </div>
+                            <div class="blog18">
+                                <a href="blog.html">
+                                    Blog
+                                </a>
+                            </div>
+                            <div class="acclration27">
+                                <a href="acclration.html">
+                                    Accélération
+                                </a>
+                            </div>
+                            <div class="coworking37">
+                                <a href="coworking.html">
+                                    Co-working
+                                </a>
+                            </div>
+                            <div class="activits47">
+                                <a href="activits.html">
+                                    Activités
+                                </a>
+                            </div>
+                        </div>
+                        <div class="groupe4527">
+                            <a href="apropos.html">
+                                <div class="proposdenous08">
+                                    À propos de nous
+                                </div>
+                            </a>
+                            <div class="contacteznous17">
+                                <a href="contact.html">
+                                    Contactez-nous
+                                </a>
+                            </div>
+                            <div class="services27">
+                                Services
+                            </div>
+                            <div class="confidentialit37">
+                                CONFIDENTIALITÉ
+                            </div>
+                        </div>
+                        <div class="groupe4337">
+                            <div class="sylabs07">
+                                SYLABS
+                            </div>
+                            <div
+                                class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation18">
+                                Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
+                                entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
+                                mutation.<br />
+                            </div>
+                            <img alt="Image" anima-src="./img/001-facebook-7@1x.png" class="a001facebook27"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/002-twitter-7@1x.png" class="a002twitter37"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/004-google-plus-7@1x.png" class="a004googleplus47"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="groupe4647">
+                            <div class="contact013">
+                                CONTACT
+                            </div>
+                            <div class="hellosylabsdzcom17">
+                                hello@sylabs-dz.com
+                            </div>
+                            <div class="a21377026490627">
+                                (+213) 7 70 26 49 06
+                            </div>
+                            <div class="a08ruehassaniyessad16004algercentre37">
+                                08 Rue Hassani Yessad,<br />16004, Alger Centre.
+                            </div>
+                            <img alt="Image" anima-src="./img/mail-7@1x.png" class="mail47"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/phone-7@1x.png" class="phone57"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/map-pin-7@1x.png" class="mappin67"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="copyright2020allrightsreserved57">
+                            Copyright ©2020 All rights reserved.
+                        </div>
+                        <div class="wwwsylabsdzcom67">
+                            WWW.SYLABS-DZ.COM
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------------------------------------Mail Subscription-->
+                    <div class="groupe227111" id="newsletter_subscription">
+                        <img alt="Image" anima-src="./img/810-4@1x.png" class="a81008"
+                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="gardezlecontactavecnous16">
+                            GARDEZ LE CONTACT AVEC NOUS
+                        </div>
+                        <div class="rectangle18926"></div>
+
+                        <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
+                            <input class="exemplegmailcom36" name="email" id="email_field"
+                                placeholder="exemple@gmail.com" required type="email"
+                                style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                        </form>
+
+                        <div class="votreadressemail46">
+                            Votre Adresse Mail
+                        </div>
+                        <a>
+                            <button type="submit" form="newsletter" style="cursor: pointer;"
+                                onclick="javascript:submit_form('newsletter')">
+                                <img alt="Image" anima-src="./img/trac--315-6@1x.png" class="trac31556"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/send-11@1x.png" class="send66"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </button>
+                        </a>
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter76">
+                            Restez informés de toutes nos activités, inscrivez-vous à notre newsletter
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------------------------------------Mail Subscription-->
+                    <div class="groupe227111" id="success_subscription_message" style="display: none;">
+                        <img alt="Image" src="./img/810-4@1x.png" class="a81008" />
+                        <div>
+                            <div class="gardezlecontactavecnous16">
+                                GARDEZ LE CONTACT AVEC NOUS
+                            </div>
+                            <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter76"
+                                style="width: 688px;">
+                                Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="groupe2894120">
+                    <div class="groupe22210">
+                        <div class="notification012">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon024"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-24@1x.png" class="notificationbadge124"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="notification112">
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon025"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-24@1x.png" class="notificationbadge125"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="groupe222126">
+                            <div class="notification013">
+                                <img alt="Image" anima-src="./img/notification-icon-10@1x.png"
+                                    class="notificationicon026"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/notification-badge-24@1x.png"
+                                    class="notificationbadge126"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <div class="notification113">
+                                <img alt="Image" anima-src="./img/notification-icon-10@1x.png"
+                                    class="notificationicon027"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/notification-badge-24@1x.png"
+                                    class="notificationbadge127"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <div class="groupe219726">
+                                <div class="headerdesktop06">
+                                    <img alt="Image" anima-src="./img/base-6@1x.png" class="base06"
+                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                </div>
+                                <img alt="Image" anima-src="./img/sy-wh-min-6@1x.png" class="sywhmin16"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <div class="navbarlight36">
+                                <a href="contact.html">
+                                    <div class="contact014">
+                                        CONTACT
+                                    </div>
+                                </a>
+                                <a href="coworking.html">
+                                    <div class="coworking16">
+                                        CO-WORKING
+                                    </div>
+                                </a>
+                                <a href="activits.html">
+                                    <div class="activits26">
+                                        ACTIVITÉS
+                                    </div>
+                                </a>
+                                <a href="apropos.html">
+                                    <div class="propos36">
+                                        À PROPOS
+                                    </div>
+                                </a>
+                                <a href="accueil.html">
+                                    <div class="accueil46">
+                                        ACCUEIL
+                                    </div>
+                                </a>
+                                <a href="acclration.html">
+                                    <div class="acclration56">
+                                        ACCÉLÉRATION
+                                    </div>
+                                </a>
+                                <div class="ecosystememap66">
+                                    ECOSYSTEME MAP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangle930121">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac746122"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle931123">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac747124"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle932125">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac748126"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle933127">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac749128"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle934129">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac750130"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <div class="rectangle935131">
+                </div>
+                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac751132"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+            </div>
+        </div>
+        <iframe name="votar" style="display:none;"></iframe>
+    </div>
+    <!-- Scripts -->
+    <script>
+        //----------------------------------------------------------Map
+        L.mapbox.accessToken = 'pk.eyJ1IjoibWVhdmUiLCJhIjoiY2tibmtsaW55MHZ0dzJ4cG9wZWw1ZjA2YyJ9.I8k-IuOt2Ood7_UHi3GTFQ';
+        var map = L.mapbox.map('mapid')
+            .setView([36.774477, 3.060404], 13)
+            .addLayer(L.mapbox.styleLayer('mapbox://styles/meave/ckbnq5gy625nb1inyri9sm8py'));
+        L.control.locate({ position: 'bottomright' }).addTo(map);
+        // L.control.zoom({position:'toprightt'}).addTo(map);
+        var MarkerIcon = L.Icon.extend({
+            options: {
+                shadowUrl: 'marker_shadow.png',
+                iconSize: [30, 30],
+                shadowSize: [150, 150],
+                iconAnchor: [10, 10],
+                shadowAnchor: [75, 75],
+                popupAnchor: [5, 0]
+            }
+        });
+
+        var incubatorIcon = new MarkerIcon({ iconUrl: 'marker_incubator.png' }),
+            startupIcon = new MarkerIcon({ iconUrl: 'marker_startup.png' }),
+            advanceIcon = new MarkerIcon({ iconUrl: 'marker_adv-startup.png' }),
+            coworkingIcon = new MarkerIcon({ iconUrl: 'marker_coworking.png' }),
+            researchIcon = new MarkerIcon({ iconUrl: 'marker_research.png' }),
+            supportIcon = new MarkerIcon({ iconUrl: 'marker_support.png' });
+
+        var groupAll = L.layerGroup().addTo(map);
+
+        var groupIncubator = L.layerGroup().addTo(groupAll);
+        var groupStartup = L.layerGroup().addTo(groupAll);
+        var groupAdvance = L.layerGroup().addTo(groupAll);
+        var groupCoworking = L.layerGroup().addTo(groupAll);
+        var groupResearch = L.layerGroup().addTo(groupAll);
+        var groupSupport = L.layerGroup().addTo(groupAll);
+
+
+        var marker_sylabs = L.marker([36.774477, 3.060404], { icon: incubatorIcon }).addTo(groupIncubator),
+            marker_address = L.marker([36.735600, 3.175197], { icon: coworkingIcon }).addTo(groupCoworking),
+            marker_yassir = L.marker([36.733469, 3.030727], { icon: advanceIcon }).addTo(groupAdvance),
+            marker_freehali = L.marker([36.750271, 3.039727], { icon: startupIcon }).addTo(groupStartup),
+            marker_cdta = L.marker([36.689642, 2.981856], { icon: researchIcon }).addTo(groupResearch),
+            marker_ansej = L.marker([36.741799, 2.953915], { icon: supportIcon }).addTo(groupSupport);
+
+        marker_sylabs.bindPopup("<center><img alt=\"Image\" src=\"./img/sylabs.png\" style=\"height: 70px;\"> <br> <b>Sylabs</b><br>Incubateur, accélérateur de<br>projets et startups depuis 2015.</center>", { closeOnClick: false });
+        marker_address.bindPopup("<center><img alt=\"Image\" src=\"./img/address.png\" style=\"height: 50px;\"> <br> <b>The Address</b><br>Un espace de Coworking fondé en 2018</center>", { closeOnClick: false });//{autoClose: false});
+        marker_yassir.bindPopup("<center><img alt=\"Image\" src=\"./img/yassir.png\" style=\"height: 30px;\"> <br> <b>Yassir</b><br>Startup en stade avancé spécialisée dans les technologies et services de l’information</center>", { closeOnClick: false });
+        marker_freehali.bindPopup("<center><img alt=\"Image\" src=\"./img/freehali.png\" style=\"height: 30px;\"> <br> <b>Freehali</b><br>Startup d'interim entre<br>employeurs et freelanceurs</center>", { closeOnClick: false });
+        marker_cdta.bindPopup("<center><img alt=\"Image\" src=\"./img/cdta.png\" style=\" height: 30px;\"> <br> <b>CDTA</b><br>Centre de Développement des <br>Technologies Avancées</center>", { closeOnClick: false });
+        marker_ansej.bindPopup("<center><img alt=\"Image\" src=\"./img/ansej.png\" style=\"width: 40px; height: 40px;\"> <br> <b>ANSEJ</b><br>Agence Nationale de Soutien<br>à l'Emploi des Jeunes</center>", { closeOnClick: false });
+        //----------------------------------------------------------Map
+        //-------------------------------------------------------------Dropdown
+        function updateMap(selection) {
+            //document.getElementById("myDropdown").classList.toggle("hide");
+            var option_value = selection.options[selection.selectedIndex].value;
+            clearMap();
+            switch (option_value) {
+                case "adv-startup":
+                    groupAdvance.addTo(groupAll);
+                    break;
+                case "startup":
+                    groupStartup.addTo(groupAll);
+                    break;
+                case "incubator":
+                    groupIncubator.addTo(groupAll);
+                    break;
+                case "support":
+                    groupSupport.addTo(groupAll);
+                    break;
+                case "research":
+                    groupResearch.addTo(groupAll);
+                    break;
+                case "coworking":
+                    groupCoworking.addTo(groupAll);
+                    break;
+                default:
+                    ResetMap();
+            }
+        }
+
+        function clearMap() {
+            groupAll.clearLayers();
+        }
+
+        function ResetMap() {
+            groupAdvance.addTo(groupAll);
+            groupCoworking.addTo(groupAll);
+            groupIncubator.addTo(groupAll);
+            groupResearch.addTo(groupAll);
+            groupStartup.addTo(groupAll);
+            groupSupport.addTo(groupAll);
+        }
+        //-------------------------------------------------------------Dropdown
+        anima_isHidden = function (e) {
+            if (!(e instanceof HTMLElement)) return !1;
+            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            return !1;
+        };
+        anima_loadAsyncSrcForTag = function (tag) {
+            var elements = document.getElementsByTagName(tag);
+            var toLoad = [];
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var src = e.getAttribute("src");
+                var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                if (loaded) continue;
+                var asyncSrc = e.getAttribute("anima-src");
+                if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                if (anima_isHidden(e)) continue;
+                toLoad.push(e);
+            }
+            toLoad.sort(function (a, b) {
+                return anima_getTop(a) - anima_getTop(b);
+            });
+            for (var i = 0; i < toLoad.length; i++) {
+                var e = toLoad[i];
+                var asyncSrc = e.getAttribute("anima-src");
+                e.setAttribute("src", asyncSrc);
+            }
+        };
+        anima_pauseHiddenVideos = function (tag) {
+            var elements = document.getElementsByTagName("video");
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                var isHidden = anima_isHidden(e);
+                if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                    e.play();
+                } else if (isPlaying && isHidden) {
+                    e.pause();
+                }
+            }
+        };
+        anima_loadAsyncSrc = function (tag) {
+            anima_loadAsyncSrcForTag("img");
+            anima_loadAsyncSrcForTag("iframe");
+            anima_loadAsyncSrcForTag("video");
+            anima_pauseHiddenVideos();
+        };
+        var anima_getTop = function (e) {
+            var top = 0;
+            do {
+                top += e.offsetTop || 0;
+                e = e.offsetParent;
+            } while (e);
+            return top;
+        };
+        anima_loadAsyncSrc();
+        anima_old_onResize = window.onresize;
+        anima_new_onResize = undefined;
+        anima_updateOnResize = function () {
+            if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                anima_new_onResize = function (x) {
+                    if (anima_old_onResize != undefined) anima_old_onResize(x);
+                    anima_loadAsyncSrc();
+                };
+                window.onresize = anima_new_onResize;
+                setTimeout(function () {
+                    anima_updateOnResize();
+                }, 3000);
+            }
+        };
+        anima_updateOnResize();
+        setTimeout(function () {
+            anima_loadAsyncSrc();
+        }, 200);
+    </script>
+    <script>
+        //-----------------------------------------------------------------------------------------------Form
+        function submit_form(form_id) {
+            var form = document.getElementById(form_id)[0];
+            form.submit;
+            if (window.submitted) window.submitted();
+            if (form.reportValidity()) {
+                sleep(500);
+                //form.submit;
+                var sectionDiv = document.getElementById("newsletter_subscription");
+                var success_subscription_message = document.getElementById("success_subscription_message");
+                success_subscription_message.style.display = "block";
+                sectionDiv.style.display = "none";
+
+            }
+        }
+        function sleep(milliseconds) {
+            const date = Date.now();
+            let currentDate = null;
+            do {
+                currentDate = Date.now();
+            } while (currentDate - date < milliseconds);
+        }
+    //-----------------------------------------------------------------------------------------------Form
+    </script>
+
+
+    <!-- End of Scripts -->
+</body>
+
+</html>
