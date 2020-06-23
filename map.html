@@ -410,9 +410,55 @@
                 <img alt="Image" anima-src="./img/groupe-2868@1x.png" class="groupe28687"
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 <div class="rectangle8508">
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            var placeholder = $(this).data('placeholder');
+                            $("select").select2({ theme: "material", placeholder: placeholder });
+                        });
+                    </script>
+
+                    <select data-placeholder="Rechercher l’organisme que vous voulez" form="acceleration" name="phase"
+                        id="phase_field" required class="select" style="width: 100%; height: 100%;"
+                        onchange="updateMapUnit(this)">
+                        <option></option>
+                        <optgroup label="Incubateurs">
+                            <option value="sylabs">Sylabs</option>
+                            <option value="incubme">IncubMe</option>
+                            <option value="cyberparc">Cyber de Sidi-Abdellah</option>
+                        </optgroup>
+                        <optgroup label="Espaces de Coworking">
+                            <option value="address">The Address</option>
+                            <option value="knowlab">Knowlab</option>
+                            <option value="sylabs">Sylabs</option>
+                            <option value="capcowork">capcowork</option>
+                            <option value="bulle">La Bulle Space</option>
+                        </optgroup>
+                        <optgroup label="Startups en Stade Avancé">
+                            <option value="yassir">Yassir</option>
+                            <option value="ouedkniss">Ouedkniss</option>
+                            <option value="temtem">Temtem</option>
+                        </optgroup>
+                        <optgroup label="Startups">
+                            <option value="freehali">Freehali</option>
+                            <option value="nboujiw">Nboujiw</option>
+                            <option value="3ersi">3ersi</option>
+                            <option value="legal">Legal Doctrine</option>
+                        </optgroup>
+                        <optgroup label="Centres de Recherche">
+                            <option value="cdta">CDTA - Centre de Développement des Technologies Avancées</option>
+                            <option value="cerist">CERIST - Centre de Recherche sur l’Information Scientifique et
+                                Technique</option>
+                            <option value="atrst">ATRST - Agence Thématique de Recherche en Sciences et Technologie
+                            </option>
+                        </optgroup>
+                        <optgroup label="Programmes de Support">
+                            <option value="ansej">ANSEJ - Agence Nationale de Soutien à l'Emploi des Jeunes</option>
+                            <option value="angem">ANGEM - L’Agence Nationale de Gestion des Micros Crédits</option>
+                            <option value="eadn">EADN - Entreprise d'Appui au Développement du Numérique</option>
+                        </optgroup>
+                    </select>
                 </div>
-                <input class="rechercherlorganismequevousvoulez9" name="rechercherLorganismeQueVousVoulez9"
-                    placeholder="Rechercher l’organisme que vous voulez." />
+
                 <div class="rechercher10">
                     Rechercher
                 </div>
@@ -425,12 +471,8 @@
                 <!---------------------------------------------------------------------------------------------------->
                 <!---------------------------------------------------------------------------------------------------->
                 <div class="rectangle85113">
-                    <script type="text/javascript">
-                        $(document).ready(function () {
-                            $("select").select2({ theme: "material", placeholder: "Filtrer par Catégorie" });
-                        });
-                    </script>
-                    <select onchange="updateMap(this)" class="select" style="width: 100%; height: 100%;">
+                    <select data-placeholder="Filtrer par Catégorie" onchange="updateMap(this)" class="select"
+                        style="width: 100%; height: 100%;">
                         <option></option>
                         <option value="idle">Toutes les Catégories</option>
                         <option value="incubator">Incubateurs</option>
@@ -999,9 +1041,11 @@
                             <div class="liensutiles07">
                                 LIENS UTILES
                             </div>
-                            <div class="blog18" style="font-family: Poppins-Bold;">
-                                Blog
-                            </div>
+                            <a href="accueil.html#blog">
+                                <div class="blog18" style="font-family: Poppins-Bold;">
+                                    Blog
+                                </div>
+                            </a>
                             <a href="acclration.html">
 
                                 <div class="acclration27" style="font-family: Poppins-Bold;">
@@ -1029,14 +1073,15 @@
                             </a>
                             <a href="contact.html">
 
-                            <div class="contacteznous17" style="font-family: Poppins-Bold;">
+                                <div class="contacteznous17" style="font-family: Poppins-Bold;">
                                     Contactez-nous
-                            </div>
-                        </a>
-
-                            <div class="services27" style="font-family: Poppins-Bold;">
-                                Services
-                            </div>
+                                </div>
+                            </a>
+                            <a href="accueil.html#services">
+                                <div class="services27" style="font-family: Poppins-Bold;">
+                                    Services
+                                </div>
+                            </a>
                             <div class="confidentialit37">
                                 CONFIDENTIALITÉ
                             </div>
@@ -1051,10 +1096,12 @@
                                 entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
                                 mutation.<br />
                             </div>
-                            <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image" anima-src="./img/001-facebook-7@1x.png" class="a001facebook27"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                                <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-7@1x.png" class="a002twitter37"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image"
+                                    anima-src="./img/001-facebook-7@1x.png" class="a001facebook27"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="https://www.twitter.com/sylabsdz"><img alt="Image"
+                                    anima-src="./img/002-twitter-7@1x.png" class="a002twitter37"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                             <img alt="Image" anima-src="./img/004-google-plus-7@1x.png" class="a004googleplus47"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
@@ -1068,7 +1115,8 @@
                             <div class="a21377026490627" style="font-family: Poppins-Bold;">
                                 (+213) 7 70 26 49 06
                             </div>
-                            <div class="a08ruehassaniyessad16004algercentre37" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                            <div class="a08ruehassaniyessad16004algercentre37"
+                                style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                                 08 Rue Hassani Yessad,<br />16004, Alger Centre.
                             </div>
                             <img alt="Image" anima-src="./img/mail-7@1x.png" class="mail47"
@@ -1169,8 +1217,9 @@
                                     <img alt="Image" anima-src="./img/base-6@1x.png" class="base06"
                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                                 </div>
-                                <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-6@1x.png" class="sywhmin16"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                                <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-6@1x.png"
+                                        class="sywhmin16"
+                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                             </div>
                             <div class="navbarlight36">
                                 <a href="contact.html">
@@ -1275,21 +1324,114 @@
         var groupSupport = L.layerGroup().addTo(groupAll);
 
 
-        var marker_sylabs = L.marker([36.774477, 3.060404], { icon: incubatorIcon }).addTo(groupIncubator),
+
+        var marker_sylabs = L.marker([36.774477, 3.060404], { icon: incubatorIcon }).addTo(groupIncubator).addTo(groupCoworking),
+            marker_incubme = L.marker([36.758653, 2.918921], { icon: incubatorIcon }).addTo(groupIncubator),
+            marker_cyberparc = L.marker([36.679222, 2.898970], { icon: incubatorIcon }).addTo(groupIncubator),
             marker_address = L.marker([36.735600, 3.175197], { icon: coworkingIcon }).addTo(groupCoworking),
+            marker_knowlab = L.marker([36.265817, 2.790325], { icon: coworkingIcon }).addTo(groupCoworking),
+            marker_bulle = L.marker([36.749080, 3.053256], { icon: coworkingIcon }).addTo(groupCoworking),
+            marker_capcowork = L.marker([36.742979, 3.030043], { icon: coworkingIcon }).addTo(groupCoworking),
             marker_yassir = L.marker([36.733469, 3.030727], { icon: advanceIcon }).addTo(groupAdvance),
+            marker_ouedkniss = L.marker([36.726363, 3.097156], { icon: advanceIcon }).addTo(groupAdvance),
+            marker_temtem = L.marker([36.761056, 3.025183], { icon: advanceIcon }).addTo(groupAdvance),
             marker_freehali = L.marker([36.750271, 3.039727], { icon: startupIcon }).addTo(groupStartup),
+            marker_nboujiw = L.marker([36.774663, 3.060417], { icon: startupIcon }).addTo(groupStartup),
+            marker_3ersi = L.marker([36.774868, 3.058209], { icon: startupIcon }).addTo(groupStartup),
+            marker_legal = L.marker([36.749823, 3.021755], { icon: startupIcon }).addTo(groupStartup),
             marker_cdta = L.marker([36.689642, 2.981856], { icon: researchIcon }).addTo(groupResearch),
-            marker_ansej = L.marker([36.741799, 2.953915], { icon: supportIcon }).addTo(groupSupport);
+            marker_cerist = L.marker([36.759201, 3.003973], { icon: researchIcon }).addTo(groupResearch),
+            marker_atrst = L.marker([36.722194, 3.149650], { icon: researchIcon }).addTo(groupResearch),
+            marker_ansej = L.marker([36.741799, 2.953915], { icon: supportIcon }).addTo(groupSupport),
+            marker_eadn = L.marker([36.681156, 2.899636], { icon: supportIcon }).addTo(groupSupport),
+            marker_angem = L.marker([36.255995, 6.588278], { icon: supportIcon }).addTo(groupSupport);
 
         marker_sylabs.bindPopup("<center><img alt=\"Image\" src=\"./img/sylabs.png\" style=\"height: 70px;\"> <br> <b>Sylabs</b><br>Incubateur, accélérateur de<br>projets et startups depuis 2015.</center>", { closeOnClick: false });
+        marker_incubme.bindPopup("<center><img alt=\"Image\" src=\"./img/incubme.png\" style=\"height: 40px;\"> <br> <b>IncubMe</b><br>Incubateur Algérien.</center>", { closeOnClick: false });
+        marker_cyberparc.bindPopup("<center><img alt=\"Image\" src=\"./img/cyberparc.png\" style=\"height: 70px;\"> <br> <b>Cyber Parc de Sidi Abdallah</b><br>Incubateur étatique.</center>", { closeOnClick: false });
         marker_address.bindPopup("<center><img alt=\"Image\" src=\"./img/address.png\" style=\"height: 50px;\"> <br> <b>The Address</b><br>Un espace de Coworking fondé en 2018</center>", { closeOnClick: false });//{autoClose: false});
-        marker_yassir.bindPopup("<center><img alt=\"Image\" src=\"./img/yassir.png\" style=\"height: 30px;\"> <br> <b>Yassir</b><br>Startup en stade avancé spécialisée dans les technologies et services de l’information</center>", { closeOnClick: false });
-        marker_freehali.bindPopup("<center><img alt=\"Image\" src=\"./img/freehali.png\" style=\"height: 30px;\"> <br> <b>Freehali</b><br>Startup d'interim entre<br>employeurs et freelanceurs</center>", { closeOnClick: false });
-        marker_cdta.bindPopup("<center><img alt=\"Image\" src=\"./img/cdta.png\" style=\" height: 30px;\"> <br> <b>CDTA</b><br>Centre de Développement des <br>Technologies Avancées</center>", { closeOnClick: false });
-        marker_ansej.bindPopup("<center><img alt=\"Image\" src=\"./img/ansej.png\" style=\"width: 40px; height: 40px;\"> <br> <b>ANSEJ</b><br>Agence Nationale de Soutien<br>à l'Emploi des Jeunes</center>", { closeOnClick: false });
+        marker_knowlab.bindPopup("<center><img alt=\"Image\" src=\"./img/knowlab.png\" style=\"height: 50px;\"> <br> <b>Knowlab</b><br>Un espace de Coworking.</center>", { closeOnClick: false });//{autoClose: false});
+        marker_capcowork.bindPopup("<center><img alt=\"Image\" src=\"./img/capcowork.png\" style=\"height: 50px;\"> <br> <b>The Address</b><br>Un espace de Coworking.</center>", { closeOnClick: false });//{autoClose: false});
+        marker_bulle.bindPopup("<center><img alt=\"Image\" src=\"./img/bulle.png\" style=\"height: 50px;\"> <br> <b>La Bulle Space</b><br>Un espace de Coworking.</center>", { closeOnClick: false });//{autoClose: false});
+        marker_yassir.bindPopup("<center><img alt=\"Image\" src=\"./img/yassir.png\" style=\"height: 30px;\"> <br> <b>Yassir</b><br>Startup en stade avancé spécialisée dans les technologies et services de l’information.</center>", { closeOnClick: false });
+        marker_ouedkniss.bindPopup("<center><img alt=\"Image\" src=\"./img/ouedkniss.png\" style=\"height: 30px;\"> <br> <b>OuedKniss</b><br>Startup en stade avancé<br>de vente en ligne.</center>", { closeOnClick: false });
+        marker_temtem.bindPopup("<center><img alt=\"Image\" src=\"./img/temtem.png\" style=\"height: 30px;\"> <br> <b>Tem;Tem</b><br>Startup en stade avancé<br>spécialisée dans la VTC.</center>", { closeOnClick: false });
+        marker_freehali.bindPopup("<center><img alt=\"Image\" src=\"./img/freehali.png\" style=\"height: 30px;\"> <br> <b>Freehali</b><br>Startup d'interim entre<br>employeurs et freelanceurs.</center>", { closeOnClick: false });
+        marker_nboujiw.bindPopup("<center><img alt=\"Image\" src=\"./img/nboujiw.png\" style=\"height: 30px;\"> <br> <b>Nboujiw</b><br>Startup de voyage<br>et de tourisme.</center>", { closeOnClick: false });
+        marker_3ersi.bindPopup("<center><img alt=\"Image\" src=\"./img/3ersi.png\" style=\"height: 30px;\"> <br> <b>3ersi</b><br>Startup d'organisation<br>de marriages.</center>", { closeOnClick: false });
+        marker_legal.bindPopup("<center><img alt=\"Image\" src=\"./img/legal.png\" style=\"height: 30px;\"> <br> <b>Legal Doctrine</b><br>Startup spécialisée dans<br>la législation Algérienne.</center>", { closeOnClick: false });
+        marker_cdta.bindPopup("<center><img alt=\"Image\" src=\"./img/cdta.png\" style=\" height: 30px;\"> <br> <b>CDTA</b><br>Centre de Développement des<br>Technologies Avancées.</center>", { closeOnClick: false });
+        marker_cerist.bindPopup("<center><img alt=\"Image\" src=\"./img/cerist.png\" style=\" height: 30px;\"> <br> <b>CERIST</b><br>Centre de Recherche sur<br>l’Information Scientifique et Technique.</center>", { closeOnClick: false });
+        marker_atrst.bindPopup("<center><img alt=\"Image\" src=\"./img/atrst.png\" style=\" height: 30px;\"> <br> <b>ATRST</b><br>Agence Thématique de Recherche<br>en Sciences et Technologie.</center>", { closeOnClick: false });
+        marker_ansej.bindPopup("<center><img alt=\"Image\" src=\"./img/ansej.png\" style=\"width: 40px; height: 40px;\"> <br> <b>ANSEJ</b><br>Agence Nationale de Soutien<br>à l'Emploi des Jeunes.</center>", { closeOnClick: false });
+        marker_angem.bindPopup("<center><img alt=\"Image\" src=\"./img/angem.png\" style=\"width: 40px; height: 40px;\"> <br> <b>ANGEM</b><br>L’Agence Nationale de<br>Gestion des Micros Crédit</center>", { closeOnClick: false });
+        marker_eadn.bindPopup("<center><img alt=\"Image\" src=\"./img/eadn.png\" style=\"width: 40px; height: 40px;\"> <br> <b>EADN</b><br>Entreprise d'Appui au<br>Développement du Numérique.</center>", { closeOnClick: false });
         //----------------------------------------------------------Map
         //-------------------------------------------------------------Dropdown
+        function updateMapUnit(selection) {
+            //document.getElementById("myDropdown").classList.toggle("hide");
+            var option_value = selection.options[selection.selectedIndex].value;
+            clearMap();
+            switch (option_value) {
+                case "sylabs":
+                    marker_sylabs.addTo(groupAll).openPopup();
+                    break;
+                case "incubme":
+                    marker_incubme.addTo(groupAll).openPopup();
+                    break;
+                case "cyberparc":
+                    marker_cyberparc.addTo(groupAll).openPopup();
+                    break;
+                case "address":
+                    marker_address.addTo(groupAll).openPopup();
+                    break;
+                case "knowlab":
+                    marker_knowlab.addTo(groupAll).openPopup();
+                    break;
+                case "bulle":
+                    marker_bulle.addTo(groupAll).openPopup();
+                    break;
+                case "yassir":
+                    marker_yassir.addTo(groupAll).openPopup();
+                    break;
+                case "ouedkniss":
+                    marker_temtem.addTo(groupAll).openPopup();
+                    break;
+                case "freehali":
+                    marker_freehali.addTo(groupAll).openPopup();
+                    break;
+                case "nboujiw":
+                    marker_nboujiw.addTo(groupAll).openPopup();
+                    break;
+                case "3ersi":
+                    marker_3ersi.addTo(groupAll).openPopup();
+                    break;
+                case "legal":
+                    marker_legal.addTo(groupAll).openPopup();
+                    break;
+                case "cdta":
+                    marker_cdta.addTo(groupAll).openPopup();
+                    break;
+                case "cerist":
+                    marker_cerist.addTo(groupAll).openPopup();
+                    break;
+                case "atrst":
+                    marker_atrst.addTo(groupAll).openPopup();
+                    break;
+                case "ansej":
+                    marker_ansej.addTo(groupAll).openPopup();
+                    break;
+                case "angem":
+                    marker_angem.addTo(groupAll).openPopup();
+                    break;
+                case "eadn":
+                    marker_eadn.addTo(groupAll).openPopup();
+                    break;
+                default:
+                    ResetMap();
+            }
+        }
+
         function updateMap(selection) {
             //document.getElementById("myDropdown").classList.toggle("hide");
             var option_value = selection.options[selection.selectedIndex].value;
