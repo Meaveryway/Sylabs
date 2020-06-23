@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 
-@font-face { font-family: "Goodlights"; src: url('fonts/Goodlights.ttf'); }
-@font-face { font-family: "Poppins"; src: url('fonts/Poppins.ttf'); }
 
 .acclration {
   width               : 100%;
@@ -655,7 +653,7 @@ div {
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Goodlights";
+  font-family         : "Goodlights", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
   font-size           : 25.0px;
@@ -948,7 +946,7 @@ div {
   pointer-events      : auto;
 }
 .acclration .groupe29090 .groupe23002 .rectangle84928:hover {
-  transform           : scale(1.1);
+  transform           : scale(1);
 }
 .acclration .groupe29090 .groupe23002 .brefpitchdeprsentation29 {
   background-color    : rgba(255,255,255,0.0);

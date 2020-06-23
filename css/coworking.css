@@ -846,7 +846,7 @@ div {
   left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins-Black";
   font-weight         : 700;
   font-style          : normal;
   font-size           : 17.0px;
@@ -2212,10 +2212,10 @@ da {
   left                : 263px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins-Bold", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 11.0px;
   color               : rgba(232, 197, 0, 1.0);
   text-align          : center;
   line-height         : 10.0px;
