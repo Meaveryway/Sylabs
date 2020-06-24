@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,800,600,700,400|Goodlights:400|Helvetica+Neue:400');
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+       url('../fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
+
+@font-face {
+  font-family: 'Goodlights';
+  src: url('../fonts/Goodlights.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+       url('../fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 .merci {
   width               : 100%;
@@ -203,7 +227,7 @@ div {
   left                : 617px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -221,7 +245,7 @@ div {
   left                : 263px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -239,7 +263,7 @@ div {
   left                : 175px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -257,7 +281,7 @@ div {
   left                : 83px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -275,7 +299,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -293,7 +317,7 @@ div {
   left                : 370px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -311,7 +335,7 @@ div {
   left                : 485px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -340,7 +364,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 800;
   font-style          : normal;
   font-size           : 31.0px;
@@ -358,7 +382,7 @@ div {
   left                : 8px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 20.0px;
@@ -418,7 +442,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 600;
   font-style          : normal;
   font-size           : 13.0px;
@@ -436,7 +460,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -454,7 +478,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -472,7 +496,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -490,7 +514,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -519,7 +543,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -537,7 +561,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -555,7 +579,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -573,7 +597,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 600;
   font-style          : normal;
   font-size           : 13.0px;
@@ -602,7 +626,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 700;
   font-style          : normal;
   font-size           : 29.0px;
@@ -621,7 +645,7 @@ div {
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 22.0px;
@@ -811,7 +835,7 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 600;
   font-style          : normal;
   font-size           : 13.0px;
@@ -829,7 +853,7 @@ div {
   left                : 25px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -847,7 +871,7 @@ div {
   left                : 25px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -865,7 +889,7 @@ div {
   left                : 25px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -949,7 +973,7 @@ div {
   left                : 154px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 13.0px;
@@ -967,7 +991,7 @@ div {
   left                : 1159px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 10.0px;
@@ -1006,7 +1030,7 @@ div {
   left                : 74px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 800;
   font-style          : normal;
   font-size           : 18.0px;
@@ -1035,7 +1059,7 @@ div {
   left                : 510px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 400;
   font-style          : normal;
   font-size           : 9.0px;
@@ -1059,7 +1083,7 @@ div {
   left                : 498px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 9.0px;
