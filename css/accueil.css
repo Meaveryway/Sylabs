@@ -7,6 +7,7 @@
   font-style: normal;
 
 }
+
 @font-face {
   font-family: 'Goodlights';
   src: url('../fonts/Goodlights.ttf') format('truetype');
@@ -14,6 +15,16 @@
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+       url('../fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 
 .accueil {
   width               : 100%;
@@ -3792,7 +3803,7 @@ div {
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
   font-size           : 22.0px;

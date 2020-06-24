@@ -23,8 +23,8 @@
 
       <script type="text/javascript">
         function zoom() {
-            //document.body.style.zoom = "110%" 
-            document.getElementById('mainDiv').style.width = window.screen.width;
+            if (window.screen.width!=1440)
+                document.body.style.zoom = "110%" 
         }
 </script>
 </head>
