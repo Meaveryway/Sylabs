@@ -4,7 +4,7 @@
 <head>
     <link href="./img/favicon.png" rel="shortcut icon" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="yes" name="mobile-web-app-capable" />
     <meta content="default" name="apple-mobile-web-app-status-bar-style" />
@@ -20,13 +20,20 @@
     <style> html {
         scroll-behavior: smooth;
       }</style>
+
+      <script type="text/javascript">
+        function zoom() {
+            //document.body.style.zoom = "110%" 
+            document.getElementById('mainDiv').style.width = window.screen.width;
+        }
+</script>
 </head>
 
-<body style="margin: 0;
+<body onload="zoom()" style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
     <input id="anPageName" name="page" type="hidden" value="accueil" />
     <div class="accueil anima-word-break anima-smart-layers-pointers ">
-        <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+        <div id="mainDiv" style="position:relative; margin:auto;">
             <div class="groupe29040">
                 <div class="groupe22290">
                     <div class="groupe22220">
