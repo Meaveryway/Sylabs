@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 @font-face {
+  font-family: 'Helvetica 45 Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
+}
+@font-face {
   font-family: 'Poppins';
   src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
        url('../fonts/poppins-regular-webfont.woff') format('woff');
@@ -130,6 +136,11 @@ div {
   margin              : 0;
   left                : 1322px;
   transform           : rotate(0deg);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.accueil .groupe29040 .groupe22290 .groupe22291 .trac3130:hover {
+transform: scale(1.3);
 }
 .accueil .groupe29040 .groupe22290 .groupe22291 .trac3141 {
   background-color    : rgba(255,255,255,0.0);
@@ -140,6 +151,11 @@ div {
   margin              : 0;
   left                : -3px;
   transform           : rotate(0deg);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.accueil .groupe29040 .groupe22290 .groupe22291 .trac3141:hover {
+transform: scale(1.3);
 }
 .accueil .groupe29040 .groupe22290 .groupe22302 {
   background-color    : rgba(255,255,255,0.0);
@@ -557,6 +573,9 @@ div {
 .accueil .groupe29040 .groupe22290 .groupe22275 .rectangle2053:hover {
   transform           : scale(1.1);
 }
+.accueil .groupe29040 .groupe22290 .groupe22275 .rectangle2053:hover ~ .groupe104 {
+  transform           : scale(1.1);
+}
 
 .accueil .groupe29040 .groupe22290 .groupe22275 .groupe104 {
   background-color    : rgba(255,255,255,0.0);
@@ -564,10 +583,13 @@ div {
   height              : 15px;
   width               : 89px;
   position            : absolute;
+  pointer-events: none;
   margin              : 0;
   left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.2s;
 }
 .accueil .groupe29040 .groupe22290 .groupe22275 .groupe104 .arrowright10 {
   background-color    : rgba(255,255,255,0.0);
@@ -802,6 +824,14 @@ div {
 .accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2080:hover{
   transform           : scale(1.1);
 }
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2080:hover ~ .accompagnementetacclration3 {
+  transform           : scale(1.05);
+  margin-top: -3px;
+}
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2080:hover ~ .nousvousaccompagnonsdanslamiseenoeuvredevosobjectifsenvousproposantdiffrentsprogrammes6 {
+  transform           : scale(1.05);
+  margin-top: 3px;
+}
 .accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2111 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -6px;
@@ -818,6 +848,14 @@ div {
 }
 .accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2111:hover {
   transform           : scale(1.1);
+}
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2111:hover ~ .miseenrelationetgestionvnementielle4 {
+  transform           : scale(1.05);
+  margin-top: -3px;
+}
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2111:hover ~ .nouslaboronsunecartedelcosystmealgrienetnousprenonsenchargevosvnements7 {
+  transform           : scale(1.05);
+  margin-top: 3px;
 }
 .accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2122 {
   background-color    : rgba(255,255,255,0.0);
@@ -836,6 +874,14 @@ div {
 .accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2122:hover {
   transform           : scale(1.1);
 }
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2122:hover ~ .espacecoworkingetdomiciliation5 {
+  transform           : scale(1.05);
+  margin-top: -3px;
+}
+.accueil .groupe29040 .groupe22290 .groupe22419 .rectangle2122:hover ~ .avecnosoffresdecoworkingvouspouveztravailleretcollaborersanslimitesdansnoslocaux8{
+  transform           : scale(1.05);
+  margin-top: 3px;
+}
 .accueil .groupe29040 .groupe22290 .groupe22419 .accompagnementetacclration3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
@@ -853,11 +899,11 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : center;
   line-height         : 15.0px;
+  transition-property: all;
+  transition-duration: 0.15s;
   pointer-events: none;
 }
-.miseenrelationetgestionvnementielle4:hover{
-  transform: scale(1.3);
-}
+
 .accueil .groupe29040 .groupe22290 .groupe22419 .miseenrelationetgestionvnementielle4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 90px;
@@ -866,6 +912,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 460px;
+  transition-property: all;
+  transition-duration: 0.15s;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
@@ -879,9 +927,6 @@ div {
 .miseenrelationetgestionvnementielle4 {
   pointer-events      : auto;
 }
-.miseenrelationetgestionvnementielle4:hover{
-  transform           : scale(1.1);
-}
 .accueil .groupe29040 .groupe22290 .groupe22419 .espacecoworkingetdomiciliation5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
@@ -890,6 +935,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 910px;
+  transition-property: all;
+  transition-duration: 0.15s;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
@@ -910,6 +957,8 @@ div {
   left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.15s;
   font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
@@ -922,6 +971,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 125px;
   height              : 93px;
+  transition-property: all;
+  transition-duration: 0.15s;
   width               : 228px;
   position            : absolute;
   margin              : 0;
@@ -939,6 +990,8 @@ div {
 .accueil .groupe29040 .groupe22290 .groupe22419 .avecnosoffresdecoworkingvouspouveztravailleretcollaborersanslimitesdansnoslocaux8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 128px;
+  transition-property: all;
+  transition-duration: 0.15s;
   height              : 90px;
   width               : 238px;
   position            : absolute;
@@ -4224,6 +4277,8 @@ div {
   margin              : 0;
   left                : -0px;
   transform           : rotate(0deg);
+  transition-duration: 0.15s;
+  transition-property: all;
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .intersection42 .nikmacmillan280300unsplash0 {
   background-color    : rgba(255,255,255,0.0);
@@ -4250,20 +4305,30 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  z-index: -100;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-duration: 0.15s;
+  transition-property: all;
 }
+
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2354 {
   background-color    : rgba(248, 248, 248, 1.0);
   top                 : 607px;
   height              : 111px;
   width               : 264px;
   position            : absolute;
+  z-index: -100;
   margin              : 0;
   left                : 862px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2354:hover {
+  transform: scale(1.1);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2335 {
   background-color    : rgba(248, 248, 248, 1.0);
@@ -4275,6 +4340,12 @@ div {
   left                : 432px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  z-index: -100;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2335:hover {
+  transform: scale(1.1);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2366 {
   background-color    : rgba(248, 248, 248, 1.0);
@@ -4286,6 +4357,12 @@ div {
   left                : 432px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  z-index: -100;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2366:hover {
+  transform: scale(1.1);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2347 {
   background-color    : rgba(248, 248, 248, 1.0);
@@ -4297,6 +4374,12 @@ div {
   left                : 862px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  z-index: -100;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2347:hover {
+  transform: scale(1.1);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2378 {
   background-color    : rgba(248, 248, 248, 1.0);
@@ -4308,12 +4391,20 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  z-index: -100;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.accueil .groupe29040 .groupe22512 .groupe22490 .rectangle2378:hover {
+  transform: scale(1.1);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .business9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 320px;
   height              : auto;
   width               : auto;
+  transition-duration: 0.15s;
+  transition-property: all;
   position            : absolute;
   margin              : 0;
   left                : 107px;
@@ -4338,6 +4429,8 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
+  transition-duration: 0.15s;
+  transition-property: all;
   font-weight         : 700;
   font-style          : normal;
   font-size           : 10.0px;
@@ -4351,6 +4444,8 @@ div {
   height              : auto;
   width               : auto;
   position            : absolute;
+  transition-duration: 0.15s;
+  transition-property: all;
   margin              : 0;
   left                : 525px;
   transform           : rotate(0deg);
@@ -4369,6 +4464,8 @@ div {
   height              : auto;
   width               : auto;
   position            : absolute;
+  transition-duration: 0.15s;
+  transition-property: all;
   margin              : 0;
   left                : 516px;
   transform           : rotate(0deg);
@@ -4392,6 +4489,8 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
+  transition-duration: 0.15s;
+  transition-property: all;
   font-weight         : 700;
   font-style          : normal;
   font-size           : 10.0px;
@@ -4412,6 +4511,8 @@ div {
   font-family         : "Poppins";
   font-weight         : 700;
   font-style          : normal;
+  transition-duration: 0.15s;
+  transition-property: all;
   font-size           : 10.0px;
   color               : rgba(232, 197, 0, 1.0);
   text-align          : center;
@@ -4424,6 +4525,8 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 39px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -4443,6 +4546,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 885px;
+  transition-duration: 0.15s;
+  transition-property: all;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
@@ -4464,6 +4569,8 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
+  transition-duration: 0.15s;
+  transition-property: all;
   font-weight         : 600;
   font-style          : normal;
   font-size           : 13.0px;
@@ -4481,6 +4588,8 @@ div {
   left                : 449px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-duration: 0.15s;
+  transition-property: all;
   font-family         : "Poppins";
   font-weight         : 600;
   font-style          : normal;
@@ -4501,6 +4610,8 @@ div {
   opacity             : 1.0;
   font-family         : "Poppins";
   font-weight         : 600;
+  transition-duration: 0.15s;
+  transition-property: all;
   font-style          : normal;
   font-size           : 13.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -4512,6 +4623,8 @@ div {
   top                 : 646px;
   height              : auto;
   width               : auto;
+  transition-duration: 0.15s;
+  transition-property: all;
   position            : absolute;
   margin              : 0;
   left                : 66px;
@@ -4533,6 +4646,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 35px;
+  transition-duration: 0.15s;
+  transition-property: all;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
@@ -4549,6 +4664,8 @@ div {
   height              : 50px;
   width               : 197px;
   position            : absolute;
+  transition-duration: 0.15s;
+  transition-property: all;
   margin              : 0;
   left                : 897px;
   transform           : rotate(0deg);
@@ -4570,6 +4687,8 @@ div {
   margin              : 0;
   left                : 466px;
   transform           : rotate(0deg);
+  transition-duration: 0.15s;
+  transition-property: all;
   opacity             : 1.0;
   font-family         : "Poppins";
   font-weight         : 500;
@@ -4589,6 +4708,8 @@ div {
   left                : 466px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-duration: 0.15s;
+  transition-property: all;
   font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
@@ -4607,6 +4728,8 @@ div {
   left                : 897px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-duration: 0.15s;
+  transition-property: all;
   font-family         : "Poppins";
   font-weight         : 500;
   font-style          : normal;
@@ -4623,6 +4746,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 35px;
+  transition-duration: 0.15s;
+  transition-property: all;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Poppins";
@@ -4637,6 +4762,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 448px;
   height              : 159px;
+  transition-duration: 0.15s;
+  transition-property: all;
   width               : 264px;
   position            : absolute;
   margin              : 0;
@@ -4668,6 +4795,8 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 432px;
   transform           : rotate(0deg);
 }
@@ -4696,6 +4825,8 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 432px;
   transform           : rotate(0deg);
 }
@@ -4722,6 +4853,8 @@ div {
   top                 : 142px;
   height              : 159px;
   width               : 264px;
+  transition-duration: 0.15s;
+  transition-property: all;
   position            : absolute;
   margin              : 0;
   left                : 862px;
@@ -4751,6 +4884,8 @@ div {
   height              : 159px;
   width               : 264px;
   position            : absolute;
+  transition-duration: 0.15s;
+  transition-property: all;
   margin              : 0;
   left                : 862px;
   transform           : rotate(0deg);
@@ -4782,7 +4917,14 @@ div {
   margin              : 0;
   left                : 1px;
   transform           : rotate(0deg);
+  transition-duration: 0.15s;
+  transition-property: all;
 }
+
+.accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .rectangle23832, .accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .visualisercetterencontreavecmrsalimmerakchi21, .accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .parlonsbusinessenalgrie15, .accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .business9, .accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .intersection42, .accueil .groupe29040 .groupe22512 .groupe22490 .medium1:hover > .rectangle2323{
+  transform: scale(1.1);
+}
+
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle23933 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 141px;
@@ -4791,6 +4933,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 432px;
+  transition-duration: 0.15s;
+  transition-property: all;
   transform           : rotate(0deg);
 }
 .accueil .groupe29040 .groupe22512 .groupe22490 .rectangle24034 {
@@ -4800,6 +4944,8 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 862px;
   transform           : rotate(0deg);
 }
@@ -4810,6 +4956,8 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 862px;
   transform           : rotate(0deg);
 }
@@ -4820,6 +4968,8 @@ div {
   width               : 264px;
   position            : absolute;
   margin              : 0;
+  transition-duration: 0.15s;
+  transition-property: all;
   left                : 432px;
   transform           : rotate(0deg);
 }
@@ -4831,6 +4981,8 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 1px;
+  transition-duration: 0.15s;
+  transition-property: all;
   transform           : rotate(0deg);
 }
 .accueil .groupe29040 .groupe22512 .groupe22501 {
@@ -4980,6 +5132,7 @@ div {
   margin              : 0;
   left                : -45px;
   transform           : rotate(0deg);
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
 }
 .accueil .groupe29040 .groupe22523 .gardezlecontactavecnous1 {
   background-color    : rgba(255,255,255,0.0);
@@ -5009,6 +5162,7 @@ div {
   left                : 498px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+color-adjust:"exact";
 }
 .accueil .groupe29040 .groupe22523 .exemplegmailcom3 {
   background-color    : rgba(255,255,255,0.0);
@@ -5030,9 +5184,11 @@ div {
   border              : 0;
   resize              : none;
   padding             : 0;
+  filter              : contrast(0.5);
 }
 .accueil .groupe29040 .groupe22523 .exemplegmailcom3::placeholder {
   color               : rgba(206, 206, 206, 0.6);
+  filter              : contrast(0.5);
 }
 .accueil .groupe29040 .groupe22523 .votreadressemail4 {
   background-color    : rgba(255,255,255,0.0);
@@ -5527,6 +5683,7 @@ div {
   margin              : 0;
   left                : -45px;
   transform           : rotate(0deg);
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
 }
 .accueil .groupe29040 .groupe29125 .send1 {
   background-color    : rgba(255,255,255,0.0);

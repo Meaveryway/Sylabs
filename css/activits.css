@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 @font-face {
+  font-family: 'Helvetica 45 Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
+}
+@font-face {
   font-family: 'Poppins';
   src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
        url('../fonts/poppins-regular-webfont.woff') format('woff');
@@ -852,7 +858,13 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
+.activits .groupe29060 .groupe22483 .groupe223911 .rectangle228118:hover {
+transform: scale(1.2);
+}
+
 .activits .groupe29060 .groupe22483 .groupe223911 .intersection3217 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -6px;
@@ -1018,6 +1030,11 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.activits .groupe29060 .groupe22483 .groupe224321 .rectangle228119:hover {
+transform: scale(1.2);
 }
 .activits .groupe29060 .groupe22483 .groupe224321 .intersection3218 {
   background-color    : rgba(255,255,255,0.0);
@@ -1184,6 +1201,11 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.activits .groupe29060 .groupe22483 .groupe224431 .rectangle228120:hover {
+transform: scale(1.2);
 }
 .activits .groupe29060 .groupe22483 .groupe224431 .intersection3219 {
   background-color    : rgba(255,255,255,0.0);
@@ -1350,6 +1372,11 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.activits .groupe29060 .groupe22483 .groupe224541 .rectangle228121:hover {
+transform: scale(1.2);
 }
 .activits .groupe29060 .groupe22483 .groupe224541 .intersection3220 {
   background-color    : rgba(255,255,255,0.0);
@@ -1516,6 +1543,11 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.activits .groupe29060 .groupe22483 .groupe224651 .rectangle228122:hover {
+transform: scale(1.2);
 }
 .activits .groupe29060 .groupe22483 .groupe224651 .intersection3221 {
   background-color    : rgba(255,255,255,0.0);
@@ -1682,7 +1714,13 @@ div {
   left                : 312px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
+.activits .groupe29060 .groupe22483 .groupe224761 .rectangle228123:hover {
+transform: scale(1.2);
+}
+
 .activits .groupe29060 .groupe22483 .groupe224761 .intersection3222 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -6px;
@@ -2132,6 +2170,9 @@ div {
 .activits .groupe29060 .groupe22774 .trac3185:hover {
   transform           : scale(1.1);
 }
+.activits .groupe29060 .groupe22774 .trac3185:hover ~ .groupe6710{
+  transform           : scale(1.2);
+}
 .activits .groupe29060 .groupe22774 .descriptiondonneznousplusdedtails6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 280px;
@@ -2227,11 +2268,14 @@ div {
   top                 : 502px;
   height              : 19px;
   width               : 81px;
+  pointer-events: none;
   position            : absolute;
   margin              : 0;
   left                : 132px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition-property: all;
+  transition-duration: 0.2s;
 }
 .activits .groupe29060 .groupe22774 .groupe6710 .envoyer0 {
   background-color    : rgba(255,255,255,0.0);
@@ -2327,6 +2371,7 @@ div {
   margin              : 0;
   left                : -45px;
   transform           : rotate(0deg);
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
 }
 .activits .groupe29060 .groupe22525 .gardezlecontactavecnous12 {
   background-color    : rgba(255,255,255,0.0);
@@ -2356,6 +2401,7 @@ div {
   left                : 498px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  filter              : contrast(0.75);
 }
 .activits .groupe29060 .groupe22525 .exemplegmailcom32 {
   background-color    : rgba(255,255,255,0.0);
@@ -2376,10 +2422,12 @@ div {
   line-height         : 9.0px;
   border              : 0;
   resize              : none;
+  filter              : contrast(0.5);
   padding             : 0;
 }
 .activits .groupe29060 .groupe22525 .exemplegmailcom32::placeholder {
   color               : rgba(206, 206, 206, 0.6);
+  filter              : contrast(0.5);
 }
 .activits .groupe29060 .groupe22525 .votreadressemail42 {
   background-color    : rgba(255,255,255,0.0);
@@ -2504,8 +2552,11 @@ div {
 .activits .groupe29060 .groupe22766 .groupe22550 .rectangle77611 {
   pointer-events      : auto;
 }
-.activits .groupe29060 .groupe22766 .groupe22550 .rectangle77611:hover {
+.activits .groupe29060 .groupe22766 .groupe22550 .rectangle77611:hover{
   transform           : scale(1.1);
+}
+.activits .groupe29060 .groupe22766 .groupe22550 .rectangle77611:hover ~ .arrowright131{
+  transform           : scale(1.5);
 }
 .activits .groupe29060 .groupe22766 .groupe22550 .christopherjollygqbu78bdjfmunsplash21 {
   background-color    : rgba(255,255,255,0.0);
@@ -2526,6 +2577,8 @@ div {
   margin              : 0;
   left                : 699px;
   transform           : rotate(0deg);
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 .activits .groupe29060 .groupe22766 .groupe22550 .arrowright131 .ligne1025 {
   background-color    : rgba(255,255,255,0.0);

@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
+
+@font-face {
+  font-family: 'Helvetica 45 Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
+}
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
@@ -3262,6 +3269,7 @@ div {
   margin              : 0;
   left                : -45px;
   transform           : rotate(0deg);
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
 }
 .apropos .groupe29051 .groupe22527 .gardezlecontactavecnous11 {
   background-color    : rgba(255,255,255,0.0);
@@ -3291,6 +3299,7 @@ div {
   left                : 498px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  filter              : contrast(0.75);
 }
 .apropos .groupe29051 .groupe22527 .exemplegmailcom31 {
   background-color    : rgba(255,255,255,0.0);
@@ -3299,6 +3308,7 @@ div {
   width               : 98px;
   position            : absolute;
   margin              : 0;
+  filter              : contrast(0.5);
   left                : 510px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3315,6 +3325,7 @@ div {
 }
 .apropos .groupe29051 .groupe22527 .exemplegmailcom31::placeholder {
   color               : rgba(206, 206, 206, 0.6);
+  filter              : contrast(0.5);
 }
 .apropos .groupe29051 .groupe22527 .votreadressemail41 {
   background-color    : rgba(255,255,255,0.0);
