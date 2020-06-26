@@ -15,6 +15,7 @@
     <!-- Twitter -->
     <meta content="photo" name="twitter:card" />
     <link href="./css/accueil.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-3.5.1.min.js"></script>
     <script defer="" src="hotspots.js">
     </script>
 
@@ -131,6 +132,9 @@
 
                     <script>
                         var currentPositionSylabs = 0;
+                        var doAuto = true;
+
+                        setInterval(shiftPositionSylabsAuto, 2500);
 
                         function shiftPositionSylabs(number) {
 
@@ -145,7 +149,38 @@
                             var toShow = document.getElementById(targetElement);
                             toShow.style.visibility = 'visible';
                             toShow.style.opacity = 1;
+
+                            doAuto = false;
+                            setTimeout(function() {
+                                console.log("timer's up!");
+                                doAuto = true;
+                            }, 7000)
                         }
+
+                        function shiftPositionSylabsAuto() {
+
+                            if (doAuto) {
+                                var currentElement = "element" + currentPositionSylabs;
+                                console.log("Current Position = " + currentPositionSylabs);
+                                var toHide = document.getElementById(currentElement);
+                                toHide.style.visibility = 'none';
+                                toHide.style.opacity = 0;
+
+                                currentPositionSylabs = ((currentPositionSylabs + 1) % 3);
+                                var targetElement = "element" + currentPositionSylabs;
+                                console.log("Target Position = " + targetElement);
+                                var toShow = document.getElementById(targetElement);
+                                toShow.style.visibility = 'visible';
+                                toShow.style.opacity = 1;
+                            }
+
+                        }
+
+                        $("div.groupe22324").hover(function() {
+                            doAuto = false;
+                        }, function() {
+                            doAuto = true;
+                        });
                     </script>
 
 
@@ -1357,10 +1392,10 @@
                     <div class="gardezlecontactavecnous1">
                         GARDEZ LE CONTACT AVEC NOUS
                     </div>
-                    <div class="rectangle1892"></div>
+                    <div class="rectangle1892" style="color-adjust: exact;"></div>
 
-                    <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                        <input class="exemplegmailcom3" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                    <form method="GET" action="https://sylabs-backend.glitch.me/newsletter" target="votar" id="newsletter">
+                        <input class="exemplegmailcom3" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="color-adjust: exact; font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                     </form>
                     <div class="votreadressemail4">
                         Votre Adresse Mail

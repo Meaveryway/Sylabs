@@ -570,6 +570,14 @@ div {
     line-height: 48.0px;
 }
 
+.acclration .groupe29090 .groupe23002 .test:hover>.rectangle8413 {
+    transform: scale(1.1);
+}
+
+.acclration .groupe29090 .groupe23002 .test:hover>.groupe22976 {
+    transform: scale(1.3);
+}
+
 .acclration .groupe29090 .groupe23002 .groupe22976 .send14 {
     background-color: rgba(255, 255, 255, 0.0);
     top: 1px;
@@ -1800,7 +1808,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .acclration .groupe29090 .groupe22993 .groupe22711 .exemplegmailcom35 {
@@ -1823,12 +1830,10 @@ div {
     border: 0;
     resize: none;
     padding: 0;
-    filter: contrast(0.5);
 }
 
 .acclration .groupe29090 .groupe22993 .groupe22711 .exemplegmailcom35::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .acclration .groupe29090 .groupe22993 .groupe22711 .votreadressemail45 {

@@ -1042,14 +1042,12 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .activitsform .groupe29070 .groupe22715 .exemplegmailcom33 {
     background-color: rgba(255, 255, 255, 0.0);
     top: 84px;
     height: 14px;
-    filter: contrast(0.5);
     width: 98px;
     position: absolute;
     margin: 0;
@@ -1068,10 +1066,7 @@ div {
     padding: 0;
 }
 
-.activitsform .groupe29070 .groupe22715 .exemplegmailcom33::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
-}
+.activitsform .groupe29070 .groupe22715 .exemplegmailcom33::placeholder {}
 
 .activitsform .groupe29070 .groupe22715 .votreadressemail43 {
     background-color: rgba(255, 255, 255, 0.0);
@@ -1216,7 +1211,7 @@ div {
 }
 
 .activitsform .groupe29070 .groupe22786 .rectangle8322:hover {
-    transform: scale(1.04);
+    transform: scale(1.1);
 }
 
 .activitsform .groupe29070 .groupe22786 .nometprnoms3 {
@@ -1311,6 +1306,14 @@ div {
     margin: 0;
     left: 59px;
     transform: rotate(0deg);
+}
+
+.activitsform .groupe29070 .groupe22786 .test:hover>.rectangle8322 {
+    transform: scale(1.1);
+}
+
+.activitsform .groupe29070 .groupe22786 .test:hover>.groupe675 {
+    transform: scale(1.3);
 }
 
 .activitsform .groupe29070 .groupe22786 .groupe675 .send12 .ligne206 {

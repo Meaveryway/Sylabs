@@ -466,23 +466,25 @@
                     <div class="rectangle8402">
                     </div>
                     <!--------------------------------------------------------------------------------------------------------------Form-->
-                    <a>
-                        <button type="submit" form="acceleration" style="cursor: pointer;" onclick="javascript:successPage('acceleration')">
+                    <div class="test">
+                        <a>
+                            <button type="submit" form="acceleration" style="cursor: pointer;" onclick="javascript:successPage('acceleration')">
                             <div class="rectangle8413 anima-smart-layers-pointers ">
                             </div>
                         </button>
-                    </a>
+                        </a>
 
-                    <form method="GET" action="http://localhost:3000/acceleration" target="votar" id="acceleration">
-                        <input class="nometprnoms4" name="name" id="name_field" placeholder="Nom et Prénom(s)*" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
-                        <input class="emailexemplesylabsdzcom5" name="email" id="email_field" placeholder="exemple@gmail.com*" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
-                        <input type="hidden" name="theme" value="Les bases du Graphic Design">
-                    </form>
-                    <div class="groupe22976" style="pointer-events: none;">
-                        <div class="envoyer03">
-                            Envoyer
+                        <form method="GET" action="http://localhost:3000/acceleration" target="votar" id="acceleration">
+                            <input class="nometprnoms4" name="name" id="name_field" placeholder="Nom et Prénom(s)*" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input class="emailexemplesylabsdzcom5" name="email" id="email_field" placeholder="exemple@gmail.com*" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input type="hidden" name="theme" value="Les bases du Graphic Design">
+                        </form>
+                        <div class="groupe22976" style="pointer-events: none; transition-property: all; transition-duration: 0.2s;">
+                            <div class="envoyer03">
+                                Envoyer
+                            </div>
+                            <img alt="Image" anima-src="./img/send-9@1x.png" class="send14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
-                        <img alt="Image" anima-src="./img/send-9@1x.png" class="send14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="rectangle8427">
                     </div>
@@ -589,7 +591,7 @@
                             <option value="3">Santé & Biotechnologie</option>
                             <option value="4">Hardware, Électronique & Robotique</option>
                             <option value="5">Environement & Écologie</option>
-                            <option value="6">Fin-Tech</option>
+                            <option value="6">Fine-Tech</option>
                             <option value="7">Énergie</option>
                             <option value="8">Éducation</option>
                             <option value="9">Autre</option>
@@ -741,7 +743,7 @@
                             GARDEZ LE CONTACT AVEC NOUS</div>
                         <div class="rectangle18925"></div>
 
-                        <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
+                        <form method="GET" action="https://sylabs-backend.glitch.me/newsletter" target="votar" id="newsletter">
                             <input class="exemplegmailcom35" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                         </form>
 
@@ -972,7 +974,7 @@
             sectionDiv.style.display = "none";
             sessionStorage.setItem('newsletter', 'true');
         }
-        }
+
 
         function sleep(milliseconds) {
             const date = Date.now();

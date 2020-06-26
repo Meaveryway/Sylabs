@@ -664,7 +664,7 @@ div {
 }
 
 .map .groupe29100 .rechercherlorganismequevousvoulez9::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .map .groupe29100 .rechercher10 {
@@ -752,7 +752,7 @@ div {
 }
 
 .map .groupe29100 .touteslescatgories14::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .map .groupe29100 .trac32315 {
@@ -3924,7 +3924,7 @@ div {
     width: 15px;
     position: absolute;
     margin: 0;
-    z-index: 900;
+    z-index: 99;
     left: 1071px;
     transform: rotate(0deg);
 }
@@ -3937,7 +3937,7 @@ div {
     position: absolute;
     margin: 0;
     left: 697px;
-    z-index: 900;
+    z-index: 99;
     transform: rotate(0deg);
 }
 
@@ -5921,7 +5921,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .map .groupe29100 .groupe2299119 .groupe227111 .exemplegmailcom36 {
@@ -5930,7 +5929,6 @@ div {
     height: 11px;
     width: 77px;
     position: absolute;
-    filter: contrast(0.5);
     margin: 0;
     left: 511px;
     transform: rotate(0deg);
@@ -5948,8 +5946,7 @@ div {
 }
 
 .map .groupe29100 .groupe2299119 .groupe227111 .exemplegmailcom36::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .map .groupe29100 .groupe2299119 .groupe227111 .votreadressemail46 {

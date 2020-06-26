@@ -2605,7 +2605,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .activits .groupe29060 .groupe22525 .exemplegmailcom32 {
@@ -2627,13 +2626,11 @@ div {
     line-height: 9.0px;
     border: 0;
     resize: none;
-    filter: contrast(0.5);
     padding: 0;
 }
 
 .activits .groupe29060 .groupe22525 .exemplegmailcom32::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .activits .groupe29060 .groupe22525 .votreadressemail42 {

@@ -3591,7 +3591,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .apropos .groupe29051 .groupe22527 .exemplegmailcom31 {
@@ -3601,7 +3600,6 @@ div {
     width: 98px;
     position: absolute;
     margin: 0;
-    filter: contrast(0.5);
     left: 510px;
     transform: rotate(0deg);
     opacity: 1.0;
@@ -3618,8 +3616,7 @@ div {
 }
 
 .apropos .groupe29051 .groupe22527 .exemplegmailcom31::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .apropos .groupe29051 .groupe22527 .votreadressemail41 {

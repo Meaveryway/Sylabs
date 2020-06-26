@@ -880,7 +880,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .contact .groupe29110 .groupe227131 .exemplegmailcom37 {
@@ -891,7 +890,6 @@ div {
     position: absolute;
     margin: 0;
     left: 510px;
-    filter: contrast(0.5);
     transform: rotate(0deg);
     opacity: 1.0;
     font-family: "Poppins";
@@ -907,8 +905,7 @@ div {
 }
 
 .contact .groupe29110 .groupe227131 .exemplegmailcom37::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .contact .groupe29110 .groupe227131 .votreadressemail47 {
@@ -1189,7 +1186,7 @@ div {
 }
 
 .contact .groupe29110 .groupe22795 .description7::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .contact .groupe29110 .groupe22795 .objet8 {
@@ -1215,7 +1212,7 @@ div {
 }
 
 .contact .groupe29110 .groupe22795 .objet8::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .contact .groupe29110 .groupe22795 .namesurname9 {
@@ -1241,7 +1238,7 @@ div {
 }
 
 .contact .groupe29110 .groupe22795 .namesurname9::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .contact .groupe29110 .groupe22795 .email10 {
@@ -1267,7 +1264,7 @@ div {
 }
 
 .contact .groupe29110 .groupe22795 .email10::placeholder {
-    color: rgba(206, 206, 206, 0.6);
+    ;
 }
 
 .contact .groupe29110 .groupe22795 .groupe6711 {

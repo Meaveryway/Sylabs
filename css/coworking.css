@@ -1406,6 +1406,14 @@ div {
     line-height: 48.0px;
 }
 
+.coworking .groupe29080 .groupe22800 .groupe227825 .test:hover>.rectangle83221 {
+    transform: scale(1.1);
+}
+
+.coworking .groupe29080 .groupe22800 .groupe227825 .test:hover>.groupe6751 {
+    transform: scale(1.3);
+}
+
 .coworking .groupe29080 .groupe22800 .groupe227825 .groupe6751 .send13 {
     background-color: rgba(255, 255, 255, 0.0);
     top: -0px;
@@ -3240,7 +3248,6 @@ da {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .coworking .groupe29080 .groupe22713 .exemplegmailcom34 {
@@ -3249,7 +3256,6 @@ da {
     height: 14px;
     width: 98px;
     position: absolute;
-    filter: contrast(0.5);
     margin: 0;
     left: 510px;
     transform: rotate(0deg);
@@ -3266,10 +3272,7 @@ da {
     padding: 0;
 }
 
-.coworking .groupe29080 .groupe22713 .exemplegmailcom34::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
-}
+.coworking .groupe29080 .groupe22713 .exemplegmailcom34::placeholder {}
 
 .coworking .groupe29080 .groupe22713 .votreadressemail44 {
     background-color: rgba(255, 255, 255, 0.0);

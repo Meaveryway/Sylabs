@@ -1135,7 +1135,6 @@ div {
     left: 498px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0);
 }
 
 .merci .groupe22714 .exemplegmailcom3 {
@@ -1148,7 +1147,6 @@ div {
     left: 510px;
     transform: rotate(0deg);
     opacity: 1.0;
-    filter: contrast(0.5);
     font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
@@ -1162,8 +1160,7 @@ div {
 }
 
 .merci .groupe22714 .exemplegmailcom3::placeholder {
-    color: rgba(206, 206, 206, 0.6);
-    filter: contrast(0.5);
+    ;
 }
 
 .merci .groupe22714 .votreadressemail4 {
