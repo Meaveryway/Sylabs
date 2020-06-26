@@ -22,6 +22,9 @@
         function zoom() {
             if (window.screen.width != 1440)
                 document.body.style.zoom = "110%"
+                //making use of this point to check and set the newsletter subscription state
+            if (sessionStorage.getItem('newsletter'))
+                newsletterSubscribe();
         }
     </script>
 </head>
@@ -33,24 +36,18 @@
         <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
             <div class="groupe22210">
                 <div class="notification0">
-                    <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon0"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge1"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="notification1">
-                    <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon01"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge11"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon01" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe21972">
                     <div class="headerdesktop0">
-                        <img alt="Image" anima-src="./img/base-2@1x.png" class="base0"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/base-2@1x.png" class="base0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
-                    <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin1"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                    <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                 </div>
                 <div class="navbarlight3">
                     <a href="contact.html">
@@ -98,8 +95,7 @@
                     Vous recevrez un mail de confirmation très prochainement.
                 </div>
             </div>
-            <img alt="Image" anima-src="./img/icon-awesome-check-circle@1x.png" class="iconawesomecheckcircle2"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+            <img alt="Image" anima-src="./img/icon-awesome-check-circle@1x.png" class="iconawesomecheckcircle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
             <div class="footer3">
                 <div class="rectangle2440">
                 </div>
@@ -152,20 +148,13 @@
                     <div class="sylabs0">
                         SYLABS
                     </div>
-                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation1"
-                        style="font-family: Poppins; font-size: 16px;">
-                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                        entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                        mutation.<br />
+                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation1" style="font-family: Poppins; font-size: 16px;">
+                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                        <br />
                     </div>
-                    <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image"
-                            anima-src="./img/001-facebook-3@1x.png" class="a001facebook2"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                    <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-7@1x.png"
-                            class="a002twitter3"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                    <img alt="Image" anima-src="./img/004-google-plus-7@1x.png" class="a004googleplus4"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image" anima-src="./img/001-facebook-3@1x.png" class="a001facebook2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                    <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-7@1x.png" class="a002twitter3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                    <img alt="Image" anima-src="./img/004-google-plus-7@1x.png" class="a004googleplus4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe464">
                     <div class="contact01">
@@ -177,16 +166,12 @@
                     <div class="a2137702649062" style="font-family: Poppins-Bold;">
                         (+213) 7 70 26 49 06
                     </div>
-                    <div class="a08ruehassaniyessad16004algercentre3"
-                        style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                    <div class="a08ruehassaniyessad16004algercentre3" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                         08 Rue Hassani Yessad,<br />16004, Alger Centre.
                     </div>
-                    <img alt="Image" anima-src="./img/mail-10@1x.png" class="mail4"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/phone-7@1x.png" class="phone5"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/map-pin-10@1x.png" class="mappin6"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/mail-10@1x.png" class="mail4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/phone-7@1x.png" class="phone5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/map-pin-10@1x.png" class="mappin6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="copyright2020allrightsreserved5">
                     Copyright ©2020 All rights reserved.
@@ -198,32 +183,27 @@
 
 
             <div class="groupe22714" id="newsletter_subscription">
-                <img alt="Image" anima-src="./img/810-1@1x.png" class="a8100"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                <img alt="Image" anima-src="./img/810-1@1x.png" class="a8100" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 <div class="gardezlecontactavecnous1">
                     GARDEZ LE CONTACT AVEC NOUS
                 </div>
                 <div class="rectangle1892">
                 </div>
                 <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                    <input class="exemplegmailcom3" name="email" id="email_field" placeholder="exemple@gmail.com"
-                        type="email" required
-                        style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                    <input class="exemplegmailcom3" name="email" id="email_field" placeholder="exemple@gmail.com" type="email" required style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                 </form>
                 <div class="votreadressemail4">
                     Votre Adresse Mail
                 </div>
                 <a>
-                    <button type="submit" form="newsletter" style="cursor: pointer;"
-                        onclick="javascript:submit_form('newsletter')">
+                    <button type="submit" form="newsletter" style="cursor: pointer;" onclick="javascript:submit_form('newsletter')">
                         <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac3155"
                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <img alt="Image" anima-src="./img/send-10@1x.png" class="send6"
                             src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </button>
                 </a>
-                <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter7"
-                    style="font-size: 20px; line-height: 20px; width: 400px;">
+                <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter7" style="font-size: 20px; line-height: 20px; width: 400px;">
                     Restez informés de toute notre activité, inscrivez-vous à notre newsletter!
                 </div>
             </div>
@@ -235,8 +215,7 @@
                     <div class="gardezlecontactavecnous1">
                         GARDEZ LE CONTACT AVEC NOUS
                     </div>
-                    <div style="filter: contrast(0.75);" class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter7"
-                        style="width: 688px; font-size: 20px; line-height: 18px;">
+                    <div style="filter: contrast(0);" class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter7" style="width: 688px; font-size: 20px; line-height: 18px;">
                         Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
                     </div>
                 </div>
@@ -250,12 +229,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        anima_isHidden = function (e) {
+        anima_isHidden = function(e) {
             if (!(e instanceof HTMLElement)) return !1;
-            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            if (getComputedStyle(e).display == "none") return !0;
+            else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
             return !1;
         };
-        anima_loadAsyncSrcForTag = function (tag) {
+        anima_loadAsyncSrcForTag = function(tag) {
             var elements = document.getElementsByTagName(tag);
             var toLoad = [];
             for (var i = 0; i < elements.length; i++) {
@@ -268,7 +248,7 @@
                 if (anima_isHidden(e)) continue;
                 toLoad.push(e);
             }
-            toLoad.sort(function (a, b) {
+            toLoad.sort(function(a, b) {
                 return anima_getTop(a) - anima_getTop(b);
             });
             for (var i = 0; i < toLoad.length; i++) {
@@ -277,7 +257,7 @@
                 e.setAttribute("src", asyncSrc);
             }
         };
-        anima_pauseHiddenVideos = function (tag) {
+        anima_pauseHiddenVideos = function(tag) {
             var elements = document.getElementsByTagName("video");
             for (var i = 0; i < elements.length; i++) {
                 var e = elements[i];
@@ -290,13 +270,13 @@
                 }
             }
         };
-        anima_loadAsyncSrc = function (tag) {
+        anima_loadAsyncSrc = function(tag) {
             anima_loadAsyncSrcForTag("img");
             anima_loadAsyncSrcForTag("iframe");
             anima_loadAsyncSrcForTag("video");
             anima_pauseHiddenVideos();
         };
-        var anima_getTop = function (e) {
+        var anima_getTop = function(e) {
             var top = 0;
             do {
                 top += e.offsetTop || 0;
@@ -307,20 +287,20 @@
         anima_loadAsyncSrc();
         anima_old_onResize = window.onresize;
         anima_new_onResize = undefined;
-        anima_updateOnResize = function () {
+        anima_updateOnResize = function() {
             if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                anima_new_onResize = function (x) {
+                anima_new_onResize = function(x) {
                     if (anima_old_onResize != undefined) anima_old_onResize(x);
                     anima_loadAsyncSrc();
                 };
                 window.onresize = anima_new_onResize;
-                setTimeout(function () {
+                setTimeout(function() {
                     anima_updateOnResize();
                 }, 3000);
             }
         };
         anima_updateOnResize();
-        setTimeout(function () {
+        setTimeout(function() {
             anima_loadAsyncSrc();
         }, 200);
     </script>
@@ -333,13 +313,19 @@
             if (form.reportValidity()) {
                 sleep(500);
                 //form.submit;
-                var sectionDiv = document.getElementById("newsletter_subscription");
-                var success_subscription_message = document.getElementById("success_subscription_message");
-                success_subscription_message.style.display = "block";
-                sectionDiv.style.display = "none";
+                newsletterSubscribe();
 
             }
         }
+
+        function newsletterSubscribe() {
+            var sectionDiv = document.getElementById("newsletter_subscription");
+            var success_subscription_message = document.getElementById("success_subscription_message");
+            success_subscription_message.style.display = "block";
+            sectionDiv.style.display = "none";
+            sessionStorage.setItem('newsletter', 'true');
+        }
+
         function sleep(milliseconds) {
             const date = Date.now();
             let currentDate = null;
@@ -347,7 +333,7 @@
                 currentDate = Date.now();
             } while (currentDate - date < milliseconds);
         }
-            //-----------------------------------------------------------------------------------------------Form
+        //-----------------------------------------------------------------------------------------------Form
     </script>
     <!-- End of Scripts -->
 </body>

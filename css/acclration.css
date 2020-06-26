@@ -1,2440 +1,2617 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 @font-face {
-  font-family: 'Helvetica 45 Light Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
-       url('../fonts/poppins-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+    font-family: 'Helvetica 45 Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Goodlights';
-  src: url('../fonts/Goodlights.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'), url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins-Bold';
-  src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
-       url('../fonts/poppins-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Goodlights';
+    src: url('../fonts/Goodlights.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'), url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .acclration {
-  width               : 100%;
-  min-width           : 1440px;
-  height              : 100vh;
-  min-height          : 2521px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+    width: 100%;
+    min-width: 1440px;
+    height: 100vh;
+    min-height: 2521px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(255, 255, 255, 1.0);
 }
+
 a {
-  text-decoration     : none;
+    text-decoration: none;
 }
+
 div {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
+
 .anima-full-width-a {
-  width               : 100%;
+    width: 100%;
 }
+
 .anima-full-height-a {
-  height              : 100%;
+    height: 100%;
 }
-textarea:focus, input:focus {
-  outline             : none;
+
+textarea:focus,
+input:focus {
+    outline: none;
 }
+
 div {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
+
 .acclration .groupe29090 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -551px;
-  height              : 3073px;
-  width               : 1440px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -551px;
+    height: 3073px;
+    width: 1440px;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22930 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1268px;
-  height              : 82px;
-  width               : 1104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1268px;
+    height: 82px;
+    width: 1104px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22930 .nosservices0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 16.0px;
 }
+
 .acclration .groupe29090 .groupe22930 .pourvousprparerfairefaceauxdfisdelentrepreneuriatvoustrouverezdansceprogrammetroistempsfortsdiffrentsanimspardiffrentsacteursdelcosystmealgrien1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
-  height              : 60px;
-  width               : 1104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 24px;
+    height: 60px;
+    width: 1104px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 20.0px;
 }
+
 .acclration .groupe29090 .groupe22941 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1380px;
-  height              : 237px;
-  width               : 1101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1380px;
+    height: 237px;
+    width: 1101px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle20801 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
-  height              : 252px;
-  width               : 313px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -3px;
+    height: 252px;
+    width: 313px;
+    position: absolute;
+    margin: 0;
+    left: -4px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle20801 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle20801:hover {
-  transform           : scale(1.1);
+    transform: scale(1.1);
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21111 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 252px;
-  width               : 314px;
-  position            : absolute;
-  margin              : 0;
-  left                : 399px;
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -6px;
+    height: 252px;
+    width: 314px;
+    position: absolute;
+    margin: 0;
+    left: 399px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21111 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21111:hover {
-  transform           : scale(1.1);
+    transform: scale(1.1);
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21221 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 252px;
-  width               : 313px;
-  position            : absolute;
-  margin              : 0;
-  left                : 802px;
-  transform           : rotate(0deg);
-  transition          : all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -6px;
+    height: 252px;
+    width: 313px;
+    position: absolute;
+    margin: 0;
+    left: 802px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21221 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe22941 .rectangle21221:hover {
-  transform           : scale(1.1);
+    transform: scale(1.1);
 }
+
 .acclration .groupe29090 .groupe22941 .workshops3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 83px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    line-height: 22.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .ateliersdetravailcollectifsaxssurlapratiquepourmonterencomptencechallengervotreprojetetacqurirdesmthodessurdiverssujetsbusinessmodelsegmentationclientbusinessplanpitchstorytellinggrowthhackingcommunicationet4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 138px;
-  width               : 267px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(154, 152, 152, 1.0);
-  text-align          : center;
-  line-height         : 12.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 83px;
+    height: 138px;
+    width: 267px;
+    position: absolute;
+    margin: 0;
+    left: 15px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(154, 152, 152, 1.0);
+    text-align: center;
+    line-height: 12.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .unatelierchaque15jours5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 87px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 50px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 87px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: center;
+    line-height: 9.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .hardcoaching6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 465px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 465px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    line-height: 22.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .unrfrentuniquevoussuivratoutaulongdevotreaventurecetaccompagnementserargulierrythmettoujoursdanslabonnehumeurunchangehebdomadairepourvoussuivredansvotredynamiquevouspermettrederagirrapidementettraiterlesques7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 138px;
-  width               : 273px;
-  position            : absolute;
-  margin              : 0;
-  left                : 415px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(154, 152, 152, 1.0);
-  text-align          : center;
-  line-height         : 12.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 83px;
+    height: 138px;
+    width: 273px;
+    position: absolute;
+    margin: 0;
+    left: 415px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(154, 152, 152, 1.0);
+    text-align: center;
+    line-height: 12.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .a20min1foisparsemaine8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 493px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 52px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 493px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: center;
+    line-height: 9.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .checkpoints9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 882px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 882px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    line-height: 22.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .tempsderflexionetdchangesaveclquipeencadranteetdesentrepreneurslocauxextrieursetexprimentslobjectificiestdeprendredelahauteursurvotreprojetetentamerquelquesmisesenrelation10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 138px;
-  width               : 244px;
-  position            : absolute;
-  margin              : 0;
-  left                : 832px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(154, 152, 152, 1.0);
-  text-align          : center;
-  line-height         : 12.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 83px;
+    height: 138px;
+    width: 244px;
+    position: absolute;
+    margin: 0;
+    left: 832px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(154, 152, 152, 1.0);
+    text-align: center;
+    line-height: 12.0px;
 }
+
 .acclration .groupe29090 .groupe22941 .a3foispendantleprogramme11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 887px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 50px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 887px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: center;
+    line-height: 9.0px;
 }
+
 .acclration .groupe29090 .groupe23002 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1657px;
-  height              : 692px;
-  width               : 1099px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1657px;
+    height: 692px;
+    width: 1099px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22960 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 146px;
-  width               : 588px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 146px;
+    width: 588px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22960 .phasedepracclration0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 412px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 33px;
+    width: 412px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 22.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22960 .alorsprtspourlegrandbain1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 45.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 53.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 35px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 53.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8391 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 204px;
-  height              : 55px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 204px;
+    height: 55px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8402 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 274px;
-  height              : 55px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 274px;
+    height: 55px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8413 {
-  background-color    : rgba(33, 68, 101, 1.0);
-  top                 : 620px;
-  height              : 54px;
-  width               : 326px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(33, 68, 101, 1.0);
+    top: 620px;
+    height: 54px;
+    width: 326px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8413 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8413:hover {
-  transform           : scale(1.1);
+    transform: scale(1.1);
 }
+
 .acclration .groupe29090 .groupe23002 .nometprnoms4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 224px;
-  height              : 18px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 224px;
+    height: 18px;
+    width: 112px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .nometprnoms4::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .emailexemplesylabsdzcom5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : 18px;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 296px;
+    height: 18px;
+    width: 188px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .emailexemplesylabsdzcom5::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22976 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 639px;
-  height              : 17px;
-  width               : 76px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 639px;
+    height: 17px;
+    width: 76px;
+    position: absolute;
+    margin: 0;
+    left: 125px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22976 .envoyer03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -16px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 48.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -16px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 48.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22976 .send14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 60px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1px;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    margin: 0;
+    left: 60px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22976 .send14 .ligne209 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 11px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 11px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe22976 .send14 .trac219 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8427 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 345px;
-  height              : 54px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 345px;
+    height: 54px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .numrodetlphone8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 366px;
-  height              : 18px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 366px;
+    height: 18px;
+    width: 130px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .numrodetlphone8::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle8439 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 451px;
-  height              : 223px;
-  box-sizing          : border-box;
-  width               : 516px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 451px;
+    height: 223px;
+    box-sizing: border-box;
+    width: 516px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .dcrivezenquelquesmotsvosattentesentermedaccompagnement10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 464px;
-  height              : 18px;
-  width               : 399px;
-  position            : absolute;
-  margin              : 0;
-  left                : 387px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 464px;
+    height: 18px;
+    width: 399px;
+    position: absolute;
+    margin: 0;
+    left: 387px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .dcrivezenquelquesmotsvosattentesentermedaccompagnement10::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .nousvouscontacteronsbienttviaemailpouruneconfirmation112 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 682px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 682px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 9.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe229812 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 264px;
-  height              : 57px;
-  width               : 197px;
-  position            : absolute;
-  margin              : 0;
-  left                : 904px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 264px;
+    height: 57px;
+    width: 197px;
+    position: absolute;
+    margin: 0;
+    left: 904px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .groupe229812 .trac31907 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
-  height              : 29px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 28px;
+    height: 29px;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe23002 .groupe229812 .remplissezleformulairepourcondidater1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Goodlights", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 25.0px;
-  color               : rgba(33, 68, 101, 1.0);
-  text-align          : center;
-  line-height         : 30.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 32px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Goodlights", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25.0px;
+    color: rgba(33, 68, 101, 1.0);
+    text-align: center;
+    line-height: 30.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84413 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 553px;
-  height              : 56px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 553px;
+    height: 56px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84413 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84413:hover {
-  transform           : scale(1);
+    transform: scale(1);
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84514 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 204px;
-  height              : 55px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 204px;
+    height: 55px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84514 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84514:hover {
-  transform           : scale(1);
+    transform: scale(1);
 }
+
 .acclration .groupe29090 .groupe23002 .cvdupromoteur15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 226px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 387px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 226px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 387px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .phaseactuelle16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 576px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 576px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 14px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .iconawesomecaretdown17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 577px;
-  height              : 7px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 289px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 577px;
+    height: 7px;
+    width: 13px;
+    position: absolute;
+    margin: 0;
+    left: 289px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe23002 .leschampsmarqusdunastrisquesontobligatoires18 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 152px;
-  height              : 31px;
-  width               : 671px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 152px;
+    height: 31px;
+    width: 671px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 20.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84619 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 415px;
-  height              : 54px;
-  box-sizing          : border-box;
-  width               : 326px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 415px;
+    height: 54px;
+    box-sizing: border-box;
+    width: 326px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .nomduprojetstartup20 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 436px;
-  height              : 18px;
-  width               : 134px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 436px;
+    height: 18px;
+    width: 134px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .nomduprojetstartup20::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84721 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 486px;
-  height              : 55px;
-  box-sizing          : border-box;
-  width               : 326px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 486px;
+    height: 55px;
+    box-sizing: border-box;
+    width: 326px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84721 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84721:hover {
-  transform           : scale(1);
+    transform: scale(1);
 }
+
 .acclration .groupe29090 .groupe23002 .domaine22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 508px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 508px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 15px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .iconawesomecaretdown23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 510px;
-  height              : 7px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 289px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 510px;
+    height: 7px;
+    width: 13px;
+    position: absolute;
+    margin: 0;
+    left: 289px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe23002 .avezvousdjgagnunconcoursoubnficidunaccompagnementpourvotrestartup24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 345px;
-  height              : 42px;
-  width               : 327px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 345px;
+    height: 42px;
+    width: 327px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84825 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 399px;
-  height              : 31px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 399px;
+    height: 31px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe23002 .siouiditesennousplus26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
-  height              : 18px;
-  width               : 138px;
-  position            : absolute;
-  margin              : 0;
-  left                : 387px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 408px;
+    height: 18px;
+    width: 138px;
+    position: absolute;
+    margin: 0;
+    left: 387px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .acclration .groupe29090 .groupe23002 .siouiditesennousplus26::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .acclration .groupe29090 .groupe23002 .iconmaterialattachfile27 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 226px;
-  height              : 12px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 666px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 226px;
+    height: 12px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 666px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84928 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 274px;
-  height              : 56px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 274px;
+    height: 56px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84928 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .acclration .groupe29090 .groupe23002 .rectangle84928:hover {
-  transform           : scale(1);
+    transform: scale(1);
 }
+
 .acclration .groupe29090 .groupe23002 .brefpitchdeprsentation29 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 387px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 296px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 387px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
 }
+
 .acclration .groupe29090 .groupe23002 .iconmaterialattachfile30 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : 12px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 666px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 296px;
+    height: 12px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 666px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2502px;
-  height              : 571px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2502px;
+    height: 571px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 63px;
-  height              : 508px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 63px;
+    height: 508px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .rectangle24406 {
-  background-color    : rgba(33, 68, 101, 1.0);
-  top                 : 0px;
-  height              : 509px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(33, 68, 101, 1.0);
+    top: 0px;
+    height: 509px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 116px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 724px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 116px;
+    width: 80px;
+    position: absolute;
+    margin: 0;
+    left: 724px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 .liensutiles06 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 .blog17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 .acclration26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 104px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 104px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 .coworking36 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4416 .activits46 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 82px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4526 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 94px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : 902px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 94px;
+    width: 112px;
+    position: absolute;
+    margin: 0;
+    left: 902px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4526 .proposdenous07 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4526 .contacteznous16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4526 .services26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 82px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4526 .confidentialit36 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
-  height              : 232px;
-  width               : 457px;
-  position            : absolute;
-  margin              : 0;
-  left                : 154px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 138px;
+    height: 232px;
+    width: 457px;
+    position: absolute;
+    margin: 0;
+    left: 154px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .sylabs06 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 29.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 29.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : 127px;
-  width               : 457px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 53px;
+    height: 127px;
+    width: 457px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 22.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a001facebook26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a001facebook26 .ellipse1506 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a001facebook26 .trac1616 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 17px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 5px;
+    height: 17px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 9px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a002twitter36 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 34px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a002twitter36 .ellipse1606 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a002twitter36 .groupe3916 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a002twitter36 .groupe3916 .trac1706 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 68px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4006 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4006 .xmlid3006 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 11px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 11px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 .trac2106 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 .trac2216 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 .groupe4126 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 .groupe4126 .trac2306 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4336 .a004googleplus46 .groupe4216 .groupe4126 .trac2416 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 125px;
-  width               : 146px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1113px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 125px;
+    width: 146px;
+    position: absolute;
+    margin: 0;
+    left: 1113px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .contact011 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .hellosylabsdzcom16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .a21377026490626 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 66px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .a08ruehassaniyessad16004algercentre36 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 100px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 100px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mail46 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 35px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mail46 .trac2506 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 12px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 12px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mail46 .trac2616 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 7px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 7px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .phone56 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 64px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mappin66 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 94px;
-  height              : 14px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 94px;
+    height: 14px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mappin66 .trac2706 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 14px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 14px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .groupe4646 .mappin66 .ellipse1716 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 2px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .copyright2020allrightsreserved56 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 464px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 154px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 464px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 154px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .footer02 .wwwsylabsdzcom66 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 466px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1159px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 466px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1159px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 127px;
-  width               : 816px;
-  position            : absolute;
-  margin              : 0;
-  left                : 312px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 127px;
+    width: 816px;
+    position: absolute;
+    margin: 0;
+    left: 312px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .a81006 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -30px;
-  height              : 217px;
-  width               : 906px;
-  position            : absolute;
-  margin              : 0;
-  left                : -45px;
-  transform           : rotate(0deg);
-  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -30px;
+    height: 217px;
+    width: 906px;
+    position: absolute;
+    margin: 0;
+    left: -45px;
+    transform: rotate(0deg);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .gardezlecontactavecnous15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 74px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 18.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .rectangle18925 {
-  background-color    : rgba(238, 238, 238, 1.0);
-  top                 : 75px;
-  height              : 29px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : 498px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  filter              : contrast(0.75);
+    background-color: rgba(238, 238, 238, 1.0);
+    top: 75px;
+    height: 29px;
+    width: 195px;
+    position: absolute;
+    margin: 0;
+    left: 498px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    filter: contrast(0);
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .exemplegmailcom35 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 14px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 510px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(206, 206, 206, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-  filter              : contrast(0.5);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 84px;
+    height: 14px;
+    width: 98px;
+    position: absolute;
+    margin: 0;
+    left: 510px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(206, 206, 206, 1.0);
+    text-align: left;
+    line-height: 9.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
+    filter: contrast(0.5);
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .exemplegmailcom35::placeholder {
-  color               : rgba(206, 206, 206, 0.6);
-  filter              : contrast(0.5);
+    color: rgba(206, 206, 206, 0.6);
+    filter: contrast(0.5);
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .votreadressemail45 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 498px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(33, 68, 101, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 498px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(33, 68, 101, 1.0);
+    text-align: left;
+    line-height: 9.0px;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .trac31555 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
-  height              : 29px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 713px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    margin: 0;
+    left: 713px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .send65 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 722px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 84px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: 722px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .send65 .ligne2010 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .send65 .trac2110 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .acclration .groupe29090 .groupe22993 .groupe22711 .restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter75 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 60px;
-  height              : 42px;
-  width               : 299px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Helvetica Neue", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(112, 112, 112, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 60px;
+    height: 42px;
+    width: 299px;
+    position: absolute;
+    margin: 0;
+    left: 74px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(112, 112, 112, 1.0);
+    text-align: left;
+    line-height: 20.0px;
 }
+
 .acclration .groupe29090 .groupe22954 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1243px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 1243px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222204 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222204 .intersection504 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222204 .intersection504 .jaimelopes0rdboadnbwmunsplash05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -150px;
-  height              : 960px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -150px;
+    height: 960px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222204 .intersection504 .rectangle24714 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222204 .rectangle1515 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 358px;
-  height              : 452px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 358px;
+    height: 452px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22954 .groupe226912 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 658px;
-  height              : 69px;
-  width               : 244px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 658px;
+    height: 69px;
+    width: 244px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe226912 .acclration0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 31.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 31.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 41.0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe226912 .nousoffronsaccompagnementetacclration1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 56px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 894px;
-  height              : 349px;
-  width               : 1104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 894px;
+    height: 349px;
+    width: 1104px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 .lestadedacclrationconcernelesprojetsavecunmodleconomiquevalidetquiseconcentrentsurlacroissancedelastartupsurlemarchchoisicestcestadequesylabsintervientenaccompagnantlesstartupsurtouslesaspectslisleurc0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 96px;
-  height              : 255px;
-  width               : 1104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 96px;
+    height: 255px;
+    width: 1104px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-size: 20.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 20.0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 .lestadedacclrationconcernelesprojetsavecunmodleconomiquevalidetquiseconcentrentsurlacroissancedelastartupsurlemarchchoisicestcestadequesylabsintervientenaccompagnantlesstartupsurtouslesaspectslisleurc0 .span0 {
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(0, 0, 0, 1.0);
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 .lestadedacclrationconcernelesprojetsavecunmodleconomiquevalidetquiseconcentrentsurlacroissancedelastartupsurlemarchchoisicestcestadequesylabsintervientenaccompagnantlesstartupsurtouslesaspectslisleurc0 .span1 {
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(0, 0, 0, 1.0);
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 .thealgerianaccelerationprogram1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 72px;
-  width               : 868px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 45.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 60.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 18px;
+    height: 72px;
+    width: 868px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 60.0px;
 }
+
 .acclration .groupe29090 .groupe22954 .groupe222722 .notreprogrammedacclration2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 16.0px;
 }
+
 .acclration .groupe29090 .groupe22215 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 549px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 549px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .notification010 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .notification010 .notificationicon020 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .notification010 .notificationicon020 .trac2020 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .acclration .groupe29090 .groupe22215 .notification010 .notificationicon020 .trac3121 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .acclration .groupe29090 .groupe22215 .notification010 .notificationbadge120 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .notification110 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .notification110 .notificationicon021 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .notification110 .notificationicon021 .trac2021 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .acclration .groupe29090 .groupe22215 .notification110 .notificationicon021 .trac3122 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .acclration .groupe29090 .groupe22215 .notification110 .notificationbadge121 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification011 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification011 .notificationicon022 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification011 .notificationicon022 .trac2022 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification011 .notificationicon022 .trac3123 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification011 .notificationbadge122 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification111 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification111 .notificationicon023 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification111 .notificationicon023 .trac2023 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification111 .notificationicon023 .trac3124 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .notification111 .notificationbadge123 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .groupe219725 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .groupe219725 .headerdesktop05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .groupe219725 .headerdesktop05 .base05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 62px;
-  width               : 1446px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 62px;
+    width: 1446px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .groupe219725 .sywhmin15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 27px;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 166px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 27px;
+    width: 122px;
+    position: absolute;
+    margin: 0;
+    left: 166px;
+    transform: rotate(0deg);
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
-  height              : 15px;
-  width               : 667px;
-  position            : absolute;
-  margin              : 0;
-  left                : 632px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: 15px;
+    width: 667px;
+    position: absolute;
+    margin: 0;
+    left: 632px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .contact012 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 617px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 617px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .coworking15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 263px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 263px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .activits25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 175px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 175px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .propos35 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 83px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .accueil45 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .acclration55 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 370px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
-  text-decoration     : underline;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 370px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: center;
+    line-height: 10.0px;
+    text-decoration: underline;
 }
+
 .acclration .groupe29090 .groupe22215 .groupe222125 .navbarlight35 .ecosystememap65 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 485px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 485px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
+
 /* .anima-animate-appear prefix for appear animations */
+
 .anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
+
 .anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
+
 .anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
 }
+
 @-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 .anima-component-wrapper,
 .anima-component-wrapper * {
-  pointer-events      : none;
+    pointer-events: none;
 }
+
 .anima-component-wrapper a *,
 .anima-component-wrapper a,
 .anima-component-wrapper input,
@@ -2442,29 +2619,34 @@ div {
 .anima-component-wrapper iframe,
 .anima-listeners-active,
 .anima-listeners-active * {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .anima-hidden,
 .anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
+    visibility: hidden;
+    pointer-events: none;
 }
+
 .anima-smart-layers-pointers,
 .anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
+    pointer-events: auto;
+    visibility: visible;
 }
+
 .anima-component-wrapper.anima-not-ready,
 .anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
+    visibility: hidden !important;
 }
+
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
-  cursor              : pointer;
+    cursor: pointer;
 }
+
 .anima-word-break {
-  overflow-wrap       : break-word;
-  word-wrap           : break-word;
-  word-break          : break-all;
-  word-break          : break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
 }

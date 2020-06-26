@@ -25,9 +25,8 @@
     <style>
         .select2-container--material {
             width: 100% !important;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__rendered {
             color: #444;
             line-height: 28px;
@@ -38,20 +37,18 @@
             margin-right: 10px;
             font-size: 16px;
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__clear {
             cursor: pointer;
             float: right;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__placeholder {
             color: #999;
             font-family: "Poppins", Helvetica, Arial, serif;
             font-size: 16px;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow {
             height: 26px;
             margin: 0.6rem 0 0.4rem 0;
@@ -60,10 +57,8 @@
             display: none;
             right: 1px;
             margin-right: -17px;
-
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow b {
             border-color: #888 transparent transparent transparent;
             border-style: solid;
@@ -77,30 +72,30 @@
             top: 50%;
             width: 0;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
             float: left;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
             left: 1px;
             right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
             border-color: transparent transparent #888 transparent;
             border-width: 0 4px 5px 4px;
         }
-
+        
         .select2-container--material .select2-selection--multiple {
             background-color: transparent;
             border: none;
@@ -115,9 +110,7 @@
             padding: 5px 0 0 0;
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         }
-
-
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered {
             box-sizing: border-box;
             list-style: none;
@@ -125,25 +118,24 @@
             padding: 0 5px;
             width: 100%;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
             list-style: none;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
             color: #999;
             margin-top: 5px;
             float: left;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__clear {
             cursor: pointer;
             float: right;
-
             margin-top: 5px;
             margin-right: 10px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice {
             background-color: rgba(248, 248, 248, 1.0);
             border-radius: 16px;
@@ -154,78 +146,77 @@
             margin-top: 6px;
             padding: 0 12px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
             cursor: pointer;
             display: block;
-
             float: right;
             margin-left: 5px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
             color: #333;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
             float: right;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
             margin-left: 5px;
             margin-right: auto;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
             margin-left: 2px;
             margin-right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--multiple {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--single {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--multiple {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field {
             border: none;
             border-bottom: 1px solid #ced4da;
             border-radius: 0;
             outline: none;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
             box-shadow: 0 1px 0 0 #ced4da;
             border-bottom: 1px solid #ced4da;
         }
-
+        
         .select2-container--material .select2-search--inline .select2-search__field {
             background: transparent;
             border: none !important;
@@ -233,68 +224,68 @@
             box-shadow: none !important;
             -webkit-appearance: textfield;
         }
-
+        
         .select2-container--material .select2-results>.select2-results__options {
             max-height: 200px;
             overflow-y: auto;
         }
-
+        
         .select2-container--material .select2-results__option[role=group] {
             padding: 0;
         }
-
+        
         .select2-container--material .select2-results__option[aria-disabled=true] {
             color: #999;
         }
-
+        
         .select2-container--material .select2-results__option[aria-selected=true] {
             background-color: rgba(248, 248, 248, 1.0);
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option {
             padding-left: 1em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
             padding-left: 0;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -1em;
             padding-left: 2em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -2em;
             padding-left: 3em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -3em;
             padding-left: 4em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -4em;
             padding-left: 5em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -5em;
             padding-left: 6em;
         }
-
+        
         .select2-container--material .select2-results__option--highlighted[aria-selected] {
             background-color: #214366;
             color: white;
         }
-
+        
         .select2-container--material .select2-results__group {
             cursor: default;
             display: block;
             padding: 6px;
         }
-
+        
         .select2-dropdown {
             background-color: white;
             border: 1px solid #ced4da;
@@ -309,18 +300,17 @@
             margin-top: 30px;
             -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
         }
-
-
+        
         .select2-results {
             display: block;
         }
-
+        
         .select2-results__options {
             list-style: none;
             margin: 0;
             padding: 0;
         }
-
+        
         .select2-results__option {
             padding: 6px;
             font-size: 16px;
@@ -328,47 +318,46 @@
             user-select: none;
             -webkit-user-select: none;
         }
-
+        
         .select2-results__option[aria-selected] {
             cursor: pointer;
         }
-
+        
         .select2-container--open .select2-dropdown {
             left: 0;
-
         }
-
+        
         .select2-container--open .select2-dropdown--above {
             border-bottom: none;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--open .select2-dropdown--below {
             border-top: none;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-search--dropdown {
             display: block;
             padding: 4px;
         }
-
+        
         .select2-search--dropdown .select2-search__field {
             padding: 4px;
             width: 100%;
             box-sizing: border-box;
         }
-
+        
         .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
             -webkit-appearance: none;
         }
-
+        
         .select2-search--dropdown.select2-search--hide {
             display: none;
         }
-
+        
         .inputfile {
             width: 0.1px;
             height: 0.1px;
@@ -377,7 +366,7 @@
             position: absolute;
             z-index: -1;
         }
-
+        
         .inputfile+label {
             font-size: 1.25em;
             font-weight: 700;
@@ -385,19 +374,17 @@
             background-color: black;
             display: inline-block;
         }
-
+        
         .inputfile+label {
             cursor: pointer;
             /* "hand" cursor */
         }
-
+        
         .inputfile:focus+label {
             outline: 1px dotted #000;
             outline: -webkit-focus-ring-color auto 5px;
         }
-
-
-
+        
         .custom-file-upload {
             border: 1px solid #ccc;
             display: inline-block;
@@ -410,6 +397,9 @@
         function zoom() {
             if (window.screen.width != 1440)
                 document.body.style.zoom = "110%"
+                //making use of this point to check and set the newsletter subscription state
+            if (sessionStorage.getItem('newsletter'))
+                newsletterSubscribe();
         }
     </script>
 </head>
@@ -424,30 +414,20 @@
                     <div class="nosservices0" style="font-size: 20px;">
                         NOS SERVICES
                     </div>
-                    <div class="pourvousprparerfairefaceauxdfisdelentrepreneuriatvoustrouverezdansceprogrammetroistempsfortsdiffrentsanimspardiffrentsacteursdelcosystmealgrien1"
-                        style="line-height: 25px; margin-top: 5px;">
-                        Pour vous préparer à faire face aux défis de l’entrepreneuriat, vous trouverez dans ce
-                        programme trois temps forts différents animés par différents acteurs de l’écosystème algérien.
+                    <div class="pourvousprparerfairefaceauxdfisdelentrepreneuriatvoustrouverezdansceprogrammetroistempsfortsdiffrentsanimspardiffrentsacteursdelcosystmealgrien1" style="line-height: 25px; margin-top: 5px;">
+                        Pour vous préparer à faire face aux défis de l’entrepreneuriat, vous trouverez dans ce programme trois temps forts différents animés par différents acteurs de l’écosystème algérien.
                     </div>
                 </div>
                 <div class="groupe22941">
-                    <img alt="Image" anima-src="./img/rectangle-208-1@1x.png"
-                        class="rectangle20801 anima-smart-layers-pointers "
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/rectangle-211-1@1x.png"
-                        class="rectangle21111 anima-smart-layers-pointers "
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/rectangle-208-1@1x.png"
-                        class="rectangle21221 anima-smart-layers-pointers "
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-208-1@1x.png" class="rectangle20801 anima-smart-layers-pointers " src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-211-1@1x.png" class="rectangle21111 anima-smart-layers-pointers " src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-208-1@1x.png" class="rectangle21221 anima-smart-layers-pointers " src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="workshops3">
                         Workshops<br />
                     </div>
-                    <div class="ateliersdetravailcollectifsaxssurlapratiquepourmonterencomptencechallengervotreprojetetacqurirdesmthodessurdiverssujetsbusinessmodelsegmentationclientbusinessplanpitchstorytellinggrowthhackingcommunicationet4"
-                        style="font-size: 12px; line-height: 15px;">
-                        Ateliers de travail collectifs axés sur la pratique pour monter en compétence, challenger votre
-                        projet et acquérir des méthodes sur divers sujets : Business Model, Segmentation Client,
-                        Business Plan, Pitch &amp; Storytelling, « Growth Hacking, Communication et bien d’autres !
+                    <div class="ateliersdetravailcollectifsaxssurlapratiquepourmonterencomptencechallengervotreprojetetacqurirdesmthodessurdiverssujetsbusinessmodelsegmentationclientbusinessplanpitchstorytellinggrowthhackingcommunicationet4" style="font-size: 12px; line-height: 15px;">
+                        Ateliers de travail collectifs axés sur la pratique pour monter en compétence, challenger votre projet et acquérir des méthodes sur divers sujets : Business Model, Segmentation Client, Business Plan, Pitch &amp; Storytelling, « Growth Hacking, Communication
+                        et bien d’autres !
                     </div>
                     <div class="unatelierchaque15jours5" style="font-family: Poppins-Bold; margin-top: 4px;">
                         Un atelier chaque 15 jours.
@@ -455,11 +435,9 @@
                     <div class="hardcoaching6" style="margin-top: 8px;">
                         Hard Coaching
                     </div>
-                    <div class="unrfrentuniquevoussuivratoutaulongdevotreaventurecetaccompagnementserargulierrythmettoujoursdanslabonnehumeurunchangehebdomadairepourvoussuivredansvotredynamiquevouspermettrederagirrapidementettraiterlesques7"
-                        style="font-size: 12px; line-height: 15px;">
-                        Un référent unique vous suivra tout au long de votre aventure. Cet accompagnement sera régulier,
-                        rythmé et toujours dans la bonne humeur. Un échange hebdomadaire pour vous suivre dans votre
-                        dynamique, vous permettre de réagir rapidement et traiter les questions du moment.
+                    <div class="unrfrentuniquevoussuivratoutaulongdevotreaventurecetaccompagnementserargulierrythmettoujoursdanslabonnehumeurunchangehebdomadairepourvoussuivredansvotredynamiquevouspermettrederagirrapidementettraiterlesques7" style="font-size: 12px; line-height: 15px;">
+                        Un référent unique vous suivra tout au long de votre aventure. Cet accompagnement sera régulier, rythmé et toujours dans la bonne humeur. Un échange hebdomadaire pour vous suivre dans votre dynamique, vous permettre de réagir rapidement et traiter les
+                        questions du moment.
                     </div>
                     <div class="a20min1foisparsemaine8" style="font-family: Poppins-Bold; margin-top: 4px;">
                         20 min 1 fois par semaine<br />
@@ -467,11 +445,8 @@
                     <div class="checkpoints9" style="margin-top: 8px;">
                         Checkpoints
                     </div>
-                    <div class="tempsderflexionetdchangesaveclquipeencadranteetdesentrepreneurslocauxextrieursetexprimentslobjectificiestdeprendredelahauteursurvotreprojetetentamerquelquesmisesenrelation10"
-                        style="font-size: 12px; line-height: 15px;">
-                        Temps de réflexion et d’échanges avec l’équipe encadrante et des entrepreneurs locaux extérieurs
-                        et expérimentés. L’objectif ici est de prendre de la hauteur sur votre projet et entamer
-                        quelques mises en relation.
+                    <div class="tempsderflexionetdchangesaveclquipeencadranteetdesentrepreneurslocauxextrieursetexprimentslobjectificiestdeprendredelahauteursurvotreprojetetentamerquelquesmisesenrelation10" style="font-size: 12px; line-height: 15px;">
+                        Temps de réflexion et d’échanges avec l’équipe encadrante et des entrepreneurs locaux extérieurs et expérimentés. L’objectif ici est de prendre de la hauteur sur votre projet et entamer quelques mises en relation.
                     </div>
                     <div class="a3foispendantleprogramme11" style="font-family: Poppins-Bold; margin-top: 4px;">
                         3 fois pendant le programme
@@ -492,37 +467,28 @@
                     </div>
                     <!--------------------------------------------------------------------------------------------------------------Form-->
                     <a>
-                        <button type="submit" form="acceleration" style="cursor: pointer;"
-                            onclick="javascript:successPage('acceleration')">
+                        <button type="submit" form="acceleration" style="cursor: pointer;" onclick="javascript:successPage('acceleration')">
                             <div class="rectangle8413 anima-smart-layers-pointers ">
                             </div>
                         </button>
                     </a>
 
                     <form method="GET" action="http://localhost:3000/acceleration" target="votar" id="acceleration">
-                        <input class="nometprnoms4" name="name" id="name_field" placeholder="Nom et Prénom(s)*" required
-                            type="text"
-                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
-                        <input class="emailexemplesylabsdzcom5" name="email" id="email_field"
-                            placeholder="exemple@gmail.com*" required type="email"
-                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                        <input class="nometprnoms4" name="name" id="name_field" placeholder="Nom et Prénom(s)*" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                        <input class="emailexemplesylabsdzcom5" name="email" id="email_field" placeholder="exemple@gmail.com*" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                         <input type="hidden" name="theme" value="Les bases du Graphic Design">
                     </form>
                     <div class="groupe22976" style="pointer-events: none;">
                         <div class="envoyer03">
                             Envoyer
                         </div>
-                        <img alt="Image" anima-src="./img/send-9@1x.png" class="send14"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/send-9@1x.png" class="send14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="rectangle8427">
                     </div>
-                    <input form="acceleration" class="numrodetlphone8" name="tel" id="tel_field"
-                        placeholder="Numéro de Téléphone*" required type="tel" pattern="[0-9+\s]*$" maxlength="13"
-                        minlength="12" title="Saisissez un numero de téléphone au format 0"
-                        style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                    <input form="acceleration" class="numrodetlphone8" name="tel" id="tel_field" placeholder="Numéro de Téléphone*" required type="tel" pattern="[0-9+\s]*$" maxlength="13" minlength="12" title="Saisissez un numero de téléphone au format 0" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                     <script>
-                        document.querySelector('.numrodetlphone8').oninput = function () {
+                        document.querySelector('.numrodetlphone8').oninput = function() {
                             var foo = this.value.split(" ").join("");
                             foo = foo.replace(/[^\d]/, '');
                             foo = foo.substr(1);
@@ -535,30 +501,28 @@
 
                     <div class="rectangle8439">
                     </div>
-                    <textarea form="acceleration" class="dcrivezenquelquesmotsvosattentesentermedaccompagnement10"
-                        name="dcrivezEnQuelquesMotsVosAttentesEnTermeDaccompagnement10" required
-                        placeholder="Décrivez en quelques mots vos attentes en terme d’accompagnement*"
-                        style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 215px; width: 500px; color: #707070; margin-top: -8px;; margin-left: 0px;"></textarea>>
+                    <textarea form="acceleration" class="dcrivezenquelquesmotsvosattentesentermedaccompagnement10" name="dcrivezEnQuelquesMotsVosAttentesEnTermeDaccompagnement10" required placeholder="Décrivez en quelques mots vos attentes en terme d’accompagnement*" style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 215px; width: 500px; color: #707070; margin-top: -8px;; margin-left: 0px;"></textarea>>
                     <div class="nousvouscontacteronsbienttviaemailpouruneconfirmation112">
                         Nous vous contacterons bientôt via email pour une confirmation !
                     </div>
                     <div class="groupe229812">
-                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31907"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31907" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="remplissezleformulairepourcondidater1">
                             Remplissez le formulaire<br />pour. Condidater !
                         </div>
                     </div>
                     <div class="rectangle84413 anima-smart-layers-pointers ">
                         <script type="text/javascript">
-                            $(document).ready(function () {
+                            $(document).ready(function() {
                                 var placeholder = $(this).data('placeholder');
-                                $("select").select2({ theme: "material", placeholder: placeholder });
+                                $("select").select2({
+                                    theme: "material",
+                                    placeholder: placeholder
+                                });
                             });
                         </script>
 
-                        <select data-placeholder="Phase Actuelle*" form="acceleration" name="phase" id="phase_field"
-                            required class="select" style="width: 380px; height: 45px;">
+                        <select data-placeholder="Phase Actuelle*" form="acceleration" name="phase" id="phase_field" required class="select" style="width: 380px; height: 45px;">
                             <option></option>
                             <option value="7">Simple Idée</option>
                             <option value="1">Recherche Appliquée</option>
@@ -570,21 +534,20 @@
                         </select>
                     </div>
                     <div class="rectangle84514 anima-smart-layers-pointers ">
-                        <input form="acceleration" type="file" required name="cv" id="file-1"
-                            class="inputfile inputfile-1"
-                            style="width: 100%; font-size: 14px; font-family: Poppins-Thin; color: #707070; margin-top: 8px;; margin-left: -3px;">
+                        <input form="acceleration" type="file" required name="cv" id="file-1" class="inputfile inputfile-1" style="width: 100%; font-size: 14px; font-family: Poppins-Thin; color: #707070; margin-top: 8px;; margin-left: -3px;">
                         <label for="file-1" style="margin-top: 3px; height: 28px; width: 87.5%; text-align: left;"><span
                                 id="spanID"
                                 style=" margin-left: -10px; font-family: Poppins; font-weight: 400; font-style: normal; text-align: left; color: rgba(163, 161, 161, 0.6);; width: 100%; font-size: 16px;">
                                 CV du Promoteur*</span></label>
                         <script>
-                            ; (function (document, window, index) {
+                            ;
+                            (function(document, window, index) {
                                 var inputs = document.querySelectorAll('.inputfile');
-                                Array.prototype.forEach.call(inputs, function (input) {
+                                Array.prototype.forEach.call(inputs, function(input) {
                                     var label = input.nextElementSibling,
                                         labelVal = label.innerHTML;
 
-                                    input.addEventListener('change', function (e) {
+                                    input.addEventListener('change', function(e) {
                                         var fileName = '';
                                         if (this.files && this.files.length > 1)
                                             fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
@@ -598,28 +561,28 @@
                                     });
 
                                     // Firefox bug fix
-                                    input.addEventListener('focus', function () { input.classList.add('has-focus'); });
-                                    input.addEventListener('blur', function () { input.classList.remove('has-focus'); });
+                                    input.addEventListener('focus', function() {
+                                        input.classList.add('has-focus');
+                                    });
+                                    input.addEventListener('blur', function() {
+                                        input.classList.remove('has-focus');
+                                    });
                                 });
                             }(document, window, 0));
                         </script>
                     </div>
 
 
-                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown17"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown17" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="leschampsmarqusdunastrisquesontobligatoires18">
                         Les champs marqués d’un astérisque * sont obligatoires.
                     </div>
                     <div class="rectangle84619">
                     </div>
-                    <input form="acceleration" class="nomduprojetstartup20" name="projectName" id="projectName_field"
-                        placeholder="Nom du projet ou de la Startup*" required type="text"
-                        style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;" />
+                    <input form="acceleration" class="nomduprojetstartup20" name="projectName" id="projectName_field" placeholder="Nom du projet ou de la Startup*" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;"
+                    />
                     <div class="rectangle84721 anima-smart-layers-pointers ">
-                        <select data-placeholder="Domaine*" form="acceleration" name="domaine" id="domain_field"
-                            required class="select" style="width: 380px; height: 45px;">
+                        <select data-placeholder="Domaine*" form="acceleration" name="domaine" id="domain_field" required class="select" style="width: 380px; height: 45px;">
                             <option></option>
                             <option value="1">TIC</option>
                             <option value="2">Agro-alimentaire</option>
@@ -635,36 +598,30 @@
                         </select>
                     </div>
 
-                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown23"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown23" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="avezvousdjgagnunconcoursoubnficidunaccompagnementpourvotrestartup24">
                         Avez vous déjà gagné un concours ou bénéficié d'un accompagnement pour votre startup ?<br />
                     </div>
                     <div class="rectangle84825">
                     </div>
-                    <input form="acceleration" class="siouiditesennousplus26" name="contest" id="contest_field"
-                        placeholder="Si oui, dites-en nous plus!" type="text"
-                        style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;" />
-                    <img alt="Image" anima-src="./img/icon-material-attach-file-1@1x.png"
-                        class="iconmaterialattachfile27"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <input form="acceleration" class="siouiditesennousplus26" name="contest" id="contest_field" placeholder="Si oui, dites-en nous plus!" type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;"
+                    />
+                    <img alt="Image" anima-src="./img/icon-material-attach-file-1@1x.png" class="iconmaterialattachfile27" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="rectangle84928 anima-smart-layers-pointers ">
-                        <input form="acceleration" type="file" required name="pitch" id="file-2"
-                            class="inputfile inputfile-1"
-                            style="width: 100%; font-size: 14px; font-family: Poppins-Thin; color: #707070; margin-top: 8px;; margin-left: -3px;">
+                        <input form="acceleration" type="file" required name="pitch" id="file-2" class="inputfile inputfile-1" style="width: 100%; font-size: 14px; font-family: Poppins-Thin; color: #707070; margin-top: 8px;; margin-left: -3px;">
                         <label for="file-2" style="margin-top: 3px; height: 28px; width: 87.5%; text-align: left;"><span
                                 id="spanID2"
                                 style=" margin-left: -10px; font-family: Poppins; font-weight: 400; font-style: normal; text-align: left; color: rgba(163, 161, 161, 0.6);; width: 100%; font-size: 16px;">
                                 Bref pitch de présentation*</span></label>
                         <script>
-                            ; (function (document, window, index) {
+                            ;
+                            (function(document, window, index) {
                                 var inputs = document.querySelectorAll('.inputfile');
-                                Array.prototype.forEach.call(inputs, function (input) {
+                                Array.prototype.forEach.call(inputs, function(input) {
                                     var label = input.nextElementSibling,
                                         labelVal = label.innerHTML;
 
-                                    input.addEventListener('change', function (e) {
+                                    input.addEventListener('change', function(e) {
                                         var fileName = '';
                                         if (this.files && this.files.length > 1)
                                             fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
@@ -678,16 +635,18 @@
                                     });
 
                                     // Firefox bug fix
-                                    input.addEventListener('focus', function () { input.classList.add('has-focus'); });
-                                    input.addEventListener('blur', function () { input.classList.remove('has-focus'); });
+                                    input.addEventListener('focus', function() {
+                                        input.classList.add('has-focus');
+                                    });
+                                    input.addEventListener('blur', function() {
+                                        input.classList.remove('has-focus');
+                                    });
                                 });
                             }(document, window, 0));
                         </script>
                     </div>
 
-                    <img alt="Image" anima-src="./img/icon-material-attach-file-1@1x.png"
-                        class="iconmaterialattachfile30"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-material-attach-file-1@1x.png" class="iconmaterialattachfile30" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe22993">
                     <div class="footer02">
@@ -743,20 +702,13 @@
                             <div class="sylabs06">
                                 SYLABS
                             </div>
-                            <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation17"
-                                style="font-family: Poppins; font-size: 16px;">
-                                Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                                entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                                mutation.<br />
+                            <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation17" style="font-family: Poppins; font-size: 16px;">
+                                Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                                <br />
                             </div>
-                            <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image"
-                                    anima-src="./img/001-facebook-2@1x.png" class="a001facebook26"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                            <a href="https://www.twitter.com/sylabsdz"><img alt="Image"
-                                    anima-src="./img/002-twitter-2@1x.png" class="a002twitter36"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                            <img alt="Image" anima-src="./img/004-google-plus-6@1x.png" class="a004googleplus46"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook26" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter36" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <img alt="Image" anima-src="./img/004-google-plus-6@1x.png" class="a004googleplus46" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="groupe4646">
                             <div class="contact011">
@@ -768,16 +720,12 @@
                             <div class="a21377026490626" style="font-family: Poppins-Bold;">
                                 (+213) 7 70 26 49 06
                             </div>
-                            <div class="a08ruehassaniyessad16004algercentre36"
-                                style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                            <div class="a08ruehassaniyessad16004algercentre36" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                                 08 Rue Hassani Yessad,<br />16004, Alger Centre.
                             </div>
-                            <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail46"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone56"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin66"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail46" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone56" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin66" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="copyright2020allrightsreserved56">
                             Copyright ©2020 All rights reserved.
@@ -788,32 +736,27 @@
                     </div>
 
                     <div class="groupe22711" id="newsletter_subscription">
-                        <img alt="Image" anima-src="./img/810-1@1x.png" class="a81006"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/810-1@1x.png" class="a81006" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="gardezlecontactavecnous15">
                             GARDEZ LE CONTACT AVEC NOUS</div>
                         <div class="rectangle18925"></div>
 
                         <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                            <input class="exemplegmailcom35" name="email" id="email_field"
-                                placeholder="exemple@gmail.com" required type="email"
-                                style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                            <input class="exemplegmailcom35" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                         </form>
 
                         <div class="votreadressemail45">
                             Votre Adresse Mail
                         </div>
                         <a>
-                            <button type="submit" form="newsletter" style="cursor: pointer;"
-                                onclick="javascript:submit_form('newsletter')">
+                            <button type="submit" form="newsletter" style="cursor: pointer;" onclick="javascript:submit_form('newsletter')">
                                 <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31555"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                                 <img alt="Image" anima-src="./img/send-10@1x.png" class="send65"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             </button>
                         </a>
-                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter75"
-                            style="font-size: 20px; line-height: 20px; width: 400px;">
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter75" style="font-size: 20px; line-height: 20px; width: 400px;">
                             Restez informés de toute notre activité, inscrivez-vous à notre newsletter
                         </div>
                     </div>
@@ -825,8 +768,7 @@
                             <div class="gardezlecontactavecnous15">
                                 GARDEZ LE CONTACT AVEC NOUS
                             </div>
-                            <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter75"
-                                style="width: 688px;">
+                            <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter75" style="width: 688px;">
                                 Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
                             </div>
                         </div>
@@ -836,36 +778,30 @@
                 </div>
                 <div class="groupe22954">
                     <div class="groupe222204">
-                        <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection504"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1515"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection504" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1515" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe226912">
                         <div class="acclration0">
                             Accélération
                         </div>
-                        <div class="nousoffronsaccompagnementetacclration1"
-                            style="font-size: 15px; margin-top: -2px; width: 400px;">
+                        <div class="nousoffronsaccompagnementetacclration1" style="font-size: 15px; margin-top: -2px; width: 400px;">
                             Nous offrons accompagnement et accélération!
                         </div>
                     </div>
                     <div class="groupe222722">
-                        <div
-                            class="lestadedacclrationconcernelesprojetsavecunmodleconomiquevalidetquiseconcentrentsurlacroissancedelastartupsurlemarchchoisicestcestadequesylabsintervientenaccompagnantlesstartupsurtouslesaspectslisleurc0">
+                        <div class="lestadedacclrationconcernelesprojetsavecunmodleconomiquevalidetquiseconcentrentsurlacroissancedelastartupsurlemarchchoisicestcestadequesylabsintervientenaccompagnantlesstartupsurtouslesaspectslisleurc0">
                             <span class="span0" style="font-size: 20px;line-height: 25px;">Le stade d’accélération
                                 concerne les projets avec un modèle économique
                                 validé et qui se concentrent sur la croissance de la startup sur le marché
-                                choisi.<br /><br /></span><span class="span1"
-                                style="font-size: 18.8px; line-height: 25px;">C’est à ce stade que Sylabs intervient en
+                                choisi.<br /><br /></span><span class="span1" style="font-size: 18.8px; line-height: 25px;">C’est à ce stade que Sylabs intervient en
                                 accompagnant les startup sur tous les aspects liés à leur croissance rapide!
                                 <br />D’autres axes de développement de l’institut sont en cours et permettront de
                                 construire un écosystème complet pour la réussite de startups en Algérie (permetant à
                                 chacun de réaliser son prototype avec les moyens mis à sa disposition; Formation à
                                 l’innovation, Hard Coaching, CheckPoints, etc.)</span>
                         </div>
-                        <div class="thealgerianaccelerationprogram1"
-                            style="font-family: Poppins-Bold; margin-top: 10px;">
+                        <div class="thealgerianaccelerationprogram1" style="font-family: Poppins-Bold; margin-top: 10px;">
                             The Algerian Acceleration Program !
                         </div>
                         <div class="notreprogrammedacclration2">
@@ -875,38 +811,27 @@
                 </div>
                 <div class="groupe22215">
                     <div class="notification010">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon020"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge120"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon020" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge120" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="notification110">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon021"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge121"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon021" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge121" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe222125">
                         <div class="notification011">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon022"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge122"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon022" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge122" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="notification111">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon023"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge123"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon023" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge123" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="groupe219725">
                             <div class="headerdesktop05">
-                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base05"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base05" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             </div>
-                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png"
-                                    class="sywhmin15"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                         </div>
                         <div class="navbarlight35">
                             <a href="contact.html">
@@ -951,12 +876,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        anima_isHidden = function (e) {
+        anima_isHidden = function(e) {
             if (!(e instanceof HTMLElement)) return !1;
-            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            if (getComputedStyle(e).display == "none") return !0;
+            else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
             return !1;
         };
-        anima_loadAsyncSrcForTag = function (tag) {
+        anima_loadAsyncSrcForTag = function(tag) {
             var elements = document.getElementsByTagName(tag);
             var toLoad = [];
             for (var i = 0; i < elements.length; i++) {
@@ -969,7 +895,7 @@
                 if (anima_isHidden(e)) continue;
                 toLoad.push(e);
             }
-            toLoad.sort(function (a, b) {
+            toLoad.sort(function(a, b) {
                 return anima_getTop(a) - anima_getTop(b);
             });
             for (var i = 0; i < toLoad.length; i++) {
@@ -978,7 +904,7 @@
                 e.setAttribute("src", asyncSrc);
             }
         };
-        anima_pauseHiddenVideos = function (tag) {
+        anima_pauseHiddenVideos = function(tag) {
             var elements = document.getElementsByTagName("video");
             for (var i = 0; i < elements.length; i++) {
                 var e = elements[i];
@@ -991,13 +917,13 @@
                 }
             }
         };
-        anima_loadAsyncSrc = function (tag) {
+        anima_loadAsyncSrc = function(tag) {
             anima_loadAsyncSrcForTag("img");
             anima_loadAsyncSrcForTag("iframe");
             anima_loadAsyncSrcForTag("video");
             anima_pauseHiddenVideos();
         };
-        var anima_getTop = function (e) {
+        var anima_getTop = function(e) {
             var top = 0;
             do {
                 top += e.offsetTop || 0;
@@ -1008,20 +934,20 @@
         anima_loadAsyncSrc();
         anima_old_onResize = window.onresize;
         anima_new_onResize = undefined;
-        anima_updateOnResize = function () {
+        anima_updateOnResize = function() {
             if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                anima_new_onResize = function (x) {
+                anima_new_onResize = function(x) {
                     if (anima_old_onResize != undefined) anima_old_onResize(x);
                     anima_loadAsyncSrc();
                 };
                 window.onresize = anima_new_onResize;
-                setTimeout(function () {
+                setTimeout(function() {
                     anima_updateOnResize();
                 }, 3000);
             }
         };
         anima_updateOnResize();
-        setTimeout(function () {
+        setTimeout(function() {
             anima_loadAsyncSrc();
         }, 200);
     </script>
@@ -1034,13 +960,20 @@
             if (form.reportValidity()) {
                 sleep(500);
                 //form.submit;
-                var sectionDiv = document.getElementById("newsletter_subscription");
-                var success_subscription_message = document.getElementById("success_subscription_message");
-                success_subscription_message.style.display = "block";
-                sectionDiv.style.display = "none";
+                newsletterSubscribe();
 
             }
         }
+
+        function newsletterSubscribe() {
+            var sectionDiv = document.getElementById("newsletter_subscription");
+            var success_subscription_message = document.getElementById("success_subscription_message");
+            success_subscription_message.style.display = "block";
+            sectionDiv.style.display = "none";
+            sessionStorage.setItem('newsletter', 'true');
+        }
+        }
+
         function sleep(milliseconds) {
             const date = Date.now();
             let currentDate = null;

@@ -24,9 +24,8 @@
     <style>
         .select2-container--material {
             width: 100% !important;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__rendered {
             color: #444;
             line-height: 28px;
@@ -37,20 +36,18 @@
             margin-right: 10px;
             font-size: 16px;
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__clear {
             cursor: pointer;
             float: right;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__placeholder {
             color: #999;
             font-family: "Poppins", Helvetica, Arial, serif;
             font-size: 16px;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow {
             height: 26px;
             margin: 0.6rem 0 0.4rem 0;
@@ -59,10 +56,8 @@
             display: none;
             right: 1px;
             margin-right: -17px;
-
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow b {
             border-color: #888 transparent transparent transparent;
             border-style: solid;
@@ -76,30 +71,30 @@
             top: 50%;
             width: 0;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
             float: left;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
             left: 1px;
             right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
             border-color: transparent transparent #888 transparent;
             border-width: 0 4px 5px 4px;
         }
-
+        
         .select2-container--material .select2-selection--multiple {
             background-color: transparent;
             border: none;
@@ -114,9 +109,7 @@
             padding: 5px 0 0 0;
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         }
-
-
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered {
             box-sizing: border-box;
             list-style: none;
@@ -124,25 +117,24 @@
             padding: 0 5px;
             width: 100%;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
             list-style: none;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
             color: #999;
             margin-top: 5px;
             float: left;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__clear {
             cursor: pointer;
             float: right;
-
             margin-top: 5px;
             margin-right: 10px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice {
             background-color: rgba(248, 248, 248, 1.0);
             border-radius: 16px;
@@ -153,78 +145,77 @@
             margin-top: 6px;
             padding: 0 12px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
             cursor: pointer;
             display: block;
-
             float: right;
             margin-left: 5px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
             color: #333;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
             float: right;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
             margin-left: 5px;
             margin-right: auto;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
             margin-left: 2px;
             margin-right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--multiple {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--single {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--multiple {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field {
             border: none;
             border-bottom: 1px solid #ced4da;
             border-radius: 0;
             outline: none;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
             box-shadow: 0 1px 0 0 #ced4da;
             border-bottom: 1px solid #ced4da;
         }
-
+        
         .select2-container--material .select2-search--inline .select2-search__field {
             background: transparent;
             border: none !important;
@@ -232,68 +223,68 @@
             box-shadow: none !important;
             -webkit-appearance: textfield;
         }
-
+        
         .select2-container--material .select2-results>.select2-results__options {
             max-height: 200px;
             overflow-y: auto;
         }
-
+        
         .select2-container--material .select2-results__option[role=group] {
             padding: 0;
         }
-
+        
         .select2-container--material .select2-results__option[aria-disabled=true] {
             color: #999;
         }
-
+        
         .select2-container--material .select2-results__option[aria-selected=true] {
             background-color: rgba(248, 248, 248, 1.0);
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option {
             padding-left: 1em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
             padding-left: 0;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -1em;
             padding-left: 2em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -2em;
             padding-left: 3em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -3em;
             padding-left: 4em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -4em;
             padding-left: 5em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -5em;
             padding-left: 6em;
         }
-
+        
         .select2-container--material .select2-results__option--highlighted[aria-selected] {
             background-color: #214366;
             color: white;
         }
-
+        
         .select2-container--material .select2-results__group {
             cursor: default;
             display: block;
             padding: 6px;
         }
-
+        
         .select2-dropdown {
             background-color: white;
             border: 1px solid #ced4da;
@@ -308,18 +299,17 @@
             margin-top: 30px;
             -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
         }
-
-
+        
         .select2-results {
             display: block;
         }
-
+        
         .select2-results__options {
             list-style: none;
             margin: 0;
             padding: 0;
         }
-
+        
         .select2-results__option {
             padding: 6px;
             font-size: 16px;
@@ -327,43 +317,42 @@
             user-select: none;
             -webkit-user-select: none;
         }
-
+        
         .select2-results__option[aria-selected] {
             cursor: pointer;
         }
-
+        
         .select2-container--open .select2-dropdown {
             left: 0;
-
         }
-
+        
         .select2-container--open .select2-dropdown--above {
             border-bottom: none;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--open .select2-dropdown--below {
             border-top: none;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-search--dropdown {
             display: block;
             padding: 4px;
         }
-
+        
         .select2-search--dropdown .select2-search__field {
             padding: 4px;
             width: 100%;
             box-sizing: border-box;
         }
-
+        
         .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
             -webkit-appearance: none;
         }
-
+        
         .select2-search--dropdown.select2-search--hide {
             display: none;
         }
@@ -372,6 +361,9 @@
         function zoom() {
             if (window.screen.width != 1440)
                 document.body.style.zoom = "110%"
+                //making use of this point to check and set the newsletter subscription state
+            if (sessionStorage.getItem('newsletter'))
+                newsletterSubscribe();
         }
     </script>
 </head>
@@ -383,34 +375,19 @@
         <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
             <div class="groupe29070">
                 <div class="groupe222202">
-                    <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection502"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1513"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection502" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1513" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="testimonials1">
-                    <img alt="Image" anima-src="./img/nathan-dumlao-9dywcscw0rs-unsplash@1x.png"
-                        class="nathandumlao9dywcscw0rsunsplash0"
+                    <img alt="Image" anima-src="./img/nathan-dumlao-9dywcscw0rs-unsplash@1x.png" class="nathandumlao9dywcscw0rsunsplash0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/les-bases-du-graphic-design--@1x.png" class="lesbasesdugraphicdesign1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/formation@1x.png" class="formation2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/walid-aktouf-1@1x.png" class="walidaktouf3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/graphic-designer-senior-chez-alligori-group---1@1x.png" class="graphicdesignerseniorchezalligorigroup4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/vous-allez-apprendre-avec-walid-les-bases-du-graphic-design-en-une-s-ance-de-4-heures--avec-son-expertise-en-la-mati-re--il-vous-d-voilera-tous-les-secrets-du-domaine----1@1x.png" class="vousallezapprendreavecwalidlesbasesdugraphicdesignenunesancede4heuresavecsonexpertiseenlamatireilvousdvoileratouslessecretsdudomaine5"
                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/les-bases-du-graphic-design--@1x.png"
-                        class="lesbasesdugraphicdesign1"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/formation@1x.png" class="formation2"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/walid-aktouf-1@1x.png" class="walidaktouf3"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/graphic-designer-senior-chez-alligori-group---1@1x.png"
-                        class="graphicdesignerseniorchezalligorigroup4"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image"
-                        anima-src="./img/vous-allez-apprendre-avec-walid-les-bases-du-graphic-design-en-une-s-ance-de-4-heures--avec-son-expertise-en-la-mati-re--il-vous-d-voilera-tous-les-secrets-du-domaine----1@1x.png"
-                        class="vousallezapprendreavecwalidlesbasesdugraphicdesignenunesancede4heuresavecsonexpertiseenlamatireilvousdvoileratouslessecretsdudomaine5"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/marius-ciocirlan-vmv6r4vrhj8-unsplash@1x.png"
-                        class="mariusciocirlanvmv6r4vrhj8unsplash6"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/23-05-2020---10-30-1@1x.png" class="a2305202010307"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/marius-ciocirlan-vmv6r4vrhj8-unsplash@1x.png" class="mariusciocirlanvmv6r4vrhj8unsplash6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/23-05-2020---10-30-1@1x.png" class="a2305202010307" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe226921">
                     <div class="nosactivits01">
@@ -482,20 +459,14 @@
                         <div class="sylabs04">
                             SYLABS
                         </div>
-                        <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation15"
-                            style="font-family: Poppins; font-size: 16px;">
-                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                            entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                            mutation.<br />
+                        <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation15" style="font-family: Poppins; font-size: 16px;">
+                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                            <br />
                         </div>
                         <a href="https://www.facebook.com/SylabsDZ/">
-                            <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook24"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                        <a href="https://www.twitter.com/sylabsdz"><img alt="Image"
-                                anima-src="./img/002-twitter-2@1x.png" class="a002twitter34"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus44"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook24" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                        <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter34" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus44" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe4644">
                         <div class="contact07">
@@ -507,16 +478,12 @@
                         <div class="a21377026490624" style="font-family: Poppins-Bold;">
                             (+213) 7 70 26 49 06
                         </div>
-                        <div class="a08ruehassaniyessad16004algercentre34"
-                            style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                        <div class="a08ruehassaniyessad16004algercentre34" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                             08 Rue Hassani Yessad,<br />16004, Alger Centre.
                         </div>
-                        <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail44"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone54"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin64"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail44" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone54" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin64" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="copyright2020allrightsreserved54">
                         Copyright ©2020 All rights reserved.
@@ -527,8 +494,7 @@
                 </div>
 
                 <div class="groupe22715" id="newsletter_subscription">
-                    <img alt="Image" anima-src="./img/810-4@1x.png" class="a81004"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/810-4@1x.png" class="a81004" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="gardezlecontactavecnous13">
                         GARDEZ LE CONTACT AVEC NOUS
                     </div>
@@ -536,9 +502,7 @@
                     </div>
 
                     <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                        <input class="exemplegmailcom33" name="email" id="email_field" placeholder="exemple@gmail.com"
-                            required type="email"
-                            style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                        <input class="exemplegmailcom33" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                     </form>
 
                     <div class="votreadressemail43">
@@ -546,16 +510,14 @@
                     </div>
 
                     <a>
-                        <button type="submit" form="newsletter" style="cursor: pointer;"
-                            onclick="javascript:submit_form('newsletter')">
+                        <button type="submit" form="newsletter" style="cursor: pointer;" onclick="javascript:submit_form('newsletter')">
                             <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31553"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <img alt="Image" anima-src="./img/send-5@1x.png" class="send63"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </button>
                     </a>
-                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter73"
-                        style="font-size: 20px; line-height: 20px; width: 400px;">
+                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter73" style="font-size: 20px; line-height: 20px; width: 400px;">
                         Restez informés de toute notre activité, inscrivez-vous à notre newsletter
                     </div>
                 </div>
@@ -566,8 +528,7 @@
                         <div class="gardezlecontactavecnous13">
                             GARDEZ LE CONTACT AVEC NOUS
                         </div>
-                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter73"
-                            style="width: 688px;">
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter73" style="width: 688px;">
                             Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
                         </div>
                     </div>
@@ -580,8 +541,7 @@
                     </div>
                     <!--------------------------------------------------------------------------------------------------------------Form-->
                     <a>
-                        <button type="submit" form="formation" style="cursor: pointer;"
-                            onclick="javascript:successPage('formation')">
+                        <button type="submit" form="formation" style="cursor: pointer;" onclick="javascript:successPage('formation')">
                             <div class="rectangle8322 anima-smart-layers-pointers ">
                             </div>
                         </button>
@@ -590,30 +550,27 @@
 
 
                     <form method="GET" action="http://localhost:3000/formation" target="votar" id="formation">
-                        <input class="nometprnoms3" name="name" id="name_field" placeholder="Nom et Prénom(s)" required
-                            type="text"
-                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
-                        <input class="emailexemplesylabsdzcom4" name="email" id="email_field"
-                            placeholder="exemple@gmail.com" required type="email"
-                            style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                        <input class="nometprnoms3" name="name" id="name_field" placeholder="Nom et Prénom(s)" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                        <input class="emailexemplesylabsdzcom4" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                         <input type="hidden" name="theme" value="Les bases du Graphic Design">
                     </form>
                     <div class="groupe675" style="pointer-events: none;">
                         <div class="envoyer01">
                             Envoyer
                         </div>
-                        <img alt="Image" anima-src="./img/send-6@1x.png" class="send12"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/send-6@1x.png" class="send12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="rectangle8336">
                         <script type="text/javascript">
-                            $(document).ready(function () {
-                                $("select").select2({ theme: "material", placeholder: "Occupation" });
+                            $(document).ready(function() {
+                                $("select").select2({
+                                    theme: "material",
+                                    placeholder: "Occupation"
+                                });
                             });
                         </script>
 
-                        <select form="formation" name="occupation" id="occupation_field" required class="select"
-                            style="width: 380px; height: 45px;">
+                        <select form="formation" name="occupation" id="occupation_field" required class="select" style="width: 380px; height: 45px;">
                             <option></option>
                             <option value="Étudiant">Étudiant</option>
                             <option value="Employé">Employé</option>
@@ -623,22 +580,16 @@
 
                         </select>
                     </div>
-                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown8"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown8" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="rectangle8289">
                     </div>
-                    <textarea form="formation" class="avezvousquelquechoseajouter10"
-                        name="avezVousQuelqueChoseAjouter10" id="note_field"
-                        placeholder="Avez-vous quelque chose à ajouter?" type="text"
-                        style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 253px; width: 500px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
+                    <textarea form="formation" class="avezvousquelquechoseajouter10" name="avezVousQuelqueChoseAjouter10" id="note_field" placeholder="Avez-vous quelque chose à ajouter?" type="text" style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 253px; width: 500px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
                     <!--------------------------------------------------------------------------------------------------------------Form-->
                     <div class="nousvouscontacteronsbienttviaemailpouruneconfirmation11">
                         Nous vous contacterons bientôt via email pour une confirmation !
                     </div>
                     <div class="groupe227412">
-                        <img alt="Image" anima-src="./img/trac--319-1@1x.png" class="trac31901"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/trac--319-1@1x.png" class="trac31901" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="remplissezleformulairepourvousinscrire1">
                             Remplissez le formulaire<br />pour. vous inscrire !
                         </div>
@@ -646,38 +597,27 @@
                 </div>
                 <div class="groupe22217">
                     <div class="notification06">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon012"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge112"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon012" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge112" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="notification16">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon013"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge113"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon013" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge113" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe222123">
                         <div class="notification07">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon014"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge114"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon014" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge114" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="notification17">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon015"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge115"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon015" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge115" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="groupe219723">
                             <div class="headerdesktop03">
-                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base03"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base03" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             </div>
-                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png"
-                                    class="sywhmin13"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                         </div>
                         <div class="navbarlight33">
                             <a href="contact.html">
@@ -722,12 +662,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        anima_isHidden = function (e) {
+        anima_isHidden = function(e) {
             if (!(e instanceof HTMLElement)) return !1;
-            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            if (getComputedStyle(e).display == "none") return !0;
+            else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
             return !1;
         };
-        anima_loadAsyncSrcForTag = function (tag) {
+        anima_loadAsyncSrcForTag = function(tag) {
             var elements = document.getElementsByTagName(tag);
             var toLoad = [];
             for (var i = 0; i < elements.length; i++) {
@@ -740,7 +681,7 @@
                 if (anima_isHidden(e)) continue;
                 toLoad.push(e);
             }
-            toLoad.sort(function (a, b) {
+            toLoad.sort(function(a, b) {
                 return anima_getTop(a) - anima_getTop(b);
             });
             for (var i = 0; i < toLoad.length; i++) {
@@ -749,7 +690,7 @@
                 e.setAttribute("src", asyncSrc);
             }
         };
-        anima_pauseHiddenVideos = function (tag) {
+        anima_pauseHiddenVideos = function(tag) {
             var elements = document.getElementsByTagName("video");
             for (var i = 0; i < elements.length; i++) {
                 var e = elements[i];
@@ -762,13 +703,13 @@
                 }
             }
         };
-        anima_loadAsyncSrc = function (tag) {
+        anima_loadAsyncSrc = function(tag) {
             anima_loadAsyncSrcForTag("img");
             anima_loadAsyncSrcForTag("iframe");
             anima_loadAsyncSrcForTag("video");
             anima_pauseHiddenVideos();
         };
-        var anima_getTop = function (e) {
+        var anima_getTop = function(e) {
             var top = 0;
             do {
                 top += e.offsetTop || 0;
@@ -779,20 +720,20 @@
         anima_loadAsyncSrc();
         anima_old_onResize = window.onresize;
         anima_new_onResize = undefined;
-        anima_updateOnResize = function () {
+        anima_updateOnResize = function() {
             if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                anima_new_onResize = function (x) {
+                anima_new_onResize = function(x) {
                     if (anima_old_onResize != undefined) anima_old_onResize(x);
                     anima_loadAsyncSrc();
                 };
                 window.onresize = anima_new_onResize;
-                setTimeout(function () {
+                setTimeout(function() {
                     anima_updateOnResize();
                 }, 3000);
             }
         };
         anima_updateOnResize();
-        setTimeout(function () {
+        setTimeout(function() {
             anima_loadAsyncSrc();
         }, 200);
     </script>
@@ -805,13 +746,19 @@
             if (form.reportValidity()) {
                 sleep(500);
                 //form.submit;
-                var sectionDiv = document.getElementById("newsletter_subscription");
-                var success_subscription_message = document.getElementById("success_subscription_message");
-                success_subscription_message.style.display = "block";
-                sectionDiv.style.display = "none";
+                newsletterSubscribe();
 
             }
         }
+
+        function newsletterSubscribe() {
+            var sectionDiv = document.getElementById("newsletter_subscription");
+            var success_subscription_message = document.getElementById("success_subscription_message");
+            success_subscription_message.style.display = "block";
+            sectionDiv.style.display = "none";
+            sessionStorage.setItem('newsletter', 'true');
+        }
+
         function sleep(milliseconds) {
             const date = Date.now();
             let currentDate = null;

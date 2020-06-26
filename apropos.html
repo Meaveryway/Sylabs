@@ -22,6 +22,9 @@
         function zoom() {
             if (window.screen.width != 1440)
                 document.body.style.zoom = "110%"
+                //making use of this point to check and set the newsletter subscription state
+            if (sessionStorage.getItem('newsletter'))
+                newsletterSubscribe();
         }
     </script>
 </head>
@@ -79,20 +82,13 @@
                     <div class="sylabs01">
                         SYLABS
                     </div>
-                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation12"
-                        style="font-family: Poppins; font-size: 16px;">
-                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                        entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                        mutation.<br />
+                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation12" style="font-family: Poppins; font-size: 16px;">
+                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                        <br />
                     </div>
-                    <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image"
-                            anima-src="./img/001-facebook-1@1x.png" class="a001facebook21"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                    <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-1@1x.png"
-                            class="a002twitter31"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                    <img alt="Image" anima-src="./img/004-google-plus-1@1x.png" class="a004googleplus41"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image" anima-src="./img/001-facebook-1@1x.png" class="a001facebook21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                    <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-1@1x.png" class="a002twitter31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                    <img alt="Image" anima-src="./img/004-google-plus-1@1x.png" class="a004googleplus41" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe4641">
                     <div class="contact02">
@@ -104,16 +100,12 @@
                     <div class="a21377026490621" style="font-family: Poppins-Bold;">
                         (+213) 7 70 26 49 06
                     </div>
-                    <div class="a08ruehassaniyessad16004algercentre31"
-                        style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                    <div class="a08ruehassaniyessad16004algercentre31" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                         08 Rue Hassani Yessad,<br />16004, Alger Centre.
                     </div>
-                    <img alt="Image" anima-src="./img/mail-1@1x.png" class="mail41"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/phone-1@1x.png" class="phone51"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/map-pin-1@1x.png" class="mappin61"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/mail-1@1x.png" class="mail41" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/phone-1@1x.png" class="phone51" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/map-pin-1@1x.png" class="mappin61" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="copyright2020allrightsreserved51">
                     Copyright ©2020 All rights reserved.
@@ -124,10 +116,8 @@
             </div>
             <div class="groupe29051">
                 <div class="groupe222201">
-                    <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection50"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1511"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection50" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1511" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe22691">
                     <div class="proposdenous02">
@@ -138,32 +128,23 @@
                     </div>
                 </div>
                 <div class="groupe22272">
-                    <div
-                        class="soutenirlentrepreneuriatdanstoutessesformesenproposantunlargepaneldoutilsdeconseilsdaccompagnementpersonnalisetdemiseenrelationdaffairestoutceuxquisouhaitentlanceroudvelopperleursactivitsdvelopperlcosy0">
-                        <span class="span0">-</span><span class="span1"> </span><span class="span2"
-                            style="font-size:17px; line-height: 22px;">Soutenir
-                            l’entrepreneuriat dans toutes ses formes</span><span class="span3"
-                            style="font-size:17px; line-height: 22px;"> : en proposant un large
+                    <div class="soutenirlentrepreneuriatdanstoutessesformesenproposantunlargepaneldoutilsdeconseilsdaccompagnementpersonnalisetdemiseenrelationdaffairestoutceuxquisouhaitentlanceroudvelopperleursactivitsdvelopperlcosy0">
+                        <span class="span0">-</span><span class="span1"> </span><span class="span2" style="font-size:17px; line-height: 22px;">Soutenir
+                            l’entrepreneuriat dans toutes ses formes</span><span class="span3" style="font-size:17px; line-height: 22px;"> : en proposant un large
                             panel d’outils, de conseils, d’accompagnement personnalisé et de mise en relation d’affaires
-                            à tout ceux qui souhaitent lancer ou développer leurs activités. <br /><br /></span><span
-                            class="span4">-</span><span class="span5"> </span><span class="span6">Développer
+                            à tout ceux qui souhaitent lancer ou développer leurs activités. <br /><br /></span><span class="span4">-</span><span class="span5"> </span><span class="span6">Développer
                             l’écosystème</span><span class="span7" style="font-size:17px; line-height: 22px;"> : en
                             agissant directement auprès des décideurs
                             publics et privés afin de faire entendre la voix des entrepreneurs et contribuer à la
-                            création d’un environnement propice aux affaires.<br /><br /></span><span
-                            class="span8">-</span><span class="span9"> </span><span class="span10"
-                            style="font-size:17px; line-height: 22px;">Créer des passerelles
-                            entre les Corporates et les enjeux de développement local</span><span class="span11"
-                            style="font-size:17px; line-height: 22px;"> : afin
+                            création d’un environnement propice aux affaires.<br /><br /></span><span class="span8">-</span><span class="span9"> </span><span class="span10" style="font-size:17px; line-height: 22px;">Créer des passerelles
+                            entre les Corporates et les enjeux de développement local</span><span class="span11" style="font-size:17px; line-height: 22px;"> : afin
                             d’optimiser l’engagement citoyen des entreprises souhaitant développer l’écosystème local en
                             leur donnant accès direct à notre communauté et à ses besoins.<br /><br /></span>
                     </div>
-                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutationafindatteindrecetteobjectifsylabssestconstruitunplandactivit1"
-                        style="font-size:17px; line-height: 22px;">
-                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                        entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
-                        Afin d’atteindre cette objectif, Sylabs s’est construit un plan d’activités visant à
-                        :<br /><br />
+                    <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutationafindatteindrecetteobjectifsylabssestconstruitunplandactivit1" style="font-size:17px; line-height: 22px;">
+                        Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation. Afin d’atteindre cette objectif, Sylabs s’est construit un plan d’activités
+                        visant à :
+                        <br /><br />
                     </div>
                     <div class="sylabsestunhubdentrepreneuriatetdetechnologieaucoeurdalger2">
                         Sylabs est un hub d’entrepreneuriat<br />et de technologie au coeur d’Alger,
@@ -179,16 +160,32 @@
                     <div class="notrequipe1" style="font-size:21px; margin-top: -4px">
                         NOTRE ÉQUIPE
                     </div>
+                    <div>
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31908" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-top: 230px; margin-left: 1060px;" />
+                        <div class="contacteznous19" style="width: 150px; margin-top: 215px; margin-left: 1050px;">
+                            Consultez leurs<br>Profils LinkedIn!
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31908" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-top: 1420px; margin-left: 1130px;" />
+                        <div class="contacteznous19" style="width: 150px; margin-top: 1385px; margin-left: 1070px;">
+                            Consultez leurs<br>Sites Officiels!
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31908" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-top: 2050px; margin-left: 1130px;" />
+                        <div class="contacteznous19" style="width: 150px; margin-top: 2015px; margin-left: 1070px;">
+                            Contactez- -les<br>par Email!
+                        </div>
+                    </div>
                     <div class="groupe22562">
                         <div class="rectangle7780">
                         </div>
-                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/">
+                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/" target="_blank">
                             <div class="rectangle7801">
                             </div>
                         </a>
-                        <img alt="Image" anima-src="./img/deborah-cortelazzi-grequcuxqli-unsplash@1x.png"
-                            class="deborahcortelazzigrequcuxqliunsplash2"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/deborah-cortelazzi-grequcuxqli-unsplash@1x.png" class="deborahcortelazzigrequcuxqliunsplash2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="fondateur3">
                             FONDATEUR
                         </div>
@@ -198,20 +195,16 @@
                         <div class="fondateurdesylabsetdirecteurgnral5">
                             Fondateur de Sylabs et Directeur Général.
                         </div>
-                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin6"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="pointer-events: none;" />
+                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="pointer-events: none;" />
                     </div>
                     <div class="groupe22573">
                         <div class="rectangle7790">
                         </div>
-                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/">
+                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/" target="_blank">
                             <div class="rectangle7811">
                             </div>
                         </a>
-                        <img alt="Image" anima-src="./img/minh-pham-1-b4zzh7upq-unsplash@1x.png"
-                            class="minhpham1b4zzh7upqunsplash2"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/minh-pham-1-b4zzh7upq-unsplash@1x.png" class="minhpham1b4zzh7upqunsplash2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="operationsmanager3">
                             OPERATIONS MANAGER
                         </div>
@@ -221,20 +214,16 @@
                         <div class="imenesoccupedesoprationsdepuis2ans5">
                             Imene s’occupe des Opérations depuis 2 ans.
                         </div>
-                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin61"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="pointer-events: none;" />
+                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin61" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="pointer-events: none;" />
                     </div>
                     <div class="groupe22534">
                         <div class="rectangle7830">
                         </div>
-                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/">
+                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/" target="_blank">
                             <div class="rectangle7851">
                             </div>
                         </a>
-                        <img alt="Image" anima-src="./img/deborah-cortelazzi-grequcuxqli-unsplash-1@1x.png"
-                            class="deborahcortelazzigrequcuxqliunsplash21"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/deborah-cortelazzi-grequcuxqli-unsplash-1@1x.png" class="deborahcortelazzigrequcuxqliunsplash21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="socialmediamanager3">
                             SOCIAL MEDIA MANAGER
                         </div>
@@ -244,20 +233,16 @@
                         <div class="thizirisoccupedetoutcequiestrseauxsociauxdepuismaintenant5ans5">
                             Thiziri s’occupe de tout ce qui est réseaux sociaux depuis maintenant 5 ans.
                         </div>
-                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin62"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="pointer-events: none;" />
+                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin62" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="pointer-events: none;" />
                     </div>
                     <div class="groupe22545">
                         <div class="rectangle7770">
                         </div>
-                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/">
+                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/" target="_blank">
                             <div class="rectangle7821">
                             </div>
                         </a>
-                        <img alt="Image" anima-src="./img/sven-brandsma-gmrin7tvw1w-unsplash@1x.png"
-                            class="svenbrandsmagmrin7tvw1wunsplash2"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/sven-brandsma-gmrin7tvw1w-unsplash@1x.png" class="svenbrandsmagmrin7tvw1wunsplash2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="digitalcontentofficer3">
                             <span class="span0">DIGITAL CONTENT OFFICER<br /></span><span class="span1"><br /></span>
                         </div>
@@ -267,20 +252,16 @@
                         <div class="rianeestnotreresponsabledigitaldepuis4ans5">
                             Riane est notre Responsable Digital depuis 4 ans.
                         </div>
-                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin63"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="pointer-events: none;" />
+                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin63" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="pointer-events: none;" />
                     </div>
                     <div class="groupe22556">
                         <div class="rectangle7750">
                         </div>
-                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/">
+                        <a href="https://www.linkedin.com/in/ferhat-lyes-ferhat-0b3329135/" target="_blank">
                             <div class="rectangle7761">
                             </div>
                         </a>
-                        <img alt="Image" anima-src="./img/christopher-jolly-gqbu78bdjfm-unsplash@1x.png"
-                            class="christopherjollygqbu78bdjfmunsplash2"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/christopher-jolly-gqbu78bdjfm-unsplash@1x.png" class="christopherjollygqbu78bdjfmunsplash2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="videomaker3">
                             VIDEO MAKER
                         </div>
@@ -290,9 +271,7 @@
                         <div class="sidsoccupeducontenumultimdiadepuismaintenant4ans5">
                             Sid s’occupe du contenu multimédia, depuis maintenant 4 ans.
                         </div>
-                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin64"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="pointer-events: none;" />
+                        <img alt="Image" anima-src="./img/icon-awesome-linkedin-1@1x.png" class="iconawesomelinkedin64" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="pointer-events: none;" />
                     </div>
                 </div>
                 <div class="groupe22684">
@@ -302,8 +281,7 @@
                     <div class="notrecommunaut1">
                         NOTRE COMMUNAUTÉ
                     </div>
-                    <div
-                        class="notrecommunautestconstituedentrepreneursdedveloppeursdedesignersdartistesdtudiantspassionnsdinnovationetdetechnologiequisedonnentrendezvoussylabspourcollaborerchangeretcrerdelavaleuraleursctsdesact2">
+                    <div class="notrecommunautestconstituedentrepreneursdedveloppeursdedesignersdartistesdtudiantspassionnsdinnovationetdetechnologiequisedonnentrendezvoussylabspourcollaborerchangeretcrerdelavaleuraleursctsdesact2">
                         <span class="span0" style="font-size:17px; line-height: 22px;">Notre communauté est constituée
                             d’entrepreneurs, de développeurs, de
                             designers, d’artistes, d’étudiants, passionnés d’innovation et de technologie, qui se
@@ -317,140 +295,261 @@
                     </div>
                 </div>
                 <div class="groupe22675">
-                    <div class="groupe22390">
-                        <div class="rectangle22706">
-                        </div>
-                        <a href="mailto: contact@opticharge.com">
-                            <div class="rectangle22816">
+                    <div id="startups1" style=" transition-property: all;
+                    transition-duration: 1s;">
+                        <div class="groupe22390">
+                            <div class="rectangle22706">
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection326"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="startup3">
-                            STARTUP
+                            <a href="https://facebook.com/nboujiw/" target="_blank">
+                                <div class="rectangle22816">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection326" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup3">
+                                STARTUP
+                            </div>
+                            <div class="opticharge4">
+                                NBOUJIW
+                            </div>
+                            <div class="optichargeestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                NBOUJIW est une startup fondée en 2017 dans le domaine du voyage et du tourisme.
+                            </div>
+                            <div class="iconioniciosmail6" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac3160" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+                                <!--img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac3171" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /-->
+                            </div>
                         </div>
-                        <div class="opticharge4">
-                            OPTICHARGE
+                        <div class="groupe22431">
+                            <div class="rectangle22707">
+                            </div>
+                            <a href="https://opticharge.dz" target="_blank">
+                                <div class="rectangle22817">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection327" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup31">
+                                STARTUP
+                            </div>
+                            <div class="nboujiw4">
+                                OPTICHARGE
+                            </div>
+                            <div class="nboujiwestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                OPTICHARGE est une startup fondée en 2017 dans le domaine des énergies renouvelables.
+                            </div>
+                            <div class="iconioniciosmail61" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31601" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
                         </div>
-                        <div class="optichargeestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                            OPTICHARGE est une startup fondée en 2017 dans le domaine des énergies renouvelables.
+                        <div class="groupe22442">
+                            <div class="rectangle22708">
+                            </div>
+                            <a href="https://yassir.io" target="_blank">
+                                <div class="rectangle22818">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection328" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup32">
+                                ENTREPRISE
+                            </div>
+                            <div class="kotoob4">
+                                YASSIR
+                            </div>
+                            <div class="kotoobestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                YASSIR est une startup fondée en 2017 dans le domaine du transport VTC.
+                            </div>
+                            <div class="iconioniciosmail62" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31602" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
                         </div>
-                        <div class="iconioniciosmail6" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac3160"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac3171"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="groupe22453">
+                            <div class="rectangle22709">
+                            </div>
+                            <a href="https://www.facebook.com/Beautybiodz16" target="_blank">
+                                <div class="rectangle22819">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection329" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup33">
+                                STARTUP
+                            </div>
+                            <div class="spart4">
+                                BEAUTY &amp; BIO
+                            </div>
+                            <div class="spartestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                BEAUTY &amp; BIO est une startup fondée en 2017 dans le domaine du cosmétique Bio.
+                            </div>
+                            <div class="iconioniciosmail63" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31603" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22464">
+                            <div class="rectangle227010">
+                            </div>
+                            <a href="https://kotoob.dz" target="_blank">
+                                <div class="rectangle228110">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection3210" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="entreprise3">
+                                STARTUP
+                            </div>
+                            <div class="yassir4">
+                                KOTOOB
+                            </div>
+                            <div class="yassirestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                KOTOOB est une startup fondée en 2017 dans le domaine de la librairie.
+                            </div>
+                            <div class="iconioniciosmail64" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31604" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22475">
+                            <div class="rectangle227011">
+                            </div>
+                            <a href="https://spartdz.com" target="_blank">
+                                <div class="rectangle228111">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection3211" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup34">
+                                STARTUP
+                            </div>
+                            <div class="beautybio4">
+                                SPART
+                            </div>
+                            <div class="beautybioestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                SPART est une startup fondée en 2017 dans le domaine du sport.
+                            </div>
+                            <div class="iconioniciosmail65" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31605" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
                         </div>
                     </div>
-                    <div class="groupe22431">
-                        <div class="rectangle22707">
-                        </div>
-                        <a href="mailto: hello@nboujiw.com">
-                            <div class="rectangle22817">
+                    <div id="startups2" style=" transition-property: all;
+                    transition-duration: 1s; opacity: 0; visibility: none;">
+                        <div class="groupe22390">
+                            <div class="rectangle22706">
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection327"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="startup31">
-                            STARTUP
-                        </div>
-                        <div class="nboujiw4">
-                            NBOUJIW
-                        </div>
-                        <div class="nboujiwestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                            NBOUJIW est une startup fondée en 2017 dans le domaine des énergies renouvelables.
-                        </div>
-                        <div class="iconioniciosmail61" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31601"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31711"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22442">
-                        <div class="rectangle22708">
-                        </div>
-                        <a href="mailto: contact@kotoob.com">
-                            <div class="rectangle22818">
+                            <a href="https://opticharge.dz" target="_blank">
+                                <div class="rectangle22816">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection326" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup3">
+                                STARTUP
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection328"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="startup32">
-                            STARTUP
-                        </div>
-                        <div class="kotoob4">
-                            KOTOOB
-                        </div>
-                        <div class="kotoobestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                            KOTOOB est une startup fondée en 2017 dans le domaine des énergies renouvelables.
-                        </div>
-                        <div class="iconioniciosmail62" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31602"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31712"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22453">
-                        <div class="rectangle22709">
-                        </div>
-                        <a href="mailto: contact@spart-dz.com">
-                            <div class="rectangle22819">
+                            <div class="opticharge4">
+                                OPTICHARGE
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection329"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="startup33">
-                            STARTUP
-                        </div>
-                        <div class="spart4">
-                            SPART
-                        </div>
-                        <div class="spartestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                            SPART est une startup fondée en 2017 dans le domaine des énergies renouvelables.
-                        </div>
-                        <div class="iconioniciosmail63" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31603"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31713"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22464">
-                        <div class="rectangle227010">
-                        </div>
-                        <a href="mailto: contact@yassir.io">
-                            <div class="rectangle228110">
+                            <div class="optichargeestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                OPTICHARGE est une startup fondée en 2017 dans le domaine des énergies renouvelables.
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection3210"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="entreprise3">
-                            ENTREPRISE
-                        </div>
-                        <div class="yassir4">
-                            YASSIR
-                        </div>
-                        <div class="yassirestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                            YASSIR est une startup fondée en 2017 dans le domaine des énergies renouvelables.
-                        </div>
-                        <div class="iconioniciosmail64" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31604"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31714"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22475">
-                        <div class="rectangle227011">
-                        </div>
-                        <a href="mailto: hello@beauty-bio.dz">
-                            <div class="rectangle228111">
+                            <div class="iconioniciosmail6" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac3160" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+                                <!--img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac3171" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /-->
                             </div>
-                        </a>
-                            <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection3211"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        </div>
+                        <div class="groupe22431">
+                            <div class="rectangle22707">
+                            </div>
+                            <a href="https://facebook.com/nboujiw/" target="_blank">
+                                <div class="rectangle22817">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection327" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup31">
+                                STARTUP
+                            </div>
+                            <div class="nboujiw4">
+                                NBOUJIW
+                            </div>
+                            <div class="nboujiwestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                NBOUJIW est une startup fondée en 2017 dans le domaine du voyage et du tourisme.
+                            </div>
+                            <div class="iconioniciosmail61" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31601" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22442">
+                            <div class="rectangle22708">
+                            </div>
+                            <a href="https://kotoob.dz" target="_blank">
+                                <div class="rectangle22818">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection328" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup32">
+                                STARTUP
+                            </div>
+                            <div class="kotoob4">
+                                KOTOOB
+                            </div>
+                            <div class="kotoobestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                KOTOOB est une startup fondée en 2017 dans le domaine de la librairie.
+                            </div>
+                            <div class="iconioniciosmail62" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31602" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22453">
+                            <div class="rectangle22709">
+                            </div>
+                            <a href="https://spartdz.com" target="_blank">
+                                <div class="rectangle22819">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection329" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="startup33">
+                                STARTUP
+                            </div>
+                            <div class="spart4">
+                                SPART
+                            </div>
+                            <div class="spartestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                SPART est une startup fondée en 2017 dans le domaine du sport.
+                            </div>
+                            <div class="iconioniciosmail63" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31603" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22464">
+                            <div class="rectangle227010">
+                            </div>
+                            <a href="https://yassir.io" target="_blank">
+                                <div class="rectangle228110">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection3210" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="entreprise3">
+                                ENTREPRISE
+                            </div>
+                            <div class="yassir4">
+                                YASSIR
+                            </div>
+                            <div class="yassirestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
+                                YASSIR est une startup fondée en 2017 dans le domaine du transport VTC.
+                            </div>
+                            <div class="iconioniciosmail64" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31604" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
+                            </div>
+                        </div>
+                        <div class="groupe22475">
+                            <div class="rectangle227011">
+                            </div>
+                            <a href="https://www.facebook.com/Beautybiodz16" target="_blank">
+                                <div class="rectangle228111">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection3211" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="startup34">
                                 STARTUP
                             </div>
@@ -458,33 +557,44 @@
                                 BEAUTY &amp; BIO
                             </div>
                             <div class="beautybioestunestartupfondeen2017dansledomainedesnergiesrenouvelables5">
-                                BEAUTY &amp; BIO est une startup fondée en 2017 dans le domaine des énergies
-                                renouvelables.
+                                BEAUTY &amp; BIO est une startup fondée en 2017 dans le domaine du cosmétique Bio.
                             </div>
                             <div class="iconioniciosmail65" style="pointer-events: none;">
-                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31605"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31715"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--734@1x.png" class="trac31605" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: 1px; margin-top: -4px;" />
+
                             </div>
+                        </div>
                     </div>
                     <div class="groupe386">
-                        <img id="position20" alt="Image" anima-src="./img/ellipse-11-1@1x.png" class="ellipse1102"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition2(0)" />
-                        <img id="position21" alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1212"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition2(1)" />
-                        <img id="position22" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1322"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition2(2)" />
-                        <img id="position23" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1432"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition2(3)" />
+                        <img id="position20" alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1102" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition2(0)" />
+                        <img id="position21" alt="Image" anima-src="./img/ellipse-11-1@1x.png" class="ellipse1212" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition2(1)" />
+                        <img id="position22" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1322" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition2(2)" />
+                        <img id="position23" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1432" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition2(3)" />
 
                         <script>
-                            var currentPosition2 = 1;
+                            var currentPosition2 = 0;
+                            var X = false;
+
                             function changePosition2(number) {
+                                var Blog1 = document.getElementById("startups1");
+                                var Blog2 = document.getElementById("startups2");
+                                if (X) {
+                                    Blog2.style.visibility = 'none';
+                                    Blog2.style.opacity = 0;
+
+                                    Blog1.style.visibility = 'visible';
+                                    Blog1.style.opacity = 1;
+
+                                    X = false;
+                                } else {
+                                    Blog1.style.visibility = 'none';
+                                    Blog1.style.opacity = 0;
+
+                                    Blog2.style.visibility = 'visible';
+                                    Blog2.style.opacity = 1;
+
+                                    X = true;
+                                }
                                 currentPosition2 = number;
                                 let id_target2 = "position2" + currentPosition2;
                                 var id2;
@@ -498,6 +608,26 @@
                             }
 
                             function shiftPosition2(number) {
+                                var Blog1 = document.getElementById("startups1");
+                                var Blog2 = document.getElementById("startups2");
+                                if (X) {
+                                    Blog2.style.visibility = 'none';
+                                    Blog2.style.opacity = 0;
+
+                                    Blog1.style.visibility = 'visible';
+                                    Blog1.style.opacity = 1;
+
+                                    X = false;
+                                } else {
+                                    Blog1.style.visibility = 'none';
+                                    Blog1.style.opacity = 0;
+
+                                    Blog2.style.visibility = 'visible';
+                                    Blog2.style.opacity = 1;
+
+                                    X = true;
+                                }
+
                                 currentPosition2 = number;
                                 let id_target2 = "position2" + currentPosition2;
                                 var id2;
@@ -509,21 +639,14 @@
                                 var image_target2 = document.getElementById(id_target2);
                                 image_target2.src = "./img/ellipse-12-1@1x.png";
                             }
-
                         </script>
                     </div>
-                    <img alt="Image" anima-src="./img/rectangle-214-1@1x.png" class="rectangle2147"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        style="cursor:pointer;" onclick="javascript:shiftPosition2((currentPosition2+1)%4)" />
-                    <img alt="Image" anima-src="./img/rectangle-216-1@1x.png" class="rectangle2168"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        style="cursor:pointer;" onclick="javascript:shiftPosition2((currentPosition2+3)%4)" />
-                    <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright19"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/arrow-right--1--15@1x.png" class="arrowright1101"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-214-1@1x.png" class="rectangle2147" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:shiftPosition2((currentPosition2+1)%4)"
+                    />
+                    <img alt="Image" anima-src="./img/rectangle-216-1@1x.png" class="rectangle2168" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:shiftPosition2((currentPosition2+3)%4)"
+                    />
+                    <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright19" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/arrow-right--1--15@1x.png" class="arrowright1101" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="startupsetentreprisesaccompagnesparsylabs11">
                         STARTUPS ET ENTREPRISES ACCOMPAGNÉES PAR SYLABS
                     </div>
@@ -570,18 +693,13 @@
                         <div class="sylabs02">
                             SYLABS
                         </div>
-                        <div
-                            class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation13">
-                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                            entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                            mutation.<br />
+                        <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation13">
+                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                            <br />
                         </div>
-                        <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook22"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter32"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus42"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook22" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter32" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus42" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe4642">
                         <div class="contact03">
@@ -596,12 +714,9 @@
                         <div class="a08ruehassaniyessad16004algercentre32">
                             08 Rue Hassani Yessad,<br />16004, Alger Centre.
                         </div>
-                        <img alt="Image" anima-src="./img/mail-2@1x.png" class="mail42"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone52"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin62"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/mail-2@1x.png" class="mail42" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone52" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin62" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="copyright2020allrightsreserved52">
                         Copyright ©2020 All rights reserved.
@@ -613,33 +728,28 @@
 
                 <!----------------------------------------------------------------------------------------Mail Subscription-->
                 <div class="groupe22527" id="newsletter_subscription">
-                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81002"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81002" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="gardezlecontactavecnous11">
                         GARDEZ LE CONTACT AVEC NOUS
                     </div>
                     <div class="rectangle18921"></div>
 
                     <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                        <input class="exemplegmailcom31" name="email" id="email_field" placeholder="exemple@gmail.com"
-                            required type="email"
-                            style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                        <input class="exemplegmailcom31" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                     </form>
 
                     <div class="votreadressemail41">
                         Votre Adresse Mail
                     </div>
                     <a>
-                        <button type="submit" form="newsletter" style="cursor: pointer;"
-                            onclick="javascript:submit_form('newsletter')">
+                        <button type="submit" form="newsletter" style="cursor: pointer;" onclick="javascript:submit_form('newsletter')">
                             <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31551"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <img alt="Image" anima-src="./img/send-2@1x.png" class="send61"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </button>
                     </a>
-                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter71"
-                        style="font-size: 20px; line-height: 20px; width: 400px;">
+                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter71" style="font-size: 20px; line-height: 20px; width: 400px;">
                         Restez informés de toute notre activité, inscrivez-vous à notre newsletter
                     </div>
                 </div>
@@ -650,8 +760,7 @@
                         <div class="gardezlecontactavecnous11">
                             GARDEZ LE CONTACT AVEC NOUS
                         </div>
-                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter71"
-                            style="width: 688px;">
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter71" style="width: 688px;">
                             Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
                         </div>
                     </div>
@@ -660,172 +769,309 @@
 
 
                 <div class="groupe22668">
-                    <div class="groupe22580">
-                        <div class="rectangle227012">
-                        </div>
-                        <a href="mailto: a_alsallal@sylabs-dz.com">
-                            <div class="rectangle228112">
+                    <div id="people1" style=" transition-property: all;
+                    transition-duration: 1s;">
+                        <div class="groupe22580">
+                            <div class="rectangle227012">
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection3212"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="formateur3">
-                            FORMATEUR
+                            <a href="mailto: a_alsallal@sylabs-dz.com">
+                                <div class="rectangle228112">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection3212" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="formateur3">
+                                FORMATEUR
+                            </div>
+                            <div class="alaalsallal4">
+                                Ala’ ALSALLAL<br />
+                            </div>
+                            <div class="confondateurceochezjamalon5">
+                                Confondateur &amp; CEO chez Jamalon<br /><br />
+                            </div>
+                            <div class="iconioniciosmail66" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31606" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31716" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="alaalsallal4">
-                            Ala’ ALSALLAL<br />
+                        <div class="groupe22591">
+                            <div class="rectangle227013">
+                            </div>
+                            <a href="mailto: h_kamp@sylabs-dz.com">
+                                <div class="rectangle228113">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection3213" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker3">
+                                SPEAKER
+                            </div>
+                            <div class="henkkamp4">
+                                Henk KAMP<br />
+                            </div>
+                            <div class="ministredeleconomieduroyaumedespaysbas5">
+                                Ministre de l’Economie du Royaume des Pays bas<br /><br />
+                            </div>
+                            <div class="iconioniciosmail67" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31607" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31717" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="confondateurceochezjamalon5">
-                            Confondateur &amp; CEO chez Jamalon<br /><br />
+                        <div class="groupe22602">
+                            <div class="rectangle227014">
+                            </div>
+                            <a href="mailto: k_elhian@sylabs-dz.com">
+                                <div class="rectangle228114">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection3214" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker31">
+                                SPEAKER
+                            </div>
+                            <div class="kamranelhian4">
+                                Kamran ELHIAN<br />
+                            </div>
+                            <div class="founderchairmanglobalinnovationcatalyst5">
+                                Founder &amp; Chairman - Global Innovation Catalyst
+                            </div>
+                            <div class="iconioniciosmail68" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31608" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31718" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="iconioniciosmail66" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31606"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31716"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="groupe22613">
+                            <div class="rectangle227015">
+                            </div>
+                            <a href="mailto: f_atrissi@sylabs-dz.com">
+                                <div class="rectangle228115">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection3215" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker32">
+                                SPEAKER
+                            </div>
+                            <div class="ferielatrissi4">
+                                Feriel ATRISSI<br />
+                            </div>
+                            <div class="entrepreneurgraphicdesigner5">
+                                Entrepreneur - Graphic Designer<br /><br />
+                            </div>
+                            <div class="iconioniciosmail69" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31609" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31719" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                        </div>
+                        <div class="groupe22624">
+                            <div class="rectangle227016">
+                            </div>
+                            <a href="mailto: a_hadjidj@sylabs-dz.com">
+                                <div class="rectangle228116">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection3216" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="formateur31">
+                                FORMATEUR
+                            </div>
+                            <div class="abdelkrimhadjidj4">
+                                Abdelkrim HADJIDJ
+                            </div>
+                            <div class="solutionengineerchezhortonworks5">
+                                Solution Engineer chez Hortonworks<br /><br />
+                            </div>
+                            <div class="iconioniciosmail610" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316010" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317110" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                        </div>
+                        <div class="groupe22635">
+                            <div class="rectangle227017">
+                            </div>
+                            <a href="mailto: r_enonchong@sylabs-dz.com">
+                                <div class="rectangle228117">
+                                </div>
+                            </a>
+                            <div class="formateur2">
+                                FORMATEUR
+                            </div>
+                            <div class="rebeccaenonchong3">
+                                Rebecca ENONCHONG<br />
+                            </div>
+                            <div class="boardchairchezafrilabs4">
+                                Board Chair chez AfriLabs<br />
+                            </div>
+                            <div class="iconioniciosmail5" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316011" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317111" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection36" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                     </div>
-                    <div class="groupe22591">
-                        <div class="rectangle227013">
-                        </div>
-                        <a href="mailto: h_kamp@sylabs-dz.com">
-                            <div class="rectangle228113">
+
+
+
+                    <div id="people2" style=" transition-property: all;
+                    transition-duration: 1s; opacity: 0; visibility: none;">
+                        <div class="groupe22580">
+                            <div class="rectangle227012">
                             </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection3213"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="speaker3">
-                            SPEAKER
+                            <a href="mailto: a_alsallal@sylabs-dz.com">
+                                <div class="rectangle228112">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-12@1x.png" class="intersection3212" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="formateur3">
+                                FORMATEUR
+                            </div>
+                            <div class="alaalsallal4">
+                                Ala’ ALSALLAL<br />
+                            </div>
+                            <div class="confondateurceochezjamalon5">
+                                Confondateur &amp; CEO chez Jamalon<br /><br />
+                            </div>
+                            <div class="iconioniciosmail66" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31606" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31716" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="henkkamp4">
-                            Henk KAMP<br />
+                        <div class="groupe22591">
+                            <div class="rectangle227013">
+                            </div>
+                            <a href="mailto: h_kamp@sylabs-dz.com">
+                                <div class="rectangle228113">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-13@1x.png" class="intersection3213" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker3">
+                                SPEAKER
+                            </div>
+                            <div class="henkkamp4">
+                                Henk KAMP<br />
+                            </div>
+                            <div class="ministredeleconomieduroyaumedespaysbas5">
+                                Ministre de l’Economie du Royaume des Pays bas<br /><br />
+                            </div>
+                            <div class="iconioniciosmail67" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31607" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31717" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="ministredeleconomieduroyaumedespaysbas5">
-                            Ministre de l’Economie du Royaume des Pays bas<br /><br />
+                        <div class="groupe22602">
+                            <div class="rectangle227014">
+                            </div>
+                            <a href="mailto: k_elhian@sylabs-dz.com">
+                                <div class="rectangle228114">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection3214" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker31">
+                                SPEAKER
+                            </div>
+                            <div class="kamranelhian4">
+                                Kamran ELHIAN<br />
+                            </div>
+                            <div class="founderchairmanglobalinnovationcatalyst5">
+                                Founder &amp; Chairman - Global Innovation Catalyst
+                            </div>
+                            <div class="iconioniciosmail68" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31608" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31718" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
                         </div>
-                        <div class="iconioniciosmail67" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31607"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31717"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <div class="groupe22613">
+                            <div class="rectangle227015">
+                            </div>
+                            <a href="mailto: f_atrissi@sylabs-dz.com">
+                                <div class="rectangle228115">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection3215" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="speaker32">
+                                SPEAKER
+                            </div>
+                            <div class="ferielatrissi4">
+                                Feriel ATRISSI<br />
+                            </div>
+                            <div class="entrepreneurgraphicdesigner5">
+                                Entrepreneur - Graphic Designer<br /><br />
+                            </div>
+                            <div class="iconioniciosmail69" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31609" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31719" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                        </div>
+                        <div class="groupe22624">
+                            <div class="rectangle227016">
+                            </div>
+                            <a href="mailto: a_hadjidj@sylabs-dz.com">
+                                <div class="rectangle228116">
+                                </div>
+                            </a>
+                            <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection3216" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="formateur31">
+                                FORMATEUR
+                            </div>
+                            <div class="abdelkrimhadjidj4">
+                                Abdelkrim HADJIDJ
+                            </div>
+                            <div class="solutionengineerchezhortonworks5">
+                                Solution Engineer chez Hortonworks<br /><br />
+                            </div>
+                            <div class="iconioniciosmail610" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316010" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317110" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                        </div>
+                        <div class="groupe22635">
+                            <div class="rectangle227017">
+                            </div>
+                            <a href="mailto: r_enonchong@sylabs-dz.com">
+                                <div class="rectangle228117">
+                                </div>
+                            </a>
+                            <div class="formateur2">
+                                FORMATEUR
+                            </div>
+                            <div class="rebeccaenonchong3">
+                                Rebecca ENONCHONG<br />
+                            </div>
+                            <div class="boardchairchezafrilabs4">
+                                Board Chair chez AfriLabs<br />
+                            </div>
+                            <div class="iconioniciosmail5" style="pointer-events: none;">
+                                <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316011" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317111" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            </div>
+                            <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection36" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                     </div>
-                    <div class="groupe22602">
-                        <div class="rectangle227014">
-                        </div>
-                        <a href="mailto: k_elhian@sylabs-dz.com">
-                            <div class="rectangle228114">
-                            </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-14@1x.png" class="intersection3214"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="speaker31">
-                            SPEAKER
-                        </div>
-                        <div class="kamranelhian4">
-                            Kamran ELHIAN<br />
-                        </div>
-                        <div class="founderchairmanglobalinnovationcatalyst5">
-                            Founder &amp; Chairman - Global Innovation Catalyst
-                        </div>
-                        <div class="iconioniciosmail68" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31608"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31718"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22613">
-                        <div class="rectangle227015">
-                        </div>
-                        <a href="mailto: f_atrissi@sylabs-dz.com">
-                            <div class="rectangle228115">
-                            </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-15@1x.png" class="intersection3215"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="speaker32">
-                            SPEAKER
-                        </div>
-                        <div class="ferielatrissi4">
-                            Feriel ATRISSI<br />
-                        </div>
-                        <div class="entrepreneurgraphicdesigner5">
-                            Entrepreneur - Graphic Designer<br /><br />
-                        </div>
-                        <div class="iconioniciosmail69" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac31609"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac31719"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22624">
-                        <div class="rectangle227016">
-                        </div>
-                        <a href="mailto: a_hadjidj@sylabs-dz.com">
-                            <div class="rectangle228116">
-                            </div>
-                        </a>
-                        <img alt="Image" anima-src="./img/intersection-3-10@1x.png" class="intersection3216"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <div class="formateur31">
-                            FORMATEUR
-                        </div>
-                        <div class="abdelkrimhadjidj4">
-                            Abdelkrim HADJIDJ
-                        </div>
-                        <div class="solutionengineerchezhortonworks5">
-                            Solution Engineer chez Hortonworks<br /><br />
-                        </div>
-                        <div class="iconioniciosmail610" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316010"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317110"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                    </div>
-                    <div class="groupe22635">
-                        <div class="rectangle227017">
-                        </div>
-                        <a href="mailto: r_enonchong@sylabs-dz.com">
-                            <div class="rectangle228117">
-                            </div>
-                        </a>
-                        <div class="formateur2">
-                            FORMATEUR
-                        </div>
-                        <div class="rebeccaenonchong3">
-                            Rebecca ENONCHONG<br />
-                        </div>
-                        <div class="boardchairchezafrilabs4">
-                            Board Chair chez AfriLabs<br />
-                        </div>
-                        <div class="iconioniciosmail5" style="pointer-events: none;">
-                            <img alt="Image" anima-src="./img/trac--316-10@1x.png" class="trac316011"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/trac--317-10@1x.png" class="trac317111"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        </div>
-                        <img alt="Image" anima-src="./img/intersection-3-11@1x.png" class="intersection36"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    </div>
+
                     <div class="groupe22646">
-                        <img id="position0" alt="Image" anima-src="./img/ellipse-11-1@1x.png" class="ellipse1103"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition(1)" />
-                        <img id="position1" alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1213"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition(1)" />
-                        <img id="position2" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1323"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition(2)" />
-                        <img id="position3" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1433"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                            style="cursor:pointer;" onclick="javascript:changePosition(3)" />
+                        <img id="position0" alt="Image" anima-src="./img/ellipse-12-1@1x.png" class="ellipse1103" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition(0)" />
+                        <img id="position1" alt="Image" anima-src="./img/ellipse-11-1@1x.png" class="ellipse1213" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition(1)" />
+                        <img id="position2" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1323" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition(2)" />
+                        <img id="position3" alt="Image" anima-src="./img/ellipse-11-4@1x.png" class="ellipse1433" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:changePosition(3)" />
                         <script>
-                            var currentPosition = 1;
+                            var currentPosition = 0;
+                            var Y = 0;
+
                             function changePosition(number) {
+                                var Blog1 = document.getElementById("people1");
+                                var Blog2 = document.getElementById("people2");
+                                if (Y) {
+                                    Blog2.style.visibility = 'none';
+                                    Blog2.style.opacity = 0;
+
+                                    Blog1.style.visibility = 'visible';
+                                    Blog1.style.opacity = 1;
+
+                                    Y = false;
+                                } else {
+                                    Blog1.style.visibility = 'none';
+                                    Blog1.style.opacity = 0;
+
+                                    Blog2.style.visibility = 'visible';
+                                    Blog2.style.opacity = 1;
+
+                                    Y = true;
+                                }
                                 currentPosition = number;
                                 let id_target = "position" + currentPosition;
                                 var id;
@@ -840,6 +1086,25 @@
 
                             function shiftPosition(number) {
                                 currentPosition = number;
+                                var Blog1 = document.getElementById("people1");
+                                var Blog2 = document.getElementById("people2");
+                                if (Y) {
+                                    Blog2.style.visibility = 'none';
+                                    Blog2.style.opacity = 0;
+
+                                    Blog1.style.visibility = 'visible';
+                                    Blog1.style.opacity = 1;
+
+                                    Y = false;
+                                } else {
+                                    Blog1.style.visibility = 'none';
+                                    Blog1.style.opacity = 0;
+
+                                    Blog2.style.visibility = 'visible';
+                                    Blog2.style.opacity = 1;
+
+                                    Y = true;
+                                }
                                 let id_target = "position" + currentPosition;
                                 var id;
                                 for (var i = 0; i < 4; i++) {
@@ -850,59 +1115,42 @@
                                 var image_target = document.getElementById(id_target);
                                 image_target.src = "./img/ellipse-12-1@1x.png";
                             }
-
                         </script>
                     </div>
-                    <img alt="Image" anima-src="./img/rectangle-214-1@1x.png" class="rectangle7867"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        style="cursor:pointer;" onclick="javascript:shiftPosition((currentPosition+1)%4)" />
-                    <img alt="Image" anima-src="./img/rectangle-216-1@1x.png" class="rectangle7878"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        style="cursor:pointer;" onclick="javascript:shiftPosition((currentPosition+3)%4)" />
-                    <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright191"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/arrow-right--1--17@1x.png" class="arrowright1102"
-                        style="pointer-events: none;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/rectangle-214-1@1x.png" class="rectangle7867" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:shiftPosition((currentPosition+1)%4)"
+                    />
+                    <img alt="Image" anima-src="./img/rectangle-216-1@1x.png" class="rectangle7878" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="cursor:pointer;" onclick="javascript:shiftPosition((currentPosition+3)%4)"
+                    />
+                    <img alt="Image" anima-src="./img/arrow-right--1--14@1x.png" class="arrowright191" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/arrow-right--1--17@1x.png" class="arrowright1102" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="nosformateursetspeakers11">
                         NOS FORMATEURS ET SPEAKERS
                     </div>
                 </div>
                 <div class="groupe22219">
                     <div class="notification02">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon04"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge14"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon04" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="notification12">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon05"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge15"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon05" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe222121">
                         <div class="notification03">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon06"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge16"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon06" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="notification13">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon07"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge17"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon07" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="groupe219721">
                             <div class="headerdesktop01">
-                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base01"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base01" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             </div>
                             <a href="accueil.html">
-                                <img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin11"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                                <img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                         </div>
                         <div class="navbarlight31">
                             <a href="contact.html">
@@ -947,12 +1195,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        anima_isHidden = function (e) {
+        anima_isHidden = function(e) {
             if (!(e instanceof HTMLElement)) return !1;
-            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            if (getComputedStyle(e).display == "none") return !0;
+            else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
             return !1;
         };
-        anima_loadAsyncSrcForTag = function (tag) {
+        anima_loadAsyncSrcForTag = function(tag) {
             var elements = document.getElementsByTagName(tag);
             var toLoad = [];
             for (var i = 0; i < elements.length; i++) {
@@ -965,7 +1214,7 @@
                 if (anima_isHidden(e)) continue;
                 toLoad.push(e);
             }
-            toLoad.sort(function (a, b) {
+            toLoad.sort(function(a, b) {
                 return anima_getTop(a) - anima_getTop(b);
             });
             for (var i = 0; i < toLoad.length; i++) {
@@ -974,7 +1223,7 @@
                 e.setAttribute("src", asyncSrc);
             }
         };
-        anima_pauseHiddenVideos = function (tag) {
+        anima_pauseHiddenVideos = function(tag) {
             var elements = document.getElementsByTagName("video");
             for (var i = 0; i < elements.length; i++) {
                 var e = elements[i];
@@ -987,13 +1236,13 @@
                 }
             }
         };
-        anima_loadAsyncSrc = function (tag) {
+        anima_loadAsyncSrc = function(tag) {
             anima_loadAsyncSrcForTag("img");
             anima_loadAsyncSrcForTag("iframe");
             anima_loadAsyncSrcForTag("video");
             anima_pauseHiddenVideos();
         };
-        var anima_getTop = function (e) {
+        var anima_getTop = function(e) {
             var top = 0;
             do {
                 top += e.offsetTop || 0;
@@ -1004,20 +1253,20 @@
         anima_loadAsyncSrc();
         anima_old_onResize = window.onresize;
         anima_new_onResize = undefined;
-        anima_updateOnResize = function () {
+        anima_updateOnResize = function() {
             if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                anima_new_onResize = function (x) {
+                anima_new_onResize = function(x) {
                     if (anima_old_onResize != undefined) anima_old_onResize(x);
                     anima_loadAsyncSrc();
                 };
                 window.onresize = anima_new_onResize;
-                setTimeout(function () {
+                setTimeout(function() {
                     anima_updateOnResize();
                 }, 3000);
             }
         };
         anima_updateOnResize();
-        setTimeout(function () {
+        setTimeout(function() {
             anima_loadAsyncSrc();
         }, 200);
     </script>
@@ -1030,13 +1279,19 @@
             if (form.reportValidity()) {
                 sleep(500);
                 //form.submit;
-                var sectionDiv = document.getElementById("newsletter_subscription");
-                var success_subscription_message = document.getElementById("success_subscription_message");
-                success_subscription_message.style.display = "block";
-                sectionDiv.style.display = "none";
+                newsletterSubscribe();
 
             }
         }
+
+        function newsletterSubscribe() {
+            var sectionDiv = document.getElementById("newsletter_subscription");
+            var success_subscription_message = document.getElementById("success_subscription_message");
+            success_subscription_message.style.display = "block";
+            sectionDiv.style.display = "none";
+            sessionStorage.setItem('newsletter', 'true');
+        }
+
         function sleep(milliseconds) {
             const date = Date.now();
             let currentDate = null;
@@ -1044,7 +1299,7 @@
                 currentDate = Date.now();
             } while (currentDate - date < milliseconds);
         }
-            //-----------------------------------------------------------------------------------------------Form
+        //-----------------------------------------------------------------------------------------------Form
     </script>
     <!-- End of Scripts -->
 </body>

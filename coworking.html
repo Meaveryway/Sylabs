@@ -26,19 +26,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" />
 
-        <style> html {
+    <style>
+        html {
             scroll-behavior: smooth;
-          }</style>
+        }
+    </style>
 
     <style>
         .select2-container--material {
             width: 100% !important;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__rendered {
             color: #444;
             line-height: 28px;
@@ -49,20 +49,18 @@
             margin-right: 10px;
             font-size: 16px;
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__clear {
             cursor: pointer;
             float: right;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__placeholder {
             color: #999;
             font-family: "Poppins", Helvetica, Arial, serif;
             font-size: 16px;
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow {
             height: 26px;
             margin: 0.6rem 0 0.4rem 0;
@@ -71,10 +69,8 @@
             display: none;
             right: 1px;
             margin-right: -17px;
-
-
         }
-
+        
         .select2-container--material .select2-selection--single .select2-selection__arrow b {
             border-color: #888 transparent transparent transparent;
             border-style: solid;
@@ -88,30 +84,30 @@
             top: 50%;
             width: 0;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__clear {
             float: left;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--single .select2-selection__arrow {
             left: 1px;
             right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--single .select2-selection__clear {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open .select2-selection--single .select2-selection__arrow b {
             border-color: transparent transparent #888 transparent;
             border-width: 0 4px 5px 4px;
         }
-
+        
         .select2-container--material .select2-selection--multiple {
             background-color: transparent;
             border: none;
@@ -126,9 +122,7 @@
             padding: 5px 0 0 0;
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         }
-
-
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered {
             box-sizing: border-box;
             list-style: none;
@@ -136,25 +130,24 @@
             padding: 0 5px;
             width: 100%;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__rendered li {
             list-style: none;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__placeholder {
             color: #999;
             margin-top: 5px;
             float: left;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__clear {
             cursor: pointer;
             float: right;
-
             margin-top: 5px;
             margin-right: 10px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice {
             background-color: rgba(248, 248, 248, 1.0);
             border-radius: 16px;
@@ -165,78 +158,77 @@
             margin-top: 6px;
             padding: 0 12px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove {
             cursor: pointer;
             display: block;
-
             float: right;
             margin-left: 5px;
         }
-
+        
         .select2-container--material .select2-selection--multiple .select2-selection__choice__remove:hover {
             color: #333;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-search--inline {
             float: right;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
             margin-left: 5px;
             margin-right: auto;
         }
-
+        
         .select2-container--material[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
             margin-left: 2px;
             margin-right: auto;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection--multiple {
             background-color: rgba(248, 248, 248, 1.0);
             cursor: default;
         }
-
+        
         .select2-container--material.select2-container--disabled .select2-selection__choice__remove {
             display: none;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--above .select2-selection--multiple {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--single,
         .select2-container--material.select2-container--open.select2-container--below .select2-selection--multiple {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--single {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material.select2-container--focus .select2-selection--multiple {
             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
             outline: 0;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field {
             border: none;
             border-bottom: 1px solid #ced4da;
             border-radius: 0;
             outline: none;
         }
-
+        
         .select2-container--material .select2-search--dropdown .select2-search__field:focus:not([readonly]) {
             box-shadow: 0 1px 0 0 #ced4da;
             border-bottom: 1px solid #ced4da;
         }
-
+        
         .select2-container--material .select2-search--inline .select2-search__field {
             background: transparent;
             border: none !important;
@@ -244,68 +236,68 @@
             box-shadow: none !important;
             -webkit-appearance: textfield;
         }
-
+        
         .select2-container--material .select2-results>.select2-results__options {
             max-height: 200px;
             overflow-y: auto;
         }
-
+        
         .select2-container--material .select2-results__option[role=group] {
             padding: 0;
         }
-
+        
         .select2-container--material .select2-results__option[aria-disabled=true] {
             color: #999;
         }
-
+        
         .select2-container--material .select2-results__option[aria-selected=true] {
             background-color: rgba(248, 248, 248, 1.0);
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option {
             padding-left: 1em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__group {
             padding-left: 0;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -1em;
             padding-left: 2em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -2em;
             padding-left: 3em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -3em;
             padding-left: 4em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -4em;
             padding-left: 5em;
         }
-
+        
         .select2-container--material .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
             margin-left: -5em;
             padding-left: 6em;
         }
-
+        
         .select2-container--material .select2-results__option--highlighted[aria-selected] {
             background-color: #214366;
             color: white;
         }
-
+        
         .select2-container--material .select2-results__group {
             cursor: default;
             display: block;
             padding: 6px;
         }
-
+        
         .select2-dropdown {
             background-color: white;
             border: 1px solid #ced4da;
@@ -320,18 +312,17 @@
             margin-top: 30px;
             -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
         }
-
-
+        
         .select2-results {
             display: block;
         }
-
+        
         .select2-results__options {
             list-style: none;
             margin: 0;
             padding: 0;
         }
-
+        
         .select2-results__option {
             padding: 6px;
             font-size: 16px;
@@ -339,63 +330,61 @@
             user-select: none;
             -webkit-user-select: none;
         }
-
+        
         .select2-results__option[aria-selected] {
             cursor: pointer;
         }
-
+        
         .select2-container--open .select2-dropdown {
             left: 0;
-
         }
-
+        
         .select2-container--open .select2-dropdown--above {
             border-bottom: none;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
+        
         .select2-container--open .select2-dropdown--below {
             border-top: none;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-
+        
         .select2-search--dropdown {
             display: block;
             padding: 4px;
         }
-
+        
         .select2-search--dropdown .select2-search__field {
             padding: 4px;
             width: 100%;
             box-sizing: border-box;
         }
-
+        
         .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
             -webkit-appearance: none;
         }
-
+        
         .select2-search--dropdown.select2-search--hide {
             display: none;
         }
-
+        
         input[type="date"]::-webkit-inner-spin-button {
             display: none;
             -webkit-appearance: none;
         }
-
+        
         input[type="date"]::-webkit-calendar-picker-indicator {
             opacity: 0.1;
-
         }
-
+        
         .datepicker {
             width: 325px;
             height: 235px;
             margin-left: 75px;
         }
-
+        
         .table-condensed {
             width: 315px;
             height: 215px;
@@ -403,7 +392,7 @@
             font-family: Poppins;
             margin-bottom: 20px;
         }
-
+        
         .datepicker table tr td.active,
         .datepicker table tr td.active:hover {
             background: red;
@@ -413,6 +402,9 @@
         function zoom() {
             if (window.screen.width != 1440)
                 document.body.style.zoom = "110%"
+                //making use of this point to check and set the newsletter subscription state
+            if (sessionStorage.getItem('newsletter'))
+                newsletterSubscribe();
         }
     </script>
 </head>
@@ -425,10 +417,8 @@
             <div class="groupe29080">
                 <div class="groupe22800">
                     <div class="groupe222203">
-                        <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection503"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1514"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/intersection-5-1@1x.png" class="intersection503" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/rectangle-15-1@1x.png" class="rectangle1514" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe226911">
                         <div class="espacecoworking0">
@@ -439,21 +429,14 @@
                         </div>
                     </div>
                     <div class="groupe222721">
-                        <div class="consulteznosdiffrentesoffresettrouvezcellequivousconvientbesoindedomiciliervotreentreprisedemandezunrendezvousavecnotrequipepourconnatrenotreoffreetconditionsdedomiciliation0"
-                            style="font-size:17px; line-height: 22px;">
-                            Consultez nos différentes offres et trouvez celle qui vous convient !<br />Besoin de
-                            domicilier votre entreprise? Demandez un rendez-vous avec notre équipe pour connaître notre
-                            offre et conditions de domiciliation.
+                        <div class="consulteznosdiffrentesoffresettrouvezcellequivousconvientbesoindedomiciliervotreentreprisedemandezunrendezvousavecnotrequipepourconnatrenotreoffreetconditionsdedomiciliation0" style="font-size:17px; line-height: 22px;">
+                            Consultez nos différentes offres et trouvez celle qui vous convient !<br />Besoin de domicilier votre entreprise? Demandez un rendez-vous avec notre équipe pour connaître notre offre et conditions de domiciliation.
                         </div>
-                        <div class="entrepreneursfreelancersdveloppeursartistesstartupssylabsvousproposeunespacedecoworkingquipaucoeurdalgeruneconnexioninternetperformanteetunenvironnementproductiftoutcelasurabonnementmensueltrimestrielouannuel1"
-                            style="font-size:17px; line-height: 22px;">
-                            Entrepreneurs, Freelancers, développeurs, artistes, startups.. Sylabs vous propose un espace
-                            de coworking équipé au coeur d’Alger, une connexion internet performante, et un
-                            environnement productif, tout cela sur abonnement (mensuel, trimestriel ou annuel).
+                        <div class="entrepreneursfreelancersdveloppeursartistesstartupssylabsvousproposeunespacedecoworkingquipaucoeurdalgeruneconnexioninternetperformanteetunenvironnementproductiftoutcelasurabonnementmensueltrimestrielouannuel1" style="font-size:17px; line-height: 22px;">
+                            Entrepreneurs, Freelancers, développeurs, artistes, startups.. Sylabs vous propose un espace de coworking équipé au coeur d’Alger, une connexion internet performante, et un environnement productif, tout cela sur abonnement (mensuel, trimestriel ou annuel).
                         </div>
                         <div class="audeldunespacesylabsvousoffreunaccsprivilgiunecommunautpassionne2">
-                            Au delà d’un espace,<br />Sylabs vous offre un accès privilégié<br />à une communauté
-                            passionnée!
+                            Au delà d’un espace,<br />Sylabs vous offre un accès privilégié<br />à une communauté passionnée!
                         </div>
                         <div class="notrespacecoworking3">
                             NOTRE ÉSPACE COWORKING
@@ -462,12 +445,9 @@
                     <div class="noscommodits3" style="font-size: 22px; margin-top: 10px;">
                         NOS COMMODITÉS
                     </div>
-                    <img alt="Image" anima-src="./img/ellipse-26@1x.png" class="ellipse264"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse275" style="margin-left: -20px;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse286"  style="margin-left: 4px"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-26@1x.png" class="ellipse264" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse275" style="margin-left: -20px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse286" style="margin-left: 4px" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="tableaublanc7">
                         Tableau blanc
                     </div>
@@ -489,24 +469,16 @@
                     <div class="unespacepourmangeretsedtendre13">
                         Un espace pour manger<br />et se détendre
                     </div>
-                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse3214"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/ellipse-27@1x.png" class="ellipse3214" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="kitchenette15">
                         Kitchenette
                     </div>
-                    <img alt="Image" anima-src="./img/icon-awesome-wifi@1x.png" class="iconawesomewifi16"  style="margin-left: 3px;"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/icon-awesome-chalkboard-teacher@1x.png"  style="margin-left: 1px;"
-                        class="iconawesomechalkboardteacher17"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/icon-material-screen-share@1x.png"  style="margin-left: -21px;"
-                        class="iconmaterialscreenshare18"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <img alt="Image" anima-src="./img/icon-map-food@1x.png" class="iconmapfood19"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-wifi@1x.png" class="iconawesomewifi16" style="margin-left: 3px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-chalkboard-teacher@1x.png" style="margin-left: 1px;" class="iconawesomechalkboardteacher17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-material-screen-share@1x.png" style="margin-left: -21px;" class="iconmaterialscreenshare18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-map-food@1x.png" class="iconmapfood19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="groupe227420">
-                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31902"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31902" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="cequenousproposonscommeservices1">
                             Ce que nous proposons<br />comme services !
                         </div>
@@ -519,34 +491,29 @@
                     </div>
                     <div class="groupe229023">
                         <div class="groupe22560" onclick="javascript:scrollAndPrepare('startup')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77801"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77801" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78011">
                             </div>
                             <div class="packstartuppossibilitdedomiciliation2" style="line-height: 22px;">
                                 PACK STARTUP (possibilité<br />de domiciliation)
                             </div>
-                            <div class="jusqu4personnesaccsinternetpossibilitdepaiementpar3mois3"
-                                style="line-height: 22px;">
-                                - Jusqu’à 4 personnes.<br />- Accès Internet<br />- Possibilité de paiement par 3
-                                mois<br />
+                            <div class="jusqu4personnesaccsinternetpossibilitdepaiementpar3mois3" style="line-height: 22px;">
+                                - Jusqu’à 4 personnes.<br />- Accès Internet<br />- Possibilité de paiement par 3 mois
+                                <br />
                             </div>
                             <div class="a25000daparmois4">
                                 25 000 DA par mois.
                             </div>
                         </div>
                         <div class="groupe22801" onclick="javascript:scrollAndPrepare('pack1pers')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77802"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77802" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78012">
                             </div>
                             <div class="pack1personne2" style="line-height: 22px;">
                                 PACK 1 PERSONNE
                             </div>
-                            <div class="unespacedetravailaccsinternetuneespacerepasquipuntableaublanc3"
-                                style="line-height: 22px;">
-                                - Un espace de travail<br />- Accès Internet<br />- Une espace repas équipé<br />- Un
-                                tableau blanc<br />
+                            <div class="unespacedetravailaccsinternetuneespacerepasquipuntableaublanc3" style="line-height: 22px;">
+                                - Un espace de travail<br />- Accès Internet<br />- Une espace repas équipé<br />- Un tableau blanc<br />
                             </div>
                             <div class="a6900daparmoisfulltime4" style="line-height: 22px;">
                                 6900 DA par mois, full time.
@@ -556,8 +523,7 @@
                             NOS PACKS
                         </div>
                         <div class="groupe22843">
-                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31903"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31903" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="demandezunrendezvous1">
                                 Demandez<br />un rendez -vous !
                             </div>
@@ -565,8 +531,7 @@
                     </div>
                     <div class="groupe229124">
                         <div class="groupe22810" onclick="javascript:scrollAndPrepare('passday')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77803"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77803" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78013">
                             </div>
                             <div class="passjourne2" style="line-height: 22px;">
@@ -580,8 +545,7 @@
                             </div>
                         </div>
                         <div class="groupe22821" onclick="javascript:scrollAndPrepare('passhours')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77804"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77804" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78014">
                             </div>
                             <div class="pass9h13hou13h17h2" style="line-height: 22px;">
@@ -598,8 +562,7 @@
                             NOS PASS
                         </div>
                         <div class="groupe22833" onclick="javascript:scrollAndPrepare('passday2')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77805"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77805" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78015">
                             </div>
                             <div class="passjourne2pers2" style="line-height: 22px;">
@@ -613,8 +576,7 @@
                             </div>
                         </div>
                         <div class="groupe22854">
-                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31904"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/trac--319-2@1x.png" class="trac31904" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="reservezetpayezsurplace1">
                                 Reservez<br />et payez sur place !
                             </div>
@@ -626,19 +588,14 @@
                         <div class="rectangle83111">
                         </div>
                         <a>
-                            <button type="submit" form="coworking" style="cursor: pointer;"
-                                onclick="javascript:successPage('coworking')">
+                            <button type="submit" form="coworking" style="cursor: pointer;" onclick="javascript:successPage('coworking')">
                                 <div class="rectangle83221 anima-smart-layers-pointers "></div>
                             </button>
                         </a>
 
                         <form method="GET" action="http://localhost:3000/coworking" target="votar" id="coworking">
-                            <input class="nometprnoms31" name="name" id="name_field" placeholder="Nom et Prénom(s)"
-                                required type="text"
-                                style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
-                            <input class="emailexemplesylabsdzcom41" name="email" id="email_field"
-                                placeholder="exemple@gmail.com" required type="email"
-                                style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input class="nometprnoms31" name="name" id="name_field" placeholder="Nom et Prénom(s)" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
+                            <input class="emailexemplesylabsdzcom41" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                             <input type="hidden" name="theme" value="Les bases du Graphic Design">
                         </form>
 
@@ -646,19 +603,20 @@
                             <div class="envoyer02">
                                 Envoyer
                             </div>
-                            <img alt="Image" anima-src="./img/send-7@1x.png" class="send13"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/send-7@1x.png" class="send13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="rectangle83361">
                             <script type="text/javascript">
-                                $(document).ready(function () {
+                                $(document).ready(function() {
                                     var placeholder = $(this).data('placeholder');
-                                    $("select").select2({ theme: "material", placeholder: placeholder });
+                                    $("select").select2({
+                                        theme: "material",
+                                        placeholder: placeholder
+                                    });
                                 });
                             </script>
 
-                            <select data-placeholder="Occupation" form="coworking" name="occupation"
-                                id="occupation_field" required class="select" style="width: 380px; height: 45px;">
+                            <select data-placeholder="Occupation" form="coworking" name="occupation" id="occupation_field" required class="select" style="width: 380px; height: 45px;">
                                 <option></option>
                                 <option value="Étudiant">Étudiant</option>
                                 <option value="Employé">Employé</option>
@@ -669,14 +627,9 @@
                             </select>
                         </div>
 
-                        <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png"
-                            class="iconawesomecaretdown81" style="pointer-events: none;"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown81" style="pointer-events: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         <div class="rectangle82891"></div>
-                        <textarea form="coworking" class="avezvousquelquechoseajouter101"
-                            name="avezVousQuelqueChoseAjouter101" name="avezvousquelquechoseajouter101" id="note_field"
-                            placeholder="Avez-vous quelque chose à ajouter?" type="text"
-                            style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 113px; width: 500px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
+                        <textarea form="coworking" class="avezvousquelquechoseajouter101" name="avezVousQuelqueChoseAjouter101" name="avezvousquelquechoseajouter101" id="note_field" placeholder="Avez-vous quelque chose à ajouter?" type="text" style="line-height: 25px; font-size: 16px; font-family: Poppins; height: 113px; width: 500px; color: #707070; margin-top: -8px;; margin-left: -3px;"></textarea>
 
 
 
@@ -684,8 +637,7 @@
                             Nous vous contacterons bientôt via email pour une confirmation !
                         </div>
                         <div class="groupe2274121">
-                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31905"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31905" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="remplissezleformulairepourreserver1">
                                 Remplissez le formulaire<br />pour. reserver !
                             </div>
@@ -693,8 +645,7 @@
                         <div class="rectangle83713">
 
 
-                            <select data-placeholder="Choisissez votre offre!" form="coworking" name="offre"
-                                id="offre_field" required class="select" style="width: 380px; height: 45px;">
+                            <select data-placeholder="Choisissez votre offre!" form="coworking" name="offre" id="offre_field" required class="select" style="width: 380px; height: 45px;">
                                 <option></option>
                                 <option value="startup">Pack Startup</option>
                                 <option value="pack1pers">Pack 1 Personne</option>
@@ -709,18 +660,20 @@
                         </div>
                         <div class="rectangle83814">
                         </div>
-                        <input type="text" class="rservezvotredate15" name="rservezVotreDate15"
-                            placeholder="Réservez votre date!" required onclick="javascript:prepareDatePicker()"
-                            style="cursor: pointer; font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -9px;; margin-left: 2px; margin-bottom: 25px;"
+                        <input type="text" class="rservezvotredate15" name="rservezVotreDate15" placeholder="Réservez votre date!" required onclick="javascript:prepareDatePicker()" style="cursor: pointer; font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -9px;; margin-left: 2px; margin-bottom: 25px;"
                             type="text" id="datePickerId" />
 
                         <script>
-                            $(document).ready(function () {
-                                $("#datePickerId").datepicker({ startDate: "+1d", format: 'dd/mm/yyyy', language: 'fr' });
+                            $(document).ready(function() {
+                                $("#datePickerId").datepicker({
+                                    startDate: "+1d",
+                                    format: 'dd/mm/yyyy',
+                                    language: 'fr'
+                                });
                             });
 
 
-                            (function ($) {
+                            (function($) {
                                 $.fn.datepicker.dates['fr'] = {
                                     days: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
                                     daysShort: ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
@@ -734,40 +687,33 @@
                                     format: "dd/mm/yyyy"
                                 };
                             }(jQuery));
-
                         </script>
                     </div>
                     <div class="groupe229226">
                         <div class="groupe22860" onclick="javascript:scrollAndPrepare('events')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77806"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77806" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78016">
                             </div>
                             <div class="espacevnementconfrence2">
                                 ESPACE ÉVÈNEMENT - CONFÉRENCE
                             </div>
-                            <div class="internetgestiondelaccueilcateringecrandeprojectionsystmesonoremicrobaladeuretouserrettecouverturephotovidocouverturesocialmdiatweetlive3"
-                                style="line-height: 22px;">
-                                - Internet<br />- Gestion de l’accueil<br />- Catering<br />- Ecran de projection<br />-
-                                Système sonore (micro baladeur et/ou serre-tête)<br />- Couverture photo/vidéo<br />-
-                                Couverture social média (tweet-live,…)
+                            <div class="internetgestiondelaccueilcateringecrandeprojectionsystmesonoremicrobaladeuretouserrettecouverturephotovidocouverturesocialmdiatweetlive3" style="line-height: 22px;">
+                                - Internet<br />- Gestion de l’accueil<br />- Catering<br />- Ecran de projection<br />- Système sonore (micro baladeur et/ou serre-tête)<br />- Couverture photo/vidéo<br />- Couverture social média (tweet-live,…)
                             </div>
                             <div class="surdevis4">
                                 SUR DEVIS.
                             </div>
                         </div>
                         <div class="groupe22871" onclick="javascript:scrollAndPrepare('formation')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77807"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-5@1x.png" class="rectangle77807" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78017">
                             </div>
                             <div class="espaceformation2">
                                 ESPACE FORMATION
                             </div>
-                            <div class="jusqu20personnesinternetcateringoptionnelecrandeprojectionsystmesonoreoptionneluntableaublanc3"
-                                style="line-height: 22px;">
-                                - Jusqu’à 20 personnes<br />- Internet<br />- Catering (optionnel)<br />- Ecran de
-                                projection<br />- Système sonore (optionnel)<br />- Un tableau blanc<br />
+                            <div class="jusqu20personnesinternetcateringoptionnelecrandeprojectionsystmesonoreoptionneluntableaublanc3" style="line-height: 22px;">
+                                - Jusqu’à 20 personnes<br />- Internet<br />- Catering (optionnel)<br />- Ecran de projection
+                                <br />- Système sonore (optionnel)<br />- Un tableau blanc<br />
                             </div>
                             <div class="a10000dalajourne4">
                                 10 000 DA, la journée.
@@ -777,25 +723,22 @@
                             NOS ESPACES
                         </div>
                         <div class="groupe22883" onclick="javascript:scrollAndPrepare('meeting')" style="cursor: pointer;">
-                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77808"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/rectangle-778-1@1x.png" class="rectangle77808" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="rectangle78018">
                             </div>
                             <div class="sallederunion2">
                                 SALLE DE RÉUNION
                             </div>
-                            <div class="jusqu5personnesinternetuncran70poucesuntableaublanc3"
-                                style="line-height: 22px;">
-                                - Jusqu’à 5 personnes<br />- Internet<br />- Un écran 70 pouces<br />- Un tableau
-                                blanc<br /><br />
+                            <div class="jusqu5personnesinternetuncran70poucesuntableaublanc3" style="line-height: 22px;">
+                                - Jusqu’à 5 personnes<br />- Internet<br />- Un écran 70 pouces<br />- Un tableau blanc
+                                <br /><br />
                             </div>
                             <div class="a35000dalajourne4">
                                 35 000 DA,  la journée.
                             </div>
                         </div>
                         <div class="groupe22894">
-                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31906"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/trac--319-5@1x.png" class="trac31906" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <div class="reservezetpayezsurplace11">
                                 Reservez<br />et payez sur place !
                             </div>
@@ -807,51 +750,35 @@
                     <div class="choisissezloffrequivousconvient28">
                         Choisissez l’offre qui vous convient !
                     </div>
-                    <div
-                        class="choisissezloffrequivousconvientleplusetrservezdsmaintenantvouspayerezsurplaceauniveaudenoslocaux29">
-                        Choisissez l’offre qui vous convient le plus et réservez dès maintenant ! Vous payerez sur place
-                        au niveau de nos locaux !
+                    <div class="choisissezloffrequivousconvientleplusetrservezdsmaintenantvouspayerezsurplaceauniveaudenoslocaux29">
+                        Choisissez l’offre qui vous convient le plus et réservez dès maintenant ! Vous payerez sur place au niveau de nos locaux !
                     </div>
-                    <img alt="Image" anima-src="./img/icon-awesome-calendar-alt@1x.png" class="iconawesomecalendaralt30"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        style="margin-left: -10px; pointer-events: none;" />
-                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown32"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/icon-awesome-calendar-alt@1x.png" class="iconawesomecalendaralt30" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="margin-left: -10px; pointer-events: none;" />
+                    <img alt="Image" anima-src="./img/icon-awesome-caret-down-1@1x.png" class="iconawesomecaretdown32" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                 </div>
                 <div class="groupe22211">
                     <div class="notification08">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon016"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge116"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon016" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge116" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="notification18">
-                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon017"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge117"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon017" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge117" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe222124">
                         <div class="notification09">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon018"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge118"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon018" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge118" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="notification19">
-                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon019"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge119"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-icon-10@1x.png" class="notificationicon019" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <img alt="Image" anima-src="./img/notification-badge-10@1x.png" class="notificationbadge119" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </div>
                         <div class="groupe219724">
                             <div class="headerdesktop04">
-                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base04"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                                <img alt="Image" anima-src="./img/base-1@1x.png" class="base04" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             </div>
-                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png"
-                                    class="sywhmin14"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                            <a href="accueil.html"><img alt="Image" anima-src="./img/sy-wh-min-1@1x.png" class="sywhmin14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
                         </div>
                         <div class="navbarlight34">
                             <a href="contact.html">
@@ -943,20 +870,14 @@
                             SYLABS
                         </div>
                         <a href="#scrollReservation">
-                        <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation16"
-                            style="font-family: Poppins; font-size: 16px;">
-                            Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives
-                            entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine
-                            mutation.<br />
-                        </div> </a>
-                        <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image"
-                                anima-src="./img/001-facebook-2@1x.png" class="a001facebook25"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                        <a href="https://www.twitter.com/sylabsdz"><img alt="Image"
-                                anima-src="./img/002-twitter-2@1x.png" class="a002twitter35"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
-                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus45"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                            <div class="sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation16" style="font-family: Poppins; font-size: 16px;">
+                                Sylabs est une entreprise fondé fin 2015, Sylabs oeuvre pour l’inclusion des initiatives entrepreneuriales, notamment jeunes, dans le paysage économique algérien, en pleine mutation.
+                                <br />
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/SylabsDZ/"><img alt="Image" anima-src="./img/001-facebook-2@1x.png" class="a001facebook25" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                        <a href="https://www.twitter.com/sylabsdz"><img alt="Image" anima-src="./img/002-twitter-2@1x.png" class="a002twitter35" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /></a>
+                        <img alt="Image" anima-src="./img/004-google-plus-2@1x.png" class="a004googleplus45" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="groupe4645">
                         <div class="contact010">
@@ -968,16 +889,12 @@
                         <div class="a21377026490625" style="font-family: Poppins-Bold;">
                             (+213) 7 70 26 49 06
                         </div>
-                        <div class="a08ruehassaniyessad16004algercentre35"
-                            style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
+                        <div class="a08ruehassaniyessad16004algercentre35" style="font-family: Poppins-Bold; line-height: 12px; margin-top: -10px;">
                             08 Rue Hassani Yessad,<br />16004, Alger Centre.
                         </div>
-                        <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail45"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone55"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin65"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/mail-4@1x.png" class="mail45" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/phone-2@1x.png" class="phone55" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                        <img alt="Image" anima-src="./img/map-pin-2@1x.png" class="mappin65" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     </div>
                     <div class="copyright2020allrightsreserved55">
                         Copyright ©2020 All rights reserved.
@@ -988,42 +905,35 @@
                 </div>
 
                 <div class="groupe22713" id="newsletter_subscription">
-                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81005"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+                    <img alt="Image" anima-src="./img/810-1@1x.png" class="a81005" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                     <div class="gardezlecontactavecnous14">
                         GARDEZ LE CONTACT AVEC NOUS
                     </div>
                     <div class="rectangle18924">
                     </div>
                     <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                        <input class="exemplegmailcom34" name="email" id="email_field" placeholder="exemple@gmail.com"
-                            required type="email"
-                            style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                        <input class="exemplegmailcom34" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                     </form>
 
                     <div class="votreadressemail44">
                         Votre Adresse Mail
                     </div>
                     <a>
-                        <button type="submit" form="newsletter" style="cursor: pointer;"
-                            onclick="javascript:submit_form('newsletter')">
+                        <button type="submit" form="newsletter" style="cursor: pointer;" onclick="javascript:submit_form('newsletter')">
                             <img alt="Image" anima-src="./img/trac--315-1@1x.png" class="trac31554"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                             <img alt="Image" anima-src="./img/send-10@1x.png" class="send64"
                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
                         </button>
                     </a>
-                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74"
-                        style="font-size: 20px; line-height: 20px; width: 400px;">
+                    <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74" style="font-size: 20px; line-height: 20px; width: 400px;">
                         Restez informés de toute notre activité, inscrivez-vous à notre newsletter
                     </div>
                 </div>
 
                 id="newsletter_subscription"
                 <form method="GET" action="http://localhost:3000/newsletter" target="votar" id="newsletter">
-                    <input class="exemplegmailcom35" name="email" id="email_field" placeholder="exemple@gmail.com"
-                        required type="email"
-                        style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
+                    <input class="exemplegmailcom35" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 11px; font-family: Poppins; height: 15px; width: 175px; color: #707070; margin-top: -2px;; margin-left: -3px;">
                 </form>
 
 
@@ -1033,8 +943,7 @@
                         <div class="gardezlecontactavecnous14">
                             GARDEZ LE CONTACT AVEC NOUS
                         </div>
-                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74"
-                            style="width: 688px;">
+                        <div class="restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter74" style="width: 688px;">
                             Merci pour votre souscription! Vous allez recevoir un email de confirmation sous peu. ✓
                         </div>
                     </div>
@@ -1046,12 +955,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        anima_isHidden = function (e) {
+        anima_isHidden = function(e) {
             if (!(e instanceof HTMLElement)) return !1;
-            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            if (getComputedStyle(e).display == "none") return !0;
+            else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
             return !1;
         };
-        anima_loadAsyncSrcForTag = function (tag) {
+        anima_loadAsyncSrcForTag = function(tag) {
             var elements = document.getElementsByTagName(tag);
             var toLoad = [];
             for (var i = 0; i < elements.length; i++) {
@@ -1064,7 +974,7 @@
                 if (anima_isHidden(e)) continue;
                 toLoad.push(e);
             }
-            toLoad.sort(function (a, b) {
+            toLoad.sort(function(a, b) {
                 return anima_getTop(a) - anima_getTop(b);
             });
             for (var i = 0; i < toLoad.length; i++) {
@@ -1073,7 +983,7 @@
                 e.setAttribute("src", asyncSrc);
             }
         };
-        anima_pauseHiddenVideos = function (tag) {
+        anima_pauseHiddenVideos = function(tag) {
             var elements = document.getElementsByTagName("video");
             for (var i = 0; i < elements.length; i++) {
                 var e = elements[i];
@@ -1086,13 +996,13 @@
                 }
             }
         };
-        anima_loadAsyncSrc = function (tag) {
+        anima_loadAsyncSrc = function(tag) {
             anima_loadAsyncSrcForTag("img");
             anima_loadAsyncSrcForTag("iframe");
             anima_loadAsyncSrcForTag("video");
             anima_pauseHiddenVideos();
         };
-        var anima_getTop = function (e) {
+        var anima_getTop = function(e) {
             var top = 0;
             do {
                 top += e.offsetTop || 0;
@@ -1103,20 +1013,20 @@
         anima_loadAsyncSrc();
         anima_old_onResize = window.onresize;
         anima_new_onResize = undefined;
-        anima_updateOnResize = function () {
+        anima_updateOnResize = function() {
             if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                anima_new_onResize = function (x) {
+                anima_new_onResize = function(x) {
                     if (anima_old_onResize != undefined) anima_old_onResize(x);
                     anima_loadAsyncSrc();
                 };
                 window.onresize = anima_new_onResize;
-                setTimeout(function () {
+                setTimeout(function() {
                     anima_updateOnResize();
                 }, 3000);
             }
         };
         anima_updateOnResize();
-        setTimeout(function () {
+        setTimeout(function() {
             anima_loadAsyncSrc();
         }, 200);
     </script>
@@ -1129,13 +1039,19 @@
             if (form.reportValidity()) {
                 sleep(500);
                 //form.submit;
-                var sectionDiv = document.getElementById("newsletter_subscription");
-                var success_subscription_message = document.getElementById("success_subscription_message");
-                success_subscription_message.style.display = "block";
-                sectionDiv.style.display = "none";
+                newsletterSubscribe();
 
             }
         }
+
+        function newsletterSubscribe() {
+            var sectionDiv = document.getElementById("newsletter_subscription");
+            var success_subscription_message = document.getElementById("success_subscription_message");
+            success_subscription_message.style.display = "block";
+            sectionDiv.style.display = "none";
+            sessionStorage.setItem('newsletter', 'true');
+        }
+
         function sleep(milliseconds) {
             const date = Date.now();
             let currentDate = null;
@@ -1157,7 +1073,6 @@
             window.location.href = "#scrollReservation"
             $('[name=offre]').val(formula).trigger("change");
         }
-
     </script>
     <!-- End of Scripts -->
 </body>

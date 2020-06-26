@@ -1,1859 +1,1988 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800,400,600|Goodlights:400|Helvetica+Neue:400');
 @font-face {
-  font-family: 'Helvetica 45 Light Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
-       url('../fonts/poppins-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+    font-family: 'Helvetica 45 Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Helvetica45Light_22437.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Goodlights';
-  src: url('../fonts/Goodlights.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'), url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins-Bold';
-  src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
-       url('../fonts/poppins-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Goodlights';
+    src: url('../fonts/Goodlights.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'), url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .activitsform {
-  width               : 100%;
-  min-width           : 1440px;
-  height              : 100vh;
-  min-height          : 2001px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+    width: 100%;
+    min-width: 1440px;
+    height: 100vh;
+    min-height: 2001px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(255, 255, 255, 1.0);
 }
+
 a {
-  text-decoration     : none;
+    text-decoration: none;
 }
+
 div {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
+
 .anima-full-width-a {
-  width               : 100%;
+    width: 100%;
 }
+
 .anima-full-height-a {
-  height              : 100%;
+    height: 100%;
 }
-textarea:focus, input:focus {
-  outline             : none;
+
+textarea:focus,
+input:focus {
+    outline: none;
 }
+
 div {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
+
 .activitsform .groupe29070 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -549px;
-  height              : 2549px;
-  width               : 1440px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -549px;
+    height: 2549px;
+    width: 1440px;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe222202 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe222202 .intersection502 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe222202 .intersection502 .jaimelopes0rdboadnbwmunsplash03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -150px;
-  height              : 960px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -150px;
+    height: 960px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .activitsform .groupe29070 .groupe222202 .intersection502 .rectangle24712 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 810px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 810px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .activitsform .groupe29070 .groupe222202 .rectangle1513 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 358px;
-  height              : 452px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 358px;
+    height: 452px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1100px;
-  height              : 399px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1100px;
+    height: 399px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .testimonials1 .nathandumlao9dywcscw0rsunsplash0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 399px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 399px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .lesbasesdugraphicdesign1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 55px;
-  height              : 70px;
-  width               : 584px;
-  position            : absolute;
-  margin              : 0;
-  left                : 161px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 55px;
+    height: 70px;
+    width: 584px;
+    position: absolute;
+    margin: 0;
+    left: 161px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .formation2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
-  height              : 39px;
-  width               : 109px;
-  position            : absolute;
-  margin              : 0;
-  left                : 161px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 32px;
+    height: 39px;
+    width: 109px;
+    position: absolute;
+    margin: 0;
+    left: 161px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .walidaktouf3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 167px;
-  height              : 53px;
-  width               : 197px;
-  position            : absolute;
-  margin              : 0;
-  left                : 382px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 167px;
+    height: 53px;
+    width: 197px;
+    position: absolute;
+    margin: 0;
+    left: 382px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .graphicdesignerseniorchezalligorigroup4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 207px;
-  height              : 39px;
-  width               : 357px;
-  position            : absolute;
-  margin              : 0;
-  left                : 382px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 207px;
+    height: 39px;
+    width: 357px;
+    position: absolute;
+    margin: 0;
+    left: 382px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .vousallezapprendreavecwalidlesbasesdugraphicdesignenunesancede4heuresavecsonexpertiseenlamatireilvousdvoileratouslessecretsdudomaine5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 272px;
-  height              : 106px;
-  width               : 365px;
-  position            : absolute;
-  margin              : 0;
-  left                : 382px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 272px;
+    height: 106px;
+    width: 365px;
+    position: absolute;
+    margin: 0;
+    left: 382px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .mariusciocirlanvmv6r4vrhj8unsplash6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 152px;
-  height              : 198px;
-  width               : 198px;
-  position            : absolute;
-  margin              : 0;
-  left                : 161px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 152px;
+    height: 198px;
+    width: 198px;
+    position: absolute;
+    margin: 0;
+    left: 161px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .testimonials1 .a2305202010307 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 230px;
-  height              : 39px;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : 382px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 230px;
+    height: 39px;
+    width: 165px;
+    position: absolute;
+    margin: 0;
+    left: 382px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe226921 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 658px;
-  height              : 69px;
-  width               : 211px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 658px;
+    height: 69px;
+    width: 211px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe226921 .nosactivits01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 31.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 41.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 31.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 41.0px;
 }
+
 .activitsform .groupe29070 .groupe226921 .dcouvreznosactivits11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 56px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe224831 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 903px;
-  height              : 151px;
-  width               : 599px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 903px;
+    height: 151px;
+    width: 599px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe224831 .groupe224002 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 151px;
-  width               : 601px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 151px;
+    width: 601px;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe224831 .groupe224002 .inscrivezvouslactivitdevotrechoix0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 45.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 60.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 30px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 60.0px;
 }
+
 .activitsform .groupe29070 .groupe224831 .groupe224002 .inscriptions1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 16.0px;
 }
+
 .activitsform .groupe29070 .footer4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2041px;
-  height              : 508px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2041px;
+    height: 508px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .rectangle24404 {
-  background-color    : rgba(33, 68, 101, 1.0);
-  top                 : 0px;
-  height              : 509px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(33, 68, 101, 1.0);
+    top: 0px;
+    height: 509px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 116px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 724px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 116px;
+    width: 80px;
+    position: absolute;
+    margin: 0;
+    left: 724px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 .liensutiles04 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 .blog15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 .acclration24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 104px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 104px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 .coworking34 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4414 .activits44 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 82px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4524 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 94px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : 902px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 94px;
+    width: 112px;
+    position: absolute;
+    margin: 0;
+    left: 902px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4524 .proposdenous05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4524 .contacteznous14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4524 .services24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 82px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4524 .confidentialit34 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
-  height              : 232px;
-  width               : 457px;
-  position            : absolute;
-  margin              : 0;
-  left                : 154px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 138px;
+    height: 232px;
+    width: 457px;
+    position: absolute;
+    margin: 0;
+    left: 154px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .sylabs04 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 29.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 29.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 6px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 29.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .sylabsestuneentreprisefondfin2015sylabsoeuvrepourlinclusiondesinitiativesentrepreneurialesnotammentjeunesdanslepaysageconomiquealgrienenpleinemutation15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : 127px;
-  width               : 457px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 53px;
+    height: 127px;
+    width: 457px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 22.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a001facebook24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a001facebook24 .ellipse1504 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a001facebook24 .trac1614 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 17px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 5px;
+    height: 17px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 9px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a002twitter34 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 34px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a002twitter34 .ellipse1604 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a002twitter34 .groupe3914 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a002twitter34 .groupe3914 .trac1704 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 206px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 68px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4004 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4004 .xmlid3004 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 11px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 8px;
+    height: 11px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 .trac2104 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 .trac2214 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 .groupe4124 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 .groupe4124 .trac2304 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4334 .a004googleplus44 .groupe4214 .groupe4124 .trac2414 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    margin: 0;
+    left: 13px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 125px;
-  width               : 146px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1113px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 192px;
+    height: 125px;
+    width: 146px;
+    position: absolute;
+    margin: 0;
+    left: 1113px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .contact07 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 3px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .hellosylabsdzcom14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 36px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .a21377026490624 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 66px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .a08ruehassaniyessad16004algercentre34 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 100px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 100px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mail44 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 12px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 35px;
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mail44 .trac2504 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 12px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 12px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mail44 .trac2614 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 7px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 7px;
+    width: 15px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .phone54 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 64px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mappin64 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 94px;
-  height              : 14px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 94px;
+    height: 14px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mappin64 .trac2704 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 14px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 14px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .activitsform .groupe29070 .footer4 .groupe4644 .mappin64 .ellipse1714 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    margin: 0;
+    left: 2px;
 }
+
 .activitsform .groupe29070 .footer4 .copyright2020allrightsreserved54 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 464px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 154px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 464px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 154px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 13.0px;
 }
+
 .activitsform .groupe29070 .footer4 .wwwsylabsdzcom64 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 466px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1159px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(177, 177, 177, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 466px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 1159px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(177, 177, 177, 1.0);
+    text-align: left;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22715 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1978px;
-  height              : 126px;
-  width               : 816px;
-  position            : absolute;
-  margin              : 0;
-  left                : 312px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1978px;
+    height: 126px;
+    width: 816px;
+    position: absolute;
+    margin: 0;
+    left: 312px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22715 .a81004 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -30px;
-  height              : 216px;
-  width               : 906px;
-  position            : absolute;
-  margin              : 0;
-  left                : -45px;
-  transform           : rotate(0deg);
-  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.4));
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -30px;
+    height: 216px;
+    width: 906px;
+    position: absolute;
+    margin: 0;
+    left: -45px;
+    transform: rotate(0deg);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
 }
+
 .activitsform .groupe29070 .groupe22715 .gardezlecontactavecnous13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 26px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 74px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: left;
+    line-height: 18.0px;
 }
+
 .activitsform .groupe29070 .groupe22715 .rectangle18923 {
-  background-color    : rgba(238, 238, 238, 1.0);
-  top                 : 75px;
-  height              : 29px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : 498px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  filter              : contrast(0.75);
+    background-color: rgba(238, 238, 238, 1.0);
+    top: 75px;
+    height: 29px;
+    width: 195px;
+    position: absolute;
+    margin: 0;
+    left: 498px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    filter: contrast(0);
 }
+
 .activitsform .groupe29070 .groupe22715 .exemplegmailcom33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 14px;
-  filter              : contrast(0.5);
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 510px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(206, 206, 206, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 84px;
+    height: 14px;
+    filter: contrast(0.5);
+    width: 98px;
+    position: absolute;
+    margin: 0;
+    left: 510px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(206, 206, 206, 1.0);
+    text-align: left;
+    line-height: 9.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .activitsform .groupe29070 .groupe22715 .exemplegmailcom33::placeholder {
-  color               : rgba(206, 206, 206, 0.6);
-  filter              : contrast(0.5);
+    color: rgba(206, 206, 206, 0.6);
+    filter: contrast(0.5);
 }
+
 .activitsform .groupe29070 .groupe22715 .votreadressemail43 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 498px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(33, 68, 101, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 58px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 498px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(33, 68, 101, 1.0);
+    text-align: left;
+    line-height: 9.0px;
 }
+
 .activitsform .groupe29070 .groupe22715 .trac31553 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
-  height              : 29px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 713px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 75px;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    margin: 0;
+    left: 713px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22715 .send63 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 722px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 83px;
+    height: 12px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: 722px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22715 .send63 .ligne205 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 9px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 9px;
+    width: 8px;
+    position: absolute;
+    margin: 0;
+    left: 3px;
 }
+
 .activitsform .groupe29070 .groupe22715 .send63 .trac215 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -0px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .activitsform .groupe29070 .groupe22715 .restezinformsdetoutesnosactivitsinscrivezvousnotrenewsletter73 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 60px;
-  height              : 42px;
-  width               : 299px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Helvetica Neue", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(112, 112, 112, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 60px;
+    height: 42px;
+    width: 299px;
+    position: absolute;
+    margin: 0;
+    left: 74px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(112, 112, 112, 1.0);
+    text-align: left;
+    line-height: 20.0px;
 }
+
 .activitsform .groupe29070 .groupe22786 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1574px;
-  height              : 283px;
-  width               : 1110px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1574px;
+    height: 283px;
+    width: 1110px;
+    position: absolute;
+    margin: 0;
+    left: 170px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8300 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 0px;
+    height: 56px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8311 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 71px;
-  height              : 54px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 71px;
+    height: 54px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8322 {
-  background-color    : rgba(33, 68, 101, 1.0);
-  top                 : 211px;
-  height              : 54px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease;
+    background-color: rgba(33, 68, 101, 1.0);
+    top: 211px;
+    height: 54px;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    transition: all 0.2s ease;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8322 {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8322:hover {
-  transform           : scale(1.04);
+    transform: scale(1.04);
 }
+
 .activitsform .groupe29070 .groupe22786 .nometprnoms3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
-  height              : 18px;
-  width               : 103px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 22px;
+    height: 18px;
+    width: 103px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .activitsform .groupe29070 .groupe22786 .nometprnoms3::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .activitsform .groupe29070 .groupe22786 .emailexemplesylabsdzcom4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
-  height              : 18px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 92px;
+    height: 18px;
+    width: 179px;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .activitsform .groupe29070 .groupe22786 .emailexemplesylabsdzcom4::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe675 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 230px;
-  height              : 17px;
-  width               : 76px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 230px;
+    height: 17px;
+    width: 76px;
+    position: absolute;
+    margin: 0;
+    left: 125px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe675 .envoyer01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -16px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 48.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -16px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 48.0px;
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe675 .send12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 59px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1px;
+    height: 17px;
+    width: 18px;
+    position: absolute;
+    margin: 0;
+    left: 59px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe675 .send12 .ligne206 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 11px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 11px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: 5px;
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe675 .send12 .trac216 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8336 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 141px;
-  height              : 54px;
-  box-sizing          : border-box;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 141px;
+    height: 54px;
+    box-sizing: border-box;
+    width: 325px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .occupation7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 162px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 162px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 18px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
 }
+
 .activitsform .groupe29070 .groupe22786 .iconawesomecaretdown8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 165px;
-  height              : 7px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 287px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 165px;
+    height: 7px;
+    width: 13px;
+    position: absolute;
+    margin: 0;
+    left: 287px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22786 .rectangle8289 {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 0px;
-  height              : 265px;
-  box-sizing          : border-box;
-  width               : 516px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  border-style        : solid;
-  border-width        : 2px;
-  border-color        : rgba(232, 232, 232, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(248, 248, 248, 1.0);
+    top: 0px;
+    height: 265px;
+    box-sizing: border-box;
+    width: 516px;
+    position: absolute;
+    margin: 0;
+    left: 374px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(232, 232, 232, 1.0);
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .avezvousquelquechoseajouter10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 18px;
-  width               : 205px;
-  position            : absolute;
-  margin              : 0;
-  left                : 387px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 12px;
+    height: 18px;
+    width: 205px;
+    position: absolute;
+    margin: 0;
+    left: 387px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 11.0px;
+    border: 0;
+    resize: none;
+    padding: 0;
 }
+
 .activitsform .groupe29070 .groupe22786 .avezvousquelquechoseajouter10::placeholder {
-  color               : rgba(163, 161, 161, 0.6);
+    color: rgba(163, 161, 161, 0.6);
 }
+
 .activitsform .groupe29070 .groupe22786 .nousvouscontacteronsbienttviaemailpouruneconfirmation11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 272px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(163, 161, 161, 1.0);
-  text-align          : left;
-  line-height         : 9.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 272px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 12px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.0px;
+    color: rgba(163, 161, 161, 1.0);
+    text-align: left;
+    line-height: 9.0px;
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe227412 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 57px;
-  width               : 196px;
-  position            : absolute;
-  margin              : 0;
-  left                : 916px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 69px;
+    height: 57px;
+    width: 196px;
+    position: absolute;
+    margin: 0;
+    left: 916px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe227412 .trac31901 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
-  height              : 29px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 28px;
+    height: 29px;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22786 .groupe227412 .remplissezleformulairepourvousinscrire1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Goodlights", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 25.0px;
-  color               : rgba(33, 68, 101, 1.0);
-  text-align          : center;
-  line-height         : 30.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 31px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Goodlights", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25.0px;
+    color: rgba(33, 68, 101, 1.0);
+    text-align: center;
+    line-height: 30.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 549px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 549px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification06 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification06 .notificationicon012 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .notification06 .notificationicon012 .trac2012 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification06 .notificationicon012 .trac3113 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification06 .notificationbadge112 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .notification16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification16 .notificationicon013 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .notification16 .notificationicon013 .trac2013 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification16 .notificationicon013 .trac3114 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .notification16 .notificationbadge113 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification07 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification07 .notificationicon014 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification07 .notificationicon014 .trac2014 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification07 .notificationicon014 .trac3115 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification07 .notificationbadge114 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1228px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 16px;
+    width: 14px;
+    position: absolute;
+    margin: 0;
+    left: 1228px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification17 .notificationicon015 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification17 .notificationicon015 .trac2015 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 2px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 11px;
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification17 .notificationicon015 .trac3116 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    margin: 0;
+    left: -0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .notification17 .notificationbadge115 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -2px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0;
+    left: 6px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .groupe219723 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .groupe219723 .headerdesktop03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 1440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 56px;
+    width: 1440px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .groupe219723 .headerdesktop03 .base03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 62px;
-  width               : 1446px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1px;
+    height: 62px;
+    width: 1446px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .groupe219723 .sywhmin13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 27px;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 166px;
-  transform           : rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 27px;
+    width: 122px;
+    position: absolute;
+    margin: 0;
+    left: 166px;
+    transform: rotate(0deg);
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
-  height              : 15px;
-  width               : 667px;
-  position            : absolute;
-  margin              : 0;
-  left                : 632px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 21px;
+    height: 15px;
+    width: 667px;
+    position: absolute;
+    margin: 0;
+    left: 632px;
+    transform: rotate(0deg);
+    opacity: 1.0;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .contact08 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 617px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 617px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .coworking13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 263px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 263px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .activits23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 175px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(232, 197, 0, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
-  text-decoration     : underline;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 175px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(232, 197, 0, 1.0);
+    text-align: center;
+    line-height: 10.0px;
+    text-decoration: underline;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .propos33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 83px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .accueil43 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .acclration53 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 370px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 370px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
 .activitsform .groupe29070 .groupe22217 .groupe222123 .navbarlight33 .ecosystememap63 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 485px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Poppins";
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 10.0px;
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 2px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 0;
+    left: 485px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 10.0px;
 }
+
+
 /* .anima-animate-appear prefix for appear animations */
+
 .anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    opacity: 0;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
+
 .anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    opacity: 1;
+    display: block;
+    -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
+
 .anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
 }
+
 @-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 @keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
+    0% {
+        opacity: 0;
     }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
+    100% {
+        opacity: 1;
     }
 }
+
 .anima-component-wrapper,
 .anima-component-wrapper * {
-  pointer-events      : none;
+    pointer-events: none;
 }
+
 .anima-component-wrapper a *,
 .anima-component-wrapper a,
 .anima-component-wrapper input,
@@ -1861,29 +1990,34 @@ div {
 .anima-component-wrapper iframe,
 .anima-listeners-active,
 .anima-listeners-active * {
-  pointer-events      : auto;
+    pointer-events: auto;
 }
+
 .anima-hidden,
 .anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
+    visibility: hidden;
+    pointer-events: none;
 }
+
 .anima-smart-layers-pointers,
 .anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
+    pointer-events: auto;
+    visibility: visible;
 }
+
 .anima-component-wrapper.anima-not-ready,
 .anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
+    visibility: hidden !important;
 }
+
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
-  cursor              : pointer;
+    cursor: pointer;
 }
+
 .anima-word-break {
-  overflow-wrap       : break-word;
-  word-wrap           : break-word;
-  word-break          : break-all;
-  word-break          : break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
 }
