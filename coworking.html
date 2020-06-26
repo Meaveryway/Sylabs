@@ -594,7 +594,7 @@
                             </button>
                             </a>
 
-                            <form method="GET" action="http://localhost:3000/coworking" target="votar" id="coworking">
+                            <form method="GET" action="https://sylabs-backend.glitch.me/coworking" target="votar" id="coworking">
                                 <input class="nometprnoms31" name="name" id="name_field" placeholder="Nom et Prénom(s)" required type="text" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                                 <input class="emailexemplesylabsdzcom41" name="email" id="email_field" placeholder="exemple@gmail.com" required type="email" style="font-size: 16px; font-family: Poppins; height: 30px; width: 295px; color: #707070; margin-top: -8px;; margin-left: -3px;">
                             </form>
@@ -648,14 +648,14 @@
 
                             <select data-placeholder="Choisissez votre offre!" form="coworking" name="offre" id="offre_field" required class="select" style="width: 380px; height: 45px;">
                                 <option></option>
-                                <option value="startup">Pack Startup</option>
-                                <option value="pack1pers">Pack 1 Personne</option>
-                                <option value="passday">Pass Journée</option>
-                                <option value="passday2">Pass Journée 2 Personnes</option>
-                                <option value="passhours">Pass 9h-13h ou 13h-17h</option>
-                                <option value="events">Espace Évènement</option>
-                                <option value="formation">Espace Formation</option>
-                                <option value="meeting">Salle de Réunion</option>
+                                <option value="Pack Startup">Pack Startup</option>
+                                <option value="Pack 1 Personne (1 mois)">Pack 1 Personne</option>
+                                <option value="Pass 1 Journée">Pass Journée</option>
+                                <option value="Pass 1 Journée pour 2 Personnes">Pass Journée 2 Personnes</option>
+                                <option value="Pass Demi-Journée 9h-13h/13h-17h">Pass 9h-13h ou 13h-17h</option>
+                                <option value="Espace Évènement">Espace Évènement</option>
+                                <option value="Espace Formation">Espace Formation</option>
+                                <option value="Salle de Réunion">Salle de Réunion</option>
 
                             </select>
                         </div>
@@ -1065,7 +1065,7 @@
             var form = document.getElementById(form_id)[0];
             if (form.reportValidity()) {
                 sleep(1000);
-                window.location.href = "failure.html";
+                window.location.href = "merci.html";
 
             }
         }
